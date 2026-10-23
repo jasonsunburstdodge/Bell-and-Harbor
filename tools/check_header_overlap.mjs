@@ -14,9 +14,9 @@ for(const width of widths){
   await page.evaluate(async()=>document.fonts.ready);
   const val=await page.evaluate(()=>{
    const r=s=>document.querySelector(s)?.getBoundingClientRect();
-   return {head:r('.site-header')?.height,emblem:r('.brand-pic')?.x,brand:r('.brand')?.x,nav:r('.site-nav')?.x,reserve:r('.header-actions .reserve')?.x,cssFont:getComputedStyle(document.querySelector('.brand-name')).fontFamily}
+   return {head:r('.site-header')?.height,emblem:r('.brand-pic')?.x,brand:r('.brand')?.x,nav:r('.site-nav')?.x,reserve:r('.header-actions .reserve')?.x,buttonGap:(r('.header-actions .order')?.x??0)-(r('.header-actions .reserve')?.right??0),cssFont:getComputedStyle(document.querySelector('.brand-name')).fontFamily}
   });
-  if(Math.abs(val.head-92)<1 && (width<1440 || (Math.abs(val.emblem-64)<2 && Math.abs(val.nav-457)<2 && Math.abs(val.reserve-945)<2))){ready=true;break}
+  if(Math.abs(val.head-92)<1 && (width>=1440 ? (Math.abs(val.emblem-64)<2 && Math.abs(val.nav-457)<2 && Math.abs(val.reserve-945)<2) : val.buttonGap>=6)){ready=true;break}
   await new Promise(res=>setTimeout(res,10000));
  }
  if(!ready){report.issues.push(width+': did not observe deployed header geometry revision');await page.close();continue}
