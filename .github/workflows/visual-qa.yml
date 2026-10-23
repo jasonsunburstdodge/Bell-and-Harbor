@@ -16,6 +16,9 @@ on:
       - 'contact/**'
       - 'order/**'
       - '.github/workflows/visual-qa.yml'
+concurrency:
+  group: bell-harbor-live-visual-qa
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
