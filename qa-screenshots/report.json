@@ -1,6 +1,6 @@
 {
   "source": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
-  "capturedAt": "2026-10-23T16:45:24.319Z",
+  "capturedAt": "2026-10-23T16:49:19.701Z",
   "screenshots": {
     "desktop": {
       "filename": "qa-screenshots/deployed-desktop.png",
@@ -21,6 +21,7 @@
       "featureImageHeight": 153.59375,
       "pillHeight": 49,
       "wordmarkFontSize": 29,
+      "mobileFeatureText": null,
       "errors": []
     },
     "mobile": {
@@ -37,11 +38,18 @@
         "height": 397
       },
       "fontFamily": "\"Playfair Display SC\", Georgia, serif",
-      "brandWidth": 315,
-      "headerHeight": 135,
-      "featureImageHeight": 88,
+      "brandWidth": 318,
+      "headerHeight": 96,
+      "featureImageHeight": 72,
       "pillHeight": 38,
-      "wordmarkFontSize": 25.935,
+      "wordmarkFontSize": 22,
+      "mobileFeatureText": {
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "textTransform": "none",
+        "fontVariantCaps": "small-caps",
+        "letterSpacing": "0.1px"
+      },
       "errors": []
     }
   },
