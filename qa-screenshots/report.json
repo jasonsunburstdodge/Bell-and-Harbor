@@ -1,6 +1,6 @@
 {
   "source": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
-  "capturedAt": "2026-10-23T15:20:24.658Z",
+  "capturedAt": "2026-10-23T15:22:04.984Z",
   "screenshots": {
     "desktop": {
       "filename": "qa-screenshots/deployed-desktop.png",
@@ -11,6 +11,8 @@
       "h1": [
         "Bell and Harbor – Lakeside Grill and Social"
       ],
+      "headerHeight": 92,
+      "featureImageHeight": 153.59375,
       "errors": []
     },
     "mobile": {
@@ -22,6 +24,8 @@
       "h1": [
         "Bell and Harbor – Lakeside Grill and Social"
       ],
+      "headerHeight": 135,
+      "featureImageHeight": 88,
       "errors": []
     }
   },
