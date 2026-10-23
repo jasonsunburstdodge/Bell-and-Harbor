@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-10-23T16:45:31.992Z",
+  "testedAt": "2026-10-23T16:47:01.842Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "viewports": [
     {
@@ -683,5 +683,643 @@
       "screenshot": "qa-screenshots/header-1024.png"
     }
   ],
-  "issues": []
+  "issues": [],
+  "mobileViewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "headerHeight": 96,
+      "emblemDiameter": 64,
+      "brandName": {
+        "left": 88,
+        "right": 227.22,
+        "top": 19.17,
+        "bottom": 49.17,
+        "width": 139.22,
+        "height": 30
+      },
+      "subtitle": {
+        "left": 88,
+        "right": 208.09,
+        "top": 48.47,
+        "bottom": 57.47,
+        "width": 120.09,
+        "height": 9
+      },
+      "hamburger": {
+        "left": 344,
+        "right": 376,
+        "top": 28,
+        "bottom": 68,
+        "width": 32,
+        "height": 40
+      },
+      "wordmarkToHamburgerGap": 116.78,
+      "horizontalOverflow": false,
+      "rows": [
+        {
+          "title": "Weekend Brunch",
+          "row": {
+            "left": 0,
+            "right": 390,
+            "top": 416.34,
+            "bottom": 512.34,
+            "width": 390,
+            "height": 96
+          },
+          "text": {
+            "left": 122,
+            "right": 264.41,
+            "top": 450.05,
+            "bottom": 477.05,
+            "width": 142.41,
+            "height": 27
+          },
+          "arrow": {
+            "left": 354,
+            "right": 376,
+            "top": 444.84,
+            "bottom": 482.84,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 14,
+            "right": 110,
+            "top": 427.84,
+            "bottom": 499.84,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 20,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "0.1px",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Our Menus",
+          "row": {
+            "left": 0,
+            "right": 390,
+            "top": 512.34,
+            "bottom": 608.34,
+            "width": 390,
+            "height": 96
+          },
+          "text": {
+            "left": 122,
+            "right": 215.91,
+            "top": 546.05,
+            "bottom": 573.05,
+            "width": 93.91,
+            "height": 27
+          },
+          "arrow": {
+            "left": 354,
+            "right": 376,
+            "top": 540.84,
+            "bottom": 578.84,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 14,
+            "right": 110,
+            "top": 523.84,
+            "bottom": 595.84,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 20,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "0.1px",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Craft Cocktails",
+          "row": {
+            "left": 0,
+            "right": 390,
+            "top": 608.34,
+            "bottom": 704.34,
+            "width": 390,
+            "height": 96
+          },
+          "text": {
+            "left": 122,
+            "right": 258.5,
+            "top": 642.05,
+            "bottom": 669.05,
+            "width": 136.5,
+            "height": 27
+          },
+          "arrow": {
+            "left": 354,
+            "right": 376,
+            "top": 636.84,
+            "bottom": 674.84,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 14,
+            "right": 110,
+            "top": 619.84,
+            "bottom": 691.84,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 20,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "0.1px",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Events Calendar",
+          "row": {
+            "left": 0,
+            "right": 390,
+            "top": 704.34,
+            "bottom": 800.34,
+            "width": 390,
+            "height": 96
+          },
+          "text": {
+            "left": 122,
+            "right": 263.5,
+            "top": 738.05,
+            "bottom": 765.05,
+            "width": 141.5,
+            "height": 27
+          },
+          "arrow": {
+            "left": 354,
+            "right": 376,
+            "top": 732.84,
+            "bottom": 770.84,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 14,
+            "right": 110,
+            "top": 715.84,
+            "bottom": 787.84,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 20,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "0.1px",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        }
+      ],
+      "issues": [],
+      "screenshot": "qa-screenshots/mobile-rows-390.png"
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "headerHeight": 96,
+      "emblemDiameter": 64,
+      "brandName": {
+        "left": 88,
+        "right": 225.16,
+        "top": 21.16,
+        "bottom": 49.16,
+        "width": 137.16,
+        "height": 28
+      },
+      "subtitle": {
+        "left": 88,
+        "right": 200.38,
+        "top": 48.3,
+        "bottom": 56.3,
+        "width": 112.38,
+        "height": 8
+      },
+      "hamburger": {
+        "left": 329,
+        "right": 361,
+        "top": 28,
+        "bottom": 68,
+        "width": 32,
+        "height": 40
+      },
+      "wordmarkToHamburgerGap": 103.84,
+      "horizontalOverflow": false,
+      "rows": [
+        {
+          "title": "Weekend Brunch",
+          "row": {
+            "left": 0,
+            "right": 375,
+            "top": 404.03,
+            "bottom": 500.03,
+            "width": 375,
+            "height": 96
+          },
+          "text": {
+            "left": 117,
+            "right": 247,
+            "top": 438.33,
+            "bottom": 464.33,
+            "width": 130,
+            "height": 26
+          },
+          "arrow": {
+            "left": 343,
+            "right": 365,
+            "top": 432.53,
+            "bottom": 470.53,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 12,
+            "right": 108,
+            "top": 415.53,
+            "bottom": 487.53,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 19,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "normal",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Our Menus",
+          "row": {
+            "left": 0,
+            "right": 375,
+            "top": 500.03,
+            "bottom": 596.03,
+            "width": 375,
+            "height": 96
+          },
+          "text": {
+            "left": 117,
+            "right": 203,
+            "top": 534.33,
+            "bottom": 560.33,
+            "width": 86,
+            "height": 26
+          },
+          "arrow": {
+            "left": 343,
+            "right": 365,
+            "top": 528.53,
+            "bottom": 566.53,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 12,
+            "right": 108,
+            "top": 511.53,
+            "bottom": 583.53,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 19,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "normal",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Craft Cocktails",
+          "row": {
+            "left": 0,
+            "right": 375,
+            "top": 596.03,
+            "bottom": 692.03,
+            "width": 375,
+            "height": 96
+          },
+          "text": {
+            "left": 117,
+            "right": 241,
+            "top": 630.33,
+            "bottom": 656.33,
+            "width": 124,
+            "height": 26
+          },
+          "arrow": {
+            "left": 343,
+            "right": 365,
+            "top": 624.53,
+            "bottom": 662.53,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 12,
+            "right": 108,
+            "top": 607.53,
+            "bottom": 679.53,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 19,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "normal",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Events Calendar",
+          "row": {
+            "left": 0,
+            "right": 375,
+            "top": 692.03,
+            "bottom": 788.03,
+            "width": 375,
+            "height": 96
+          },
+          "text": {
+            "left": 117,
+            "right": 245,
+            "top": 726.33,
+            "bottom": 752.33,
+            "width": 128,
+            "height": 26
+          },
+          "arrow": {
+            "left": 343,
+            "right": 365,
+            "top": 720.53,
+            "bottom": 758.53,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 12,
+            "right": 108,
+            "top": 703.53,
+            "bottom": 775.53,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 19,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "normal",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        }
+      ],
+      "issues": [],
+      "screenshot": "qa-screenshots/mobile-rows-375.png"
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "headerHeight": 96,
+      "emblemDiameter": 64,
+      "brandName": {
+        "left": 88,
+        "right": 220.13,
+        "top": 21.64,
+        "bottom": 48.64,
+        "width": 132.13,
+        "height": 27
+      },
+      "subtitle": {
+        "left": 88,
+        "right": 200.38,
+        "top": 47.81,
+        "bottom": 55.81,
+        "width": 112.38,
+        "height": 8
+      },
+      "hamburger": {
+        "left": 314,
+        "right": 346,
+        "top": 28,
+        "bottom": 68,
+        "width": 32,
+        "height": 40
+      },
+      "wordmarkToHamburgerGap": 93.87,
+      "horizontalOverflow": false,
+      "rows": [
+        {
+          "title": "Weekend Brunch",
+          "row": {
+            "left": 0,
+            "right": 360,
+            "top": 391.7,
+            "bottom": 487.7,
+            "width": 360,
+            "height": 96
+          },
+          "text": {
+            "left": 117,
+            "right": 247,
+            "top": 426,
+            "bottom": 452,
+            "width": 130,
+            "height": 26
+          },
+          "arrow": {
+            "left": 328,
+            "right": 350,
+            "top": 420.2,
+            "bottom": 458.2,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 12,
+            "right": 108,
+            "top": 403.2,
+            "bottom": 475.2,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 19,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "normal",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Our Menus",
+          "row": {
+            "left": 0,
+            "right": 360,
+            "top": 487.7,
+            "bottom": 583.7,
+            "width": 360,
+            "height": 96
+          },
+          "text": {
+            "left": 117,
+            "right": 203,
+            "top": 522,
+            "bottom": 548,
+            "width": 86,
+            "height": 26
+          },
+          "arrow": {
+            "left": 328,
+            "right": 350,
+            "top": 516.2,
+            "bottom": 554.2,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 12,
+            "right": 108,
+            "top": 499.2,
+            "bottom": 571.2,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 19,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "normal",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Craft Cocktails",
+          "row": {
+            "left": 0,
+            "right": 360,
+            "top": 583.7,
+            "bottom": 679.7,
+            "width": 360,
+            "height": 96
+          },
+          "text": {
+            "left": 117,
+            "right": 241,
+            "top": 618,
+            "bottom": 644,
+            "width": 124,
+            "height": 26
+          },
+          "arrow": {
+            "left": 328,
+            "right": 350,
+            "top": 612.2,
+            "bottom": 650.2,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 12,
+            "right": 108,
+            "top": 595.2,
+            "bottom": 667.2,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 19,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "normal",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        },
+        {
+          "title": "Events Calendar",
+          "row": {
+            "left": 0,
+            "right": 360,
+            "top": 679.7,
+            "bottom": 775.7,
+            "width": 360,
+            "height": 96
+          },
+          "text": {
+            "left": 117,
+            "right": 245,
+            "top": 714,
+            "bottom": 740,
+            "width": 128,
+            "height": 26
+          },
+          "arrow": {
+            "left": 328,
+            "right": 350,
+            "top": 708.2,
+            "bottom": 746.2,
+            "width": 22,
+            "height": 38
+          },
+          "image": {
+            "left": 12,
+            "right": 108,
+            "top": 691.2,
+            "bottom": 763.2,
+            "width": 96,
+            "height": 72
+          },
+          "fontSize": 19,
+          "fontWeight": "400",
+          "textTransform": "none",
+          "fontVariantCaps": "small-caps",
+          "letterSpacing": "normal",
+          "fitsHorizontally": true,
+          "fitsVertically": true,
+          "imageFits": true,
+          "rowHeight": 96
+        }
+      ],
+      "issues": [],
+      "screenshot": "qa-screenshots/mobile-rows-360.png"
+    }
+  ]
 }
