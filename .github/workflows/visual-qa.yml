@@ -7,6 +7,7 @@ on:
       - 'site-style.css'
       - 'site-app.js'
       - 'tools/qa_deployed.mjs'
+      - 'tools/check_header_overlap.mjs'
       - 'tools/font-study.mjs'
       - 'index.html'
       - 'menus/**'
@@ -38,6 +39,9 @@ jobs:
         run: node tools/font-study.mjs
       - name: Render and inspect public staging
         run: node tools/qa_deployed.mjs
+      - name: Measure header bounding boxes at four widths
+        continue-on-error: true
+        run: node tools/check_header_overlap.mjs
       - name: Build comparison images
         run: |
           python -m pip install Pillow
@@ -52,6 +56,8 @@ jobs:
             git pull --rebase
             git push
           fi
+      - name: Fail verification if any header elements overlap
+        run: node -e "const r=require('./qa-screenshots/header-layout.json'); if(r.issues.length){console.error(r.issues.join('\\n')); process.exit(1)}"
       - name: Upload QA artifacts
         if: always()
         uses: actions/upload-artifact@v4
