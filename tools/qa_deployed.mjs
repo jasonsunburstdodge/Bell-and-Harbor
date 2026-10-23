@@ -11,7 +11,7 @@ for(const [name,width,height] of [['desktop',1536,1024],['mobile',390,844]]){
  for(let attempt=0;attempt<12;attempt++){
   try{
    await page.goto(base,{waitUntil:'domcontentloaded',timeout:20000});
-   if(await page.locator('link[href*="site-style.css"]').count() && await page.locator('.features').count() && await page.evaluate(() => (window.innerWidth===390 ? Math.abs(document.querySelector('.site-header').getBoundingClientRect().height-135)<2 : document.querySelector('.feature img').getBoundingClientRect().height >= 128))){
+   if(await page.locator('link[href*="site-style.css"]').count() && await page.locator('.features').count() && await page.evaluate(() => (window.innerWidth===390 ? Math.abs(document.querySelector('.site-header').getBoundingClientRect().height-135)<2 && parseFloat(getComputedStyle(document.querySelector('.brand-name')).fontSize)>=30 : document.querySelector('.feature img').getBoundingClientRect().height >= 128 && document.querySelector('.feature .pill').getBoundingClientRect().height >= 48))){
     loaded=true;break;
    }
   }catch(e){errors.push(String(e).slice(0,140))}
@@ -27,7 +27,9 @@ for(const [name,width,height] of [['desktop',1536,1024],['mobile',390,844]]){
  const h1=await page.locator('h1').allTextContents();
  const headerHeight=await page.locator('.site-header').evaluate(x=>x.getBoundingClientRect().height);
  const featureImageHeight=await page.locator('.feature img').first().evaluate(x=>x.getBoundingClientRect().height);
- report.screenshots[name]={filename,width,height,broken,horizontalScroll,h1,headerHeight,featureImageHeight,errors};
+ const pillHeight=await page.locator('.feature .pill').first().evaluate(x=>x.getBoundingClientRect().height);
+ const wordmarkFontSize=await page.locator('.brand-name').evaluate(x=>parseFloat(getComputedStyle(x).fontSize));
+ report.screenshots[name]={filename,width,height,broken,horizontalScroll,h1,headerHeight,featureImageHeight,pillHeight,wordmarkFontSize,errors};
  if(broken.length)report.issues.push(name+': broken images '+broken.join(', '));
  if(horizontalScroll)report.issues.push(name+': horizontal overflow');
  if(errors.length)report.issues.push(name+': JavaScript errors '+errors.join(';'));
