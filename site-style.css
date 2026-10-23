@@ -38,3 +38,20 @@
  .feature{height:98px;grid-template-columns:100px minmax(0,1fr) 20px}
  .feature img{width:100px;height:76px}
 }
+
+/* Second screenshot comparison: restore the approved button scale and wordmark prominence. */
+@media(min-width:901px){
+ .pill{min-width:clamp(205px,16.9vw,260px);height:49px}
+ .feature h2{font-size:clamp(25px,2.15vw,33px)}
+ .feature{padding-bottom:17px}
+}
+@media(min-width:361px) and (max-width:768px){
+ .brand-name{font-size:clamp(29px,8.4vw,34px);letter-spacing:-.055em}
+ .brand-sub{font-size:8px;letter-spacing:.13em}
+ .brand-rule{display:block;width:95px;margin:3px auto 0}
+ .brand-flame{display:block;height:14px;width:14px}
+ .brand-flame svg{height:14px;width:14px}
+ .feature{grid-template-columns:124px minmax(0,1fr) 22px;gap:10px}
+ .feature img{width:124px;height:88px}
+ .feature h2{font-size:clamp(23px,6.2vw,27px)}
+}
