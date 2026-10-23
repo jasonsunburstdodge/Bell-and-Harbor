@@ -287,3 +287,8 @@
   .header-actions .pin{width:96px}
   .nav-toggle{display:block;flex:0 0 33px;padding:3px;background:var(--cream)}
 }
+
+/* All three primary actions remain visible until the nav collapses on mobile. */
+@media(min-width:769px) and (max-width:1179px){
+ .header-actions .reserve,.header-actions .order,.header-actions .pin{display:inline-flex}
+}
