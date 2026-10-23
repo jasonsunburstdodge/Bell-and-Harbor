@@ -17,7 +17,7 @@ for(const [name,width,height] of [['desktop',1536,1024],['mobile',390,844]]){
     const hero=document.querySelector('.hero-desktop');
     const family=getComputedStyle(document.querySelector('.brand-name')).fontFamily;
     const cropped=(hero.naturalWidth===1214 && hero.naturalHeight===397);
-    if(window.innerWidth===390) return cropped && Math.abs(header.getBoundingClientRect().height-135)<2 && family.includes('Playfair Display SC') && parseFloat(getComputedStyle(document.querySelector('.brand-name')).fontSize)<=27;
+    if(window.innerWidth===390){const title=getComputedStyle(document.querySelector('.feature h2'));const emblem=document.querySelector('.brand-pic').getBoundingClientRect();return cropped && Math.abs(header.getBoundingClientRect().height-96)<2 && Math.abs(emblem.width-64)<2 && family.includes('Playfair Display SC') && Math.abs(parseFloat(title.fontSize)-20)<.5 && title.textTransform==='none' && title.fontVariantCaps==='small-caps' && title.fontWeight==='400';}
     return cropped && Math.abs(header.getBoundingClientRect().height-92)<2 && family.includes('Playfair Display SC');
    })){
     loaded=true;break;
@@ -40,7 +40,8 @@ for(const [name,width,height] of [['desktop',1536,1024],['mobile',390,844]]){
  const featureImageHeight=await page.locator('.feature img').first().evaluate(x=>x.getBoundingClientRect().height);
  const pillHeight=await page.locator('.feature .pill').first().evaluate(x=>x.getBoundingClientRect().height);
  const wordmarkFontSize=await page.locator('.brand-name').evaluate(x=>parseFloat(getComputedStyle(x).fontSize));
- report.screenshots[name]={filename,width,height,broken,horizontalScroll,h1,heroNative,fontFamily,brandWidth,headerHeight,featureImageHeight,pillHeight,wordmarkFontSize,errors};
+ const mobileFeatureText= name==='mobile' ? await page.locator('.feature h2').first().evaluate(x=>({fontSize:getComputedStyle(x).fontSize,fontWeight:getComputedStyle(x).fontWeight,textTransform:getComputedStyle(x).textTransform,fontVariantCaps:getComputedStyle(x).fontVariantCaps,letterSpacing:getComputedStyle(x).letterSpacing})) : null;
+ report.screenshots[name]={filename,width,height,broken,horizontalScroll,h1,heroNative,fontFamily,brandWidth,headerHeight,featureImageHeight,pillHeight,wordmarkFontSize,mobileFeatureText,errors};
  if(broken.length)report.issues.push(name+': broken images '+broken.join(', '));
  if(horizontalScroll)report.issues.push(name+': horizontal overflow');
  if(errors.length)report.issues.push(name+': JavaScript errors '+errors.join(';'));
