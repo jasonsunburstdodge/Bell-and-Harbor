@@ -1,0 +1,698 @@
+{
+  "testedAt": "2026-10-23T16:28:12.096Z",
+  "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
+  "viewports": [
+    {
+      "width": 1536,
+      "height": 730,
+      "measured": {
+        "brandToHome": 44.52,
+        "contactToReserve": 23,
+        "emblemToWordmark": 13,
+        "buttonGaps": [
+          10,
+          10
+        ]
+      },
+      "boxes": {
+        "emblem": {
+          "left": 64,
+          "right": 172,
+          "top": 6,
+          "bottom": 114,
+          "width": 108,
+          "height": 108,
+          "visible": true
+        },
+        "brand": {
+          "left": 64,
+          "right": 412,
+          "top": 0,
+          "bottom": 92,
+          "width": 348,
+          "height": 92,
+          "visible": true
+        },
+        "wordmark": {
+          "left": 185,
+          "right": 412,
+          "top": 12.77,
+          "bottom": 79.23,
+          "width": 227,
+          "height": 66.47,
+          "visible": true
+        },
+        "name": {
+          "left": 184.52,
+          "right": 412.48,
+          "top": 12.77,
+          "bottom": 44.94,
+          "width": 227.97,
+          "height": 32.17,
+          "visible": true
+        },
+        "subtitle": {
+          "left": 215.63,
+          "right": 381.38,
+          "top": 44.94,
+          "bottom": 60.23,
+          "width": 165.75,
+          "height": 15.3,
+          "visible": true
+        },
+        "hamburger": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "nav-0": {
+          "left": 457,
+          "right": 491.03,
+          "top": 27.5,
+          "bottom": 64.5,
+          "width": 34.03,
+          "height": 37,
+          "visible": true
+        },
+        "nav-1": {
+          "left": 503.31,
+          "right": 543.59,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 40.28,
+          "height": 35,
+          "visible": true
+        },
+        "nav-2": {
+          "left": 555.88,
+          "right": 637.94,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 82.06,
+          "height": 35,
+          "visible": true
+        },
+        "nav-3": {
+          "left": 650.23,
+          "right": 741.81,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 91.58,
+          "height": 35,
+          "visible": true
+        },
+        "nav-4": {
+          "left": 754.09,
+          "right": 858.92,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 104.83,
+          "height": 35,
+          "visible": true
+        },
+        "nav-5": {
+          "left": 871.2,
+          "right": 922,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 50.8,
+          "height": 35,
+          "visible": true
+        },
+        "reserve": {
+          "left": 945,
+          "right": 1120,
+          "top": 19,
+          "bottom": 73,
+          "width": 175,
+          "height": 54,
+          "visible": true
+        },
+        "order": {
+          "left": 1130,
+          "right": 1274,
+          "top": 19,
+          "bottom": 73,
+          "width": 144,
+          "height": 54,
+          "visible": true
+        },
+        "directions": {
+          "left": 1284,
+          "right": 1423,
+          "top": 19,
+          "bottom": 73,
+          "width": 139,
+          "height": 54,
+          "visible": true
+        },
+        "wordmarkInk": {
+          "left": 184.52,
+          "right": 412.48,
+          "top": 7.77,
+          "bottom": 46.59,
+          "width": 227.97,
+          "height": 38.83,
+          "visible": true
+        },
+        "subtitleInk": {
+          "left": 215.63,
+          "right": 381.38,
+          "top": 46.94,
+          "bottom": 56.94,
+          "width": 165.75,
+          "height": 10,
+          "visible": true
+        }
+      },
+      "issues": [],
+      "screenshot": "qa-screenshots/header-1536.png"
+    },
+    {
+      "width": 1440,
+      "height": 730,
+      "measured": {
+        "brandToHome": 44.52,
+        "contactToReserve": 23,
+        "emblemToWordmark": 13,
+        "buttonGaps": [
+          10,
+          10
+        ]
+      },
+      "boxes": {
+        "emblem": {
+          "left": 64,
+          "right": 172,
+          "top": 6,
+          "bottom": 114,
+          "width": 108,
+          "height": 108,
+          "visible": true
+        },
+        "brand": {
+          "left": 64,
+          "right": 412,
+          "top": 0,
+          "bottom": 92,
+          "width": 348,
+          "height": 92,
+          "visible": true
+        },
+        "wordmark": {
+          "left": 185,
+          "right": 412,
+          "top": 12.77,
+          "bottom": 79.23,
+          "width": 227,
+          "height": 66.47,
+          "visible": true
+        },
+        "name": {
+          "left": 184.52,
+          "right": 412.48,
+          "top": 12.77,
+          "bottom": 44.94,
+          "width": 227.97,
+          "height": 32.17,
+          "visible": true
+        },
+        "subtitle": {
+          "left": 215.63,
+          "right": 381.38,
+          "top": 44.94,
+          "bottom": 60.23,
+          "width": 165.75,
+          "height": 15.3,
+          "visible": true
+        },
+        "hamburger": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "nav-0": {
+          "left": 457,
+          "right": 491.03,
+          "top": 27.5,
+          "bottom": 64.5,
+          "width": 34.03,
+          "height": 37,
+          "visible": true
+        },
+        "nav-1": {
+          "left": 503.31,
+          "right": 543.59,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 40.28,
+          "height": 35,
+          "visible": true
+        },
+        "nav-2": {
+          "left": 555.88,
+          "right": 637.94,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 82.06,
+          "height": 35,
+          "visible": true
+        },
+        "nav-3": {
+          "left": 650.23,
+          "right": 741.81,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 91.58,
+          "height": 35,
+          "visible": true
+        },
+        "nav-4": {
+          "left": 754.09,
+          "right": 858.92,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 104.83,
+          "height": 35,
+          "visible": true
+        },
+        "nav-5": {
+          "left": 871.2,
+          "right": 922,
+          "top": 28.5,
+          "bottom": 63.5,
+          "width": 50.8,
+          "height": 35,
+          "visible": true
+        },
+        "reserve": {
+          "left": 945,
+          "right": 1120,
+          "top": 19,
+          "bottom": 73,
+          "width": 175,
+          "height": 54,
+          "visible": true
+        },
+        "order": {
+          "left": 1130,
+          "right": 1274,
+          "top": 19,
+          "bottom": 73,
+          "width": 144,
+          "height": 54,
+          "visible": true
+        },
+        "directions": {
+          "left": 1284,
+          "right": 1423,
+          "top": 19,
+          "bottom": 73,
+          "width": 139,
+          "height": 54,
+          "visible": true
+        },
+        "wordmarkInk": {
+          "left": 184.52,
+          "right": 412.48,
+          "top": 7.77,
+          "bottom": 46.59,
+          "width": 227.97,
+          "height": 38.83,
+          "visible": true
+        },
+        "subtitleInk": {
+          "left": 215.63,
+          "right": 381.38,
+          "top": 46.94,
+          "bottom": 56.94,
+          "width": 165.75,
+          "height": 10,
+          "visible": true
+        }
+      },
+      "issues": [],
+      "screenshot": "qa-screenshots/header-1440.png"
+    },
+    {
+      "width": 1280,
+      "height": 730,
+      "measured": {
+        "brandToHome": 11.84,
+        "contactToReserve": 12,
+        "emblemToWordmark": 10,
+        "buttonGaps": [
+          5,
+          5
+        ]
+      },
+      "boxes": {
+        "emblem": {
+          "left": 16,
+          "right": 102,
+          "top": 12,
+          "bottom": 98,
+          "width": 86,
+          "height": 86,
+          "visible": true
+        },
+        "brand": {
+          "left": 16,
+          "right": 318,
+          "top": 0,
+          "bottom": 92,
+          "width": 302,
+          "height": 92,
+          "visible": true
+        },
+        "wordmark": {
+          "left": 112,
+          "right": 318,
+          "top": 15,
+          "bottom": 76.98,
+          "width": 206,
+          "height": 61.98,
+          "visible": true
+        },
+        "name": {
+          "left": 111.84,
+          "right": 318.16,
+          "top": 15,
+          "bottom": 41.8,
+          "width": 206.31,
+          "height": 26.8,
+          "visible": true
+        },
+        "subtitle": {
+          "left": 143,
+          "right": 287,
+          "top": 41.8,
+          "bottom": 56.98,
+          "width": 144,
+          "height": 15.19,
+          "visible": true
+        },
+        "hamburger": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "nav-0": {
+          "left": 330,
+          "right": 360,
+          "top": 30.5,
+          "bottom": 61.5,
+          "width": 30,
+          "height": 31,
+          "visible": true
+        },
+        "nav-1": {
+          "left": 395,
+          "right": 430,
+          "top": 31.5,
+          "bottom": 60.5,
+          "width": 35,
+          "height": 29,
+          "visible": true
+        },
+        "nav-2": {
+          "left": 465,
+          "right": 539,
+          "top": 31.5,
+          "bottom": 60.5,
+          "width": 74,
+          "height": 29,
+          "visible": true
+        },
+        "nav-3": {
+          "left": 574,
+          "right": 653,
+          "top": 31.5,
+          "bottom": 60.5,
+          "width": 79,
+          "height": 29,
+          "visible": true
+        },
+        "nav-4": {
+          "left": 688,
+          "right": 778,
+          "top": 31.5,
+          "bottom": 60.5,
+          "width": 90,
+          "height": 29,
+          "visible": true
+        },
+        "nav-5": {
+          "left": 813,
+          "right": 857,
+          "top": 31.5,
+          "bottom": 60.5,
+          "width": 44,
+          "height": 29,
+          "visible": true
+        },
+        "reserve": {
+          "left": 869,
+          "right": 1022,
+          "top": 21,
+          "bottom": 71,
+          "width": 153,
+          "height": 50,
+          "visible": true
+        },
+        "order": {
+          "left": 1027,
+          "right": 1147,
+          "top": 21,
+          "bottom": 71,
+          "width": 120,
+          "height": 50,
+          "visible": true
+        },
+        "directions": {
+          "left": 1152,
+          "right": 1264,
+          "top": 21,
+          "bottom": 71,
+          "width": 112,
+          "height": 50,
+          "visible": true
+        },
+        "wordmarkInk": {
+          "left": 111.84,
+          "right": 318.16,
+          "top": 9,
+          "bottom": 44.2,
+          "width": 206.31,
+          "height": 35.2,
+          "visible": true
+        },
+        "subtitleInk": {
+          "left": 143,
+          "right": 287,
+          "top": 43.8,
+          "bottom": 53.8,
+          "width": 144,
+          "height": 10,
+          "visible": true
+        }
+      },
+      "issues": [
+        "reserve overlaps/touches order; gap=5px (minimum 6)",
+        "order overlaps/touches directions; gap=5px (minimum 6)"
+      ],
+      "screenshot": "qa-screenshots/header-1280.png"
+    },
+    {
+      "width": 1024,
+      "height": 730,
+      "measured": {
+        "brandToHome": null,
+        "contactToReserve": null,
+        "emblemToWordmark": 8,
+        "buttonGaps": [
+          4,
+          4
+        ]
+      },
+      "boxes": {
+        "emblem": {
+          "left": 12,
+          "right": 84,
+          "top": 17,
+          "bottom": 89,
+          "width": 72,
+          "height": 72,
+          "visible": true
+        },
+        "brand": {
+          "left": 12,
+          "right": 275,
+          "top": 0,
+          "bottom": 92,
+          "width": 263,
+          "height": 92,
+          "visible": true
+        },
+        "wordmark": {
+          "left": 92,
+          "right": 275,
+          "top": 17.95,
+          "bottom": 74.05,
+          "width": 183,
+          "height": 56.09,
+          "visible": true
+        },
+        "name": {
+          "left": 98.19,
+          "right": 268.81,
+          "top": 17.95,
+          "bottom": 40.75,
+          "width": 170.63,
+          "height": 22.8,
+          "visible": true
+        },
+        "subtitle": {
+          "left": 123.13,
+          "right": 243.88,
+          "top": 40.75,
+          "bottom": 54.05,
+          "width": 120.75,
+          "height": 13.3,
+          "visible": true
+        },
+        "hamburger": {
+          "left": 978,
+          "right": 1012,
+          "top": 25.45,
+          "bottom": 66.55,
+          "width": 34,
+          "height": 41.09,
+          "visible": true
+        },
+        "nav-0": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "nav-1": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "nav-2": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "nav-3": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "nav-4": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "nav-5": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0,
+          "visible": false
+        },
+        "reserve": {
+          "left": 628,
+          "right": 756,
+          "top": 22,
+          "bottom": 70,
+          "width": 128,
+          "height": 48,
+          "visible": true
+        },
+        "order": {
+          "left": 760,
+          "right": 870,
+          "top": 22,
+          "bottom": 70,
+          "width": 110,
+          "height": 48,
+          "visible": true
+        },
+        "directions": {
+          "left": 874,
+          "right": 970,
+          "top": 22,
+          "bottom": 70,
+          "width": 96,
+          "height": 48,
+          "visible": true
+        },
+        "wordmarkInk": {
+          "left": 98.19,
+          "right": 268.81,
+          "top": 12.95,
+          "bottom": 43.17,
+          "width": 170.63,
+          "height": 30.22,
+          "visible": true
+        },
+        "subtitleInk": {
+          "left": 123.13,
+          "right": 243.88,
+          "top": 42.75,
+          "bottom": 51.75,
+          "width": 120.75,
+          "height": 9,
+          "visible": true
+        }
+      },
+      "issues": [
+        "reserve overlaps/touches order; gap=4px",
+        "order overlaps/touches directions; gap=4px"
+      ],
+      "screenshot": "qa-screenshots/header-1024.png"
+    }
+  ],
+  "issues": [
+    "1280: reserve overlaps/touches order; gap=5px (minimum 6)",
+    "1280: order overlaps/touches directions; gap=5px (minimum 6)",
+    "1024: reserve overlaps/touches order; gap=4px",
+    "1024: order overlaps/touches directions; gap=4px"
+  ]
+}
