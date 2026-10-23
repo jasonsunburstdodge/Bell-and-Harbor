@@ -29,21 +29,26 @@ for(const width of widths){
    const c=getComputedStyle(el),r=el.getBoundingClientRect();
    boxes[name]={left:+r.left.toFixed(2),right:+r.right.toFixed(2),top:+r.top.toFixed(2),bottom:+r.bottom.toFixed(2),width:+r.width.toFixed(2),height:+r.height.toFixed(2),visible:c.display!=='none'&&c.visibility!=='hidden'&&r.width>0&&r.height>0};
   }
+  for(const [name,selector] of [['wordmarkInk','.brand-name'],['subtitleInk','.brand-sub']]){
+   const el=document.querySelector(selector);
+   const range=document.createRange();range.selectNodeContents(el);const r=range.getBoundingClientRect();
+   boxes[name]={left:+r.left.toFixed(2),right:+r.right.toFixed(2),top:+r.top.toFixed(2),bottom:+r.bottom.toFixed(2),width:+r.width.toFixed(2),height:+r.height.toFixed(2),visible:true};
+  }
   return {boxes,documentWidth:document.documentElement.scrollWidth,viewport:innerWidth,headerHeight:document.querySelector('.site-header').getBoundingClientRect().height,headerTop:document.querySelector('.site-header').getBoundingClientRect().top};
  });
  const {boxes}=layout;
  const v=n=>boxes[n]?.visible;
  const gap=(a,b)=> +(boxes[b].left-boxes[a].right).toFixed(2);
  const edges=[['wordmark','nav-0'],['nav-5','reserve'],['reserve','order'],['order','directions']];
- const measured={brandToHome:v('nav-0')?gap('wordmark','nav-0'):null,contactToReserve:v('nav-5')?gap('nav-5','reserve'):null,emblemToWordmark:gap('emblem','wordmark'),buttonGaps:[gap('reserve','order'),gap('order','directions')]};
+ const measured={brandToHome:v('nav-0')?gap('wordmarkInk','nav-0'):null,contactToReserve:v('nav-5')?gap('nav-5','reserve'):null,emblemToWordmark:gap('emblem','wordmark'),buttonGaps:[gap('reserve','order'),gap('order','directions')]};
  const issues=[];
- const itemNames=['brand','wordmark',...Array.from({length:6},(_,i)=>'nav-'+i),'reserve','order','directions','hamburger'];
+ const itemNames=['brand','wordmark','wordmarkInk','subtitleInk',...Array.from({length:6},(_,i)=>'nav-'+i),'reserve','order','directions','hamburger'];
  for(const n of itemNames){if(v(n)){const b=boxes[n];if(b.left < -0.25 || b.right > width+0.25)issues.push(n+' extends outside '+width+'px viewport')}}
  if(layout.documentWidth>width+1)issues.push('horizontal document overflow: '+layout.documentWidth);
  if(width>=1050){
    if(v('hamburger'))issues.push('unexpected hamburger at full desktop width');
    for(let i=0;i<6;i++)if(!v('nav-'+i))issues.push('nav-'+i+' is hidden');
-   const sequence=['wordmark',...Array.from({length:6},(_,i)=>'nav-'+i),'reserve','order','directions'];
+   const sequence=['wordmarkInk',...Array.from({length:6},(_,i)=>'nav-'+i),'reserve','order','directions'];
    for(let i=0;i<sequence.length-1;i++)if(v(sequence[i])&&v(sequence[i+1])){
       const g=gap(sequence[i],sequence[i+1]);
       if(g<minGap)issues.push(sequence[i]+' overlaps/touches '+sequence[i+1]+'; gap='+g+'px (minimum '+minGap+')');
@@ -52,16 +57,17 @@ for(const width of widths){
    if(!v('hamburger'))issues.push('hamburger not visible at '+width);
    if(v('nav-0'))issues.push('desktop nav should be collapsed');
    for(const n of ['reserve','order','directions'])if(!v(n))issues.push(n+' missing from header');
-   const sequence=['wordmark','reserve','order','directions','hamburger'];
+   const sequence=['wordmarkInk','reserve','order','directions','hamburger'];
    for(let i=0;i<sequence.length-1;i++)if(v(sequence[i])&&v(sequence[i+1])){
     const g=gap(sequence[i],sequence[i+1]);
     if(g<minGap)issues.push(sequence[i]+' overlaps/touches '+sequence[i+1]+'; gap='+g+'px');
    }
  }
  const rectOverlap=(a,b)=>a.visible&&b.visible&&Math.min(a.right,b.right)-Math.max(a.left,b.left)>0.5&&Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>0.5;
- const relevant=['wordmark',...Array.from({length:6},(_,i)=>'nav-'+i),'reserve','order','directions','hamburger'];
+ const relevant=['wordmarkInk','subtitleInk',...Array.from({length:6},(_,i)=>'nav-'+i),'reserve','order','directions','hamburger'];
  for(let i=0;i<relevant.length;i++)for(let j=i+1;j<relevant.length;j++){
   const a=boxes[relevant[i]],b=boxes[relevant[j]];
+  if((relevant[i]==='wordmarkInk'&&relevant[j]==='subtitleInk')||(relevant[i]==='subtitleInk'&&relevant[j]==='wordmarkInk'))continue;
   if(a&&b&&rectOverlap(a,b))issues.push('Bounding-box collision '+relevant[i]+' × '+relevant[j]);
  }
  if(width===1536){
