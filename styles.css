@@ -25,3 +25,23 @@ nav a[aria-current]{border-bottom:2px solid #b58c45;padding-bottom:7px}
 @media(max-width:1450px){header{flex-wrap:wrap}.header-actions{margin-left:auto}.brand{min-width:260px}}
 @media(max-width:1000px){.header-actions{display:none}.brand img{width:64px;height:64px}header{min-height:76px}.concept-hero{height:450px}.concept-card-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){header{padding:10px 15px;min-height:78px;flex-wrap:wrap}.brand{min-width:0}.brand img{width:63px;height:63px}.brand strong{font-size:23px}.brand small{font-size:8px;letter-spacing:1.5px}#navtoggle{border:0;font-size:27px}.concept-hero{height:330px;padding:0;background-position:57% center;align-items:flex-start}.concept-hero::before{display:none}.concept-hero-logo{display:none}.concept-card-grid{display:flex;flex-direction:column;gap:0;padding:0}.concept-card{display:grid;grid-template-columns:34% 1fr 24px;align-items:center;text-align:left;gap:13px;padding:7px 13px;border-bottom:1px solid #d7d4c8}.concept-card img{height:96px}.concept-card h2{font-size:23px;margin:0}.concept-card .btn{font-size:0;background:transparent;color:#10382d;border:0;padding:0;min-width:0}.concept-card .btn::after{content:"❯";font-size:24px}.concept-photo-grid{display:none}.concept-mobile-actions{display:grid;gap:8px;padding:14px}.concept-mobile-actions .btn{width:100%;border-radius:9px;text-transform:uppercase;font-size:12px}.concept-mobile-actions .btn.light{border:1px solid #173d30;background:#fffdf6}}
+
+/* Reference correction: compact mobile navigation, crop baked-in mockup labels */
+@media(max-width:760px){
+body{background:#fffdf7}
+header{position:relative;padding:8px 13px;min-height:82px;box-shadow:none}
+.brand{gap:9px}.brand img{width:64px;height:64px;object-fit:cover;box-shadow:none;border:2px solid #b58c45}
+.brand strong{font-size:clamp(18px,5.2vw,24px);letter-spacing:-.035em}.brand small{font-size:clamp(6px,1.7vw,9px);letter-spacing:1px}
+#navtoggle{font-size:25px;padding:5px 8px;border:0}
+.concept-hero{height:clamp(260px,70vw,370px);background-image:url('assets/hero.jpg');background-position:68% 29%;background-size:cover}
+.concept-card-grid{display:block;padding:0;background:#fffdf7}
+.concept-card{height:94px;display:grid;grid-template-columns:94px minmax(0,1fr) 22px;gap:12px;align-items:center;padding:7px 12px;background:#fffdf7;border-bottom:1px solid #e9e4d9}
+.concept-card img{width:94px;height:78px;object-fit:cover;object-position:50% 0%;border-radius:3px}
+.concept-card h2{font:small-caps 500 clamp(17px,4.5vw,23px)/1.1 Georgia,serif;white-space:nowrap;letter-spacing:-.03em}
+.concept-card .btn{display:flex;justify-content:center;align-items:center;height:50px;font-size:0;min-width:0;border:0;background:transparent;padding:0;color:#143e31}
+.concept-card .btn::after{content:"❯";font-size:21px}
+.concept-mobile-actions{display:grid;gap:7px;padding:11px 13px 17px;background:#fffdf7}
+.concept-mobile-actions .btn{min-height:50px;width:100%;border-radius:9px;font-size:clamp(11px,3vw,14px);padding:9px 12px;text-transform:uppercase}
+.concept-mobile-actions .btn.light{background:#fffdf7}
+.concept-photo-grid{display:none}
+}
