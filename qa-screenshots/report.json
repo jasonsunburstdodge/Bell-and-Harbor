@@ -1,0 +1,101 @@
+{
+  "source": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
+  "capturedAt": "2026-10-23T15:17:31.501Z",
+  "screenshots": {
+    "desktop": {
+      "filename": "qa-screenshots/deployed-desktop.png",
+      "width": 1536,
+      "height": 1024,
+      "broken": [],
+      "horizontalScroll": false,
+      "h1": [
+        "Bell and Harbor – Lakeside Grill and Social"
+      ],
+      "errors": []
+    },
+    "mobile": {
+      "filename": "qa-screenshots/deployed-mobile.png",
+      "width": 390,
+      "height": 844,
+      "broken": [],
+      "horizontalScroll": false,
+      "h1": [
+        "Bell and Harbor – Lakeside Grill and Social"
+      ],
+      "errors": []
+    }
+  },
+  "pages": [
+    {
+      "route": "menus/",
+      "status": 200,
+      "h1": [
+        "Our Menus"
+      ]
+    },
+    {
+      "route": "menus/main/",
+      "status": 200,
+      "h1": [
+        "Main Menu"
+      ]
+    },
+    {
+      "route": "menus/brunch/",
+      "status": 200,
+      "h1": [
+        "Weekend Brunch"
+      ]
+    },
+    {
+      "route": "menus/drinks/",
+      "status": 200,
+      "h1": [
+        "Craft Cocktails"
+      ]
+    },
+    {
+      "route": "menus/kids/",
+      "status": 200,
+      "h1": [
+        "Kids Menu & Kids Cocktails"
+      ]
+    },
+    {
+      "route": "reservations/",
+      "status": 200,
+      "h1": [
+        "Reserve a Patio Table"
+      ]
+    },
+    {
+      "route": "private-events/",
+      "status": 200,
+      "h1": [
+        "Private Events"
+      ]
+    },
+    {
+      "route": "events/",
+      "status": 200,
+      "h1": [
+        "Events Calendar"
+      ]
+    },
+    {
+      "route": "contact/",
+      "status": 200,
+      "h1": [
+        "Contact & Directions"
+      ]
+    },
+    {
+      "route": "order/",
+      "status": 200,
+      "h1": [
+        "Order Online"
+      ]
+    }
+  ],
+  "issues": []
+}
