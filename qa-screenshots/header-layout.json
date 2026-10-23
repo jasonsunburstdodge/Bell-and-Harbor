@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-10-23T16:28:12.096Z",
+  "testedAt": "2026-10-23T16:35:58.016Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "viewports": [
     {
@@ -350,8 +350,8 @@
         "contactToReserve": 12,
         "emblemToWordmark": 10,
         "buttonGaps": [
-          5,
-          5
+          7,
+          7
         ]
       },
       "boxes": {
@@ -419,8 +419,8 @@
           "visible": true
         },
         "nav-1": {
-          "left": 395,
-          "right": 430,
+          "left": 394.2,
+          "right": 429.2,
           "top": 31.5,
           "bottom": 60.5,
           "width": 35,
@@ -428,8 +428,8 @@
           "visible": true
         },
         "nav-2": {
-          "left": 465,
-          "right": 539,
+          "left": 463.41,
+          "right": 537.41,
           "top": 31.5,
           "bottom": 60.5,
           "width": 74,
@@ -437,8 +437,8 @@
           "visible": true
         },
         "nav-3": {
-          "left": 574,
-          "right": 653,
+          "left": 571.59,
+          "right": 650.59,
           "top": 31.5,
           "bottom": 60.5,
           "width": 79,
@@ -446,8 +446,8 @@
           "visible": true
         },
         "nav-4": {
-          "left": 688,
-          "right": 778,
+          "left": 684.8,
+          "right": 774.8,
           "top": 31.5,
           "bottom": 60.5,
           "width": 90,
@@ -455,8 +455,8 @@
           "visible": true
         },
         "nav-5": {
-          "left": 813,
-          "right": 857,
+          "left": 809,
+          "right": 853,
           "top": 31.5,
           "bottom": 60.5,
           "width": 44,
@@ -464,8 +464,8 @@
           "visible": true
         },
         "reserve": {
-          "left": 869,
-          "right": 1022,
+          "left": 865,
+          "right": 1018,
           "top": 21,
           "bottom": 71,
           "width": 153,
@@ -473,8 +473,8 @@
           "visible": true
         },
         "order": {
-          "left": 1027,
-          "right": 1147,
+          "left": 1025,
+          "right": 1145,
           "top": 21,
           "bottom": 71,
           "width": 120,
@@ -509,10 +509,7 @@
           "visible": true
         }
       },
-      "issues": [
-        "reserve overlaps/touches order; gap=5px (minimum 6)",
-        "order overlaps/touches directions; gap=5px (minimum 6)"
-      ],
+      "issues": [],
       "screenshot": "qa-screenshots/header-1280.png"
     },
     {
@@ -523,8 +520,8 @@
         "contactToReserve": null,
         "emblemToWordmark": 8,
         "buttonGaps": [
-          4,
-          4
+          7,
+          7
         ]
       },
       "boxes": {
@@ -637,8 +634,8 @@
           "visible": false
         },
         "reserve": {
-          "left": 628,
-          "right": 756,
+          "left": 622,
+          "right": 750,
           "top": 22,
           "bottom": 70,
           "width": 128,
@@ -646,8 +643,8 @@
           "visible": true
         },
         "order": {
-          "left": 760,
-          "right": 870,
+          "left": 757,
+          "right": 867,
           "top": 22,
           "bottom": 70,
           "width": 110,
@@ -682,17 +679,9 @@
           "visible": true
         }
       },
-      "issues": [
-        "reserve overlaps/touches order; gap=4px",
-        "order overlaps/touches directions; gap=4px"
-      ],
+      "issues": [],
       "screenshot": "qa-screenshots/header-1024.png"
     }
   ],
-  "issues": [
-    "1280: reserve overlaps/touches order; gap=5px (minimum 6)",
-    "1280: order overlaps/touches directions; gap=5px (minimum 6)",
-    "1024: reserve overlaps/touches order; gap=4px",
-    "1024: order overlaps/touches directions; gap=4px"
-  ]
+  "issues": []
 }
