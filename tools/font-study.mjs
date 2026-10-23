@@ -1,0 +1,14 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs';
+fs.mkdirSync('qa-screenshots',{recursive:true});
+const b=await chromium.launch({headless:true,args:['--no-sandbox']});
+const p=await b.newPage({viewport:{width:1350,height:1010},deviceScaleFactor:1});
+const families=['Cormorant SC','Cinzel','Marcellus SC','Playfair Display SC'];
+const html=`<!doctype html><html><head><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Marcellus+SC&family=Playfair+Display+SC:wght@700&family=Cormorant+SC:wght@700&display=swap" rel="stylesheet"><style>*{box-sizing:border-box}body{background:#e5e5dc;color:#112C1E;font-family:Arial;margin:0;padding:18px}.row{display:grid;grid-template-columns:185px 520px 520px;gap:12px;background:#fffdf7;margin:10px 0;padding:14px;min-height:174px;align-items:center}.label{font:bold 15px Arial}.word{font-size:43px;font-weight:700;letter-spacing:-.042em;white-space:nowrap}.and{color:#C9A24A;font-size:.58em}.sub{letter-spacing:.18em;font:bold 11px Arial}.card{font-size:31px;font-weight:700;margin-top:7px}.ref{width:480px;height:75px;background:url('https://jasonsunburstdodge.github.io/Bell-and-Harbor/assets/concept.png') no-repeat -175px -16px /1536px 1024px}.refcard{width:480px;height:45px;background:url('https://jasonsunburstdodge.github.io/Bell-and-Harbor/assets/concept.png') no-repeat -52px -658px /1536px 1024px}</style></head><body><h2>Type comparison against approved artwork</h2><div class="row"><div class="label">Concept reference</div><div><div class="ref"></div></div><div class="refcard"></div></div>${families.map(f=>`<div class="row"><div class="label">${f}</div><div style="font-family:'${f}'"><div class="word">Bell <span class="and">and</span> Harbor</div><div class="sub">LAKESIDE GRILL AND SOCIAL</div><div class="card">Weekend Brunch</div></div><div style="font-family:'${f}'"><div class="word">BELL <span class="and">AND</span> HARBOR</div><div class="sub">LAKESIDE GRILL AND SOCIAL</div><div class="card">WEEKEND BRUNCH</div></div></div>`).join('')}</body></html>`;
+await p.setContent(html,{waitUntil:'load',timeout:35000});
+await p.evaluate(async()=>await document.fonts.ready);
+await p.waitForTimeout(1000);
+const metrics=await p.evaluate(()=>[...document.fonts].map(f=>({family:f.family,weight:f.weight,status:f.status})));
+await p.screenshot({path:'qa-screenshots/font-study.png',fullPage:true});
+fs.writeFileSync('qa-screenshots/font-study.json',JSON.stringify(metrics,null,2));
+console.log(metrics);await b.close();
