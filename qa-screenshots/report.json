@@ -1,6 +1,6 @@
 {
   "source": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
-  "capturedAt": "2026-10-23T15:46:26.567Z",
+  "capturedAt": "2026-10-23T15:51:10.122Z",
   "screenshots": {
     "desktop": {
       "filename": "qa-screenshots/deployed-desktop.png",
@@ -11,10 +11,16 @@
       "h1": [
         "Bell and Harbor – Lakeside Grill and Social"
       ],
-      "headerHeight": 92,
+      "heroNative": {
+        "width": 1214,
+        "height": 397
+      },
+      "fontFamily": "\"Playfair Display SC\", Georgia, serif",
+      "brandWidth": 440,
+      "headerHeight": 116,
       "featureImageHeight": 153.59375,
       "pillHeight": 49,
-      "wordmarkFontSize": 35,
+      "wordmarkFontSize": 37,
       "errors": []
     },
     "mobile": {
@@ -26,10 +32,16 @@
       "h1": [
         "Bell and Harbor – Lakeside Grill and Social"
       ],
+      "heroNative": {
+        "width": 1214,
+        "height": 397
+      },
+      "fontFamily": "\"Playfair Display SC\", Georgia, serif",
+      "brandWidth": 315,
       "headerHeight": 135,
       "featureImageHeight": 88,
       "pillHeight": 38,
-      "wordmarkFontSize": 32.76,
+      "wordmarkFontSize": 28.47,
       "errors": []
     }
   },
