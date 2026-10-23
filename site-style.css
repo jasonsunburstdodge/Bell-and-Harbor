@@ -113,3 +113,177 @@
  .feature .pill{position:relative;z-index:1}
  .nav-toggle{position:relative;z-index:3;background:var(--cream)}
 }
+
+/* Header geometry contract, 2026-10-23: 1536px is the design canvas itself.
+   Only the hero and image grid scale from the 1214px content area.
+   Header: emblem [64,172], wordmark [185,412], nav [457,922],
+   actions [945,1120] [1130,1274] [1284,1423] at viewport=1536. */
+@media (min-width:1440px) {
+  .site-header {
+    display:block;
+    position:relative;
+    padding:0;
+    width:100%;
+    height:92px;
+    min-height:92px;
+    gap:0;
+  }
+  .site-header::after {
+    display:block;
+    left:0;
+    top:78px;
+    width:435px;
+    height:44px;
+    background:var(--cream);
+    border-radius:0 0 70% 0 / 0 0 100% 0;
+    z-index:0;
+  }
+  .brand {
+    position:absolute;
+    left:64px;
+    top:0;
+    width:348px;
+    height:92px;
+    flex:none;
+    min-width:0;
+    gap:13px;
+    display:flex;
+    align-items:center;
+    z-index:2;
+  }
+  .brand-pic {
+    width:108px;
+    height:108px;
+    flex:0 0 108px;
+    top:14px;
+    left:0;
+    border-width:3px;
+  }
+  .brand-copy {
+    box-sizing:border-box;
+    width:227px;
+    flex:0 0 227px;
+    white-space:nowrap;
+  }
+  .brand-name {
+    font-size:29px;
+    line-height:1;
+    letter-spacing:-.075em;
+    white-space:nowrap;
+  }
+  .brand-name em {font-size:.46em}
+  .brand-sub {font-size:8.5px;letter-spacing:.14em;line-height:1.8}
+  .brand-rule {width:125px}
+  .brand-flame{height:14px;width:14px}
+  .site-nav {
+    display:flex;
+    position:absolute;
+    left:457px;
+    top:0;
+    width:465px;
+    height:92px;
+    flex:none;
+    min-width:0;
+    gap:0;
+    padding:0;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .site-nav a {
+    font-size:10.2px;
+    font-weight:500;
+    letter-spacing:.025em;
+    padding:11px 0;
+  }
+  .header-actions {
+    display:flex;
+    position:absolute;
+    left:945px;
+    top:19px;
+    height:54px;
+    width:478px;
+    align-items:center;
+    justify-content:flex-start;
+    flex:none;
+    gap:10px;
+    margin:0;
+  }
+  .header-actions .action {
+    flex:none;
+    box-sizing:border-box;
+    height:54px;
+    min-height:54px;
+    max-width:none;
+    padding:8px 9px;
+    font-size:9.1px;
+    line-height:1.25;
+    gap:6px;
+    justify-content:center;
+  }
+  .header-actions .action svg {display:block;width:22px;height:22px;flex:0 0 22px}
+  .header-actions .reserve {width:175px}
+  .header-actions .order {width:144px}
+  .header-actions .pin {width:139px}
+  .nav-toggle {display:none}
+}
+/* 1180-1439: retain six links and all actions, compact gaps and type. */
+@media (min-width:1180px) and (max-width:1439px) {
+  .site-header {display:flex;height:92px;padding:0 16px;gap:12px;align-items:center}
+  .site-header::after {display:block;left:0;top:79px;width:385px;height:34px;border-radius:0 0 70% 0 / 0 0 100% 0}
+  .brand {position:relative;left:auto;top:auto;flex:0 0 302px;width:302px;height:92px;min-width:0;gap:10px}
+  .brand-pic {width:86px;height:86px;flex:0 0 86px;top:9px}
+  .brand-copy {width:206px;flex:0 0 206px}
+  .brand-name {font-size:25px;letter-spacing:-.075em;white-space:nowrap}
+  .brand-sub {font-size:8px;letter-spacing:.1em}
+  .brand-rule{width:120px}
+  .site-nav {display:flex;position:relative;left:auto;top:auto;flex:1 1 auto;width:auto;height:92px;min-width:0;gap:0;align-items:center;justify-content:space-between}
+  .site-nav a {font-size:9px;letter-spacing:0;padding:9px 0}
+  .header-actions {display:flex;position:relative;left:auto;top:auto;flex:0 0 auto;gap:5px;width:auto;height:50px;margin:0}
+  .header-actions .action{height:50px;min-height:50px;max-width:none;padding:5px 6px;font-size:8.5px;gap:4px;line-height:1.25;justify-content:center}
+  .header-actions .action svg{display:block;width:18px;height:18px;flex:0 0 18px}
+  .header-actions .reserve{width:153px}
+  .header-actions .order{width:120px}
+  .header-actions .pin{width:112px}
+  .nav-toggle {display:none}
+}
+/* 1050-1179: preserve navigation, remove action icons before collapsing it. */
+@media (min-width:1050px) and (max-width:1179px) {
+  .site-header{display:flex;height:92px;padding:0 12px;gap:10px;align-items:center}
+  .site-header::after{display:block;left:0;top:79px;width:350px;height:31px;border-radius:0 0 70% 0 / 0 0 100% 0}
+  .brand {position:relative;left:auto;top:auto;flex:0 0 280px;width:280px;height:92px;gap:9px;min-width:0}
+  .brand-pic{width:78px;height:78px;flex:0 0 78px;top:7px}
+  .brand-copy{width:193px;flex:0 0 193px}
+  .brand-name{font-size:23px;letter-spacing:-.08em;white-space:nowrap}
+  .brand-sub{font-size:7.5px;letter-spacing:.10em}
+  .brand-rule{width:105px}
+  .site-nav{display:flex;position:relative;left:auto;top:auto;flex:1 1 auto;width:auto;height:92px;min-width:0;gap:0;align-items:center;justify-content:space-between}
+  .site-nav a{font-size:8.5px;letter-spacing:0;padding:9px 0}
+  .header-actions{display:flex;position:relative;left:auto;top:auto;flex:0 0 auto;height:50px;width:auto;gap:4px;margin:0}
+  .header-actions .action{height:50px;min-height:50px;max-width:none;padding:6px;font-size:8.2px;gap:0;justify-content:center}
+  .header-actions .action svg{display:none}
+  .header-actions .reserve{width:130px}
+  .header-actions .order{width:109px}
+  .header-actions .pin{width:94px}
+  .nav-toggle{display:none}
+}
+/* 769-1049: show accessible hamburger, keep the three compact actions visible. */
+@media (min-width:769px) and (max-width:1049px) {
+  .site-header{display:flex;height:92px;padding:0 12px;gap:8px;align-items:center;justify-content:space-between}
+  .site-header::after{display:block;left:0;top:79px;width:335px;height:32px;border-radius:0 0 70% 0 / 0 0 100% 0}
+  .brand{position:relative;left:auto;top:auto;flex:0 0 263px;width:263px;height:92px;min-width:0;gap:8px}
+  .brand-pic{width:72px;height:72px;flex:0 0 72px;top:7px}
+  .brand-copy{width:183px;flex:0 0 183px}
+  .brand-name{font-size:21px;letter-spacing:-.09em;white-space:nowrap}
+  .brand-sub{font-size:7px;letter-spacing:.09em}
+  .brand-rule{width:100px}
+  .site-nav{display:none;position:absolute;left:0;right:0;top:100%;width:100%;height:auto;background:var(--cream);padding:14px 20px;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 8px 12px #0002}
+  .site-nav.open{display:flex}
+  .site-nav a{font-size:12px;padding:11px;border-bottom:1px solid var(--line)}
+  .header-actions{display:flex;position:relative;left:auto;top:auto;flex:1 1 auto;width:auto;height:48px;gap:4px;margin:0;justify-content:flex-end}
+  .header-actions .action{height:48px;min-height:48px;max-width:none;padding:6px;font-size:8px;gap:0;justify-content:center}
+  .header-actions .action svg{display:none}
+  .header-actions .reserve{width:128px}
+  .header-actions .order{width:110px}
+  .header-actions .pin{width:96px}
+  .nav-toggle{display:block;flex:0 0 33px;padding:3px;background:var(--cream)}
+}
