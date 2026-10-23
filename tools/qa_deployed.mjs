@@ -18,7 +18,7 @@ for(const [name,width,height] of [['desktop',1536,1024],['mobile',390,844]]){
     const family=getComputedStyle(document.querySelector('.brand-name')).fontFamily;
     const cropped=(hero.naturalWidth===1214 && hero.naturalHeight===397);
     if(window.innerWidth===390) return cropped && Math.abs(header.getBoundingClientRect().height-135)<2 && family.includes('Playfair Display SC') && parseFloat(getComputedStyle(document.querySelector('.brand-name')).fontSize)<=27;
-    return cropped && Math.abs(header.getBoundingClientRect().height-116)<2 && family.includes('Playfair Display SC');
+    return cropped && Math.abs(header.getBoundingClientRect().height-92)<2 && family.includes('Playfair Display SC');
    })){
     loaded=true;break;
    }
