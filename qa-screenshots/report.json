@@ -1,6 +1,6 @@
 {
   "source": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
-  "capturedAt": "2026-10-23T15:35:14.942Z",
+  "capturedAt": "2026-10-23T15:44:38.269Z",
   "screenshots": {
     "desktop": {
       "filename": "qa-screenshots/deployed-desktop.png",
@@ -13,6 +13,8 @@
       ],
       "headerHeight": 92,
       "featureImageHeight": 153.59375,
+      "pillHeight": 49,
+      "wordmarkFontSize": 35,
       "errors": []
     },
     "mobile": {
@@ -26,6 +28,8 @@
       ],
       "headerHeight": 135,
       "featureImageHeight": 88,
+      "pillHeight": 38,
+      "wordmarkFontSize": 32.76,
       "errors": []
     }
   },

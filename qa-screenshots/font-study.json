@@ -1,0 +1,67 @@
+[
+  {
+    "family": "Cinzel",
+    "weight": "700",
+    "status": "unloaded"
+  },
+  {
+    "family": "Cinzel",
+    "weight": "700",
+    "status": "loaded"
+  },
+  {
+    "family": "Cormorant SC",
+    "weight": "700",
+    "status": "unloaded"
+  },
+  {
+    "family": "Cormorant SC",
+    "weight": "700",
+    "status": "unloaded"
+  },
+  {
+    "family": "Cormorant SC",
+    "weight": "700",
+    "status": "unloaded"
+  },
+  {
+    "family": "Cormorant SC",
+    "weight": "700",
+    "status": "unloaded"
+  },
+  {
+    "family": "Cormorant SC",
+    "weight": "700",
+    "status": "loaded"
+  },
+  {
+    "family": "Marcellus SC",
+    "weight": "400",
+    "status": "unloaded"
+  },
+  {
+    "family": "Marcellus SC",
+    "weight": "400",
+    "status": "loaded"
+  },
+  {
+    "family": "Playfair Display SC",
+    "weight": "700",
+    "status": "unloaded"
+  },
+  {
+    "family": "Playfair Display SC",
+    "weight": "700",
+    "status": "unloaded"
+  },
+  {
+    "family": "Playfair Display SC",
+    "weight": "700",
+    "status": "unloaded"
+  },
+  {
+    "family": "Playfair Display SC",
+    "weight": "700",
+    "status": "loaded"
+  }
+]
