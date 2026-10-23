@@ -101,3 +101,15 @@
  .brand-rule{display:block}
  .brand-flame{display:block}
 }
+
+/* Screenshot-verified typography refinements: avoid mobile menu collisions */
+@media(min-width:901px){
+ .feature h2{font-size:clamp(23px,1.8vw,29px);letter-spacing:-.053em}
+}
+@media(max-width:768px){
+ .brand-name{font-size:clamp(23px,6.65vw,28px);letter-spacing:-.065em}
+ .brand-name em::before,.brand-name em::after{width:.23em}
+ .feature h2{font-size:clamp(18px,5.25vw,22px);letter-spacing:-.075em}
+ .feature .pill{position:relative;z-index:1}
+ .nav-toggle{position:relative;z-index:3;background:var(--cream)}
+}
