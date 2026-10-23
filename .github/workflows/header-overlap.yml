@@ -1,0 +1,47 @@
+name: Header overlap measurements
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site-style.css'
+      - 'tools/check_header_overlap.mjs'
+      - '.github/workflows/header-overlap.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bell-harbor-header-only-qa
+  cancel-in-progress: true
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install headless browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Inspect published header at four widths
+        continue-on-error: true
+        run: node tools/check_header_overlap.mjs
+      - name: Commit measured gaps and screenshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add qa-screenshots/header-layout.json qa-screenshots/header-1536.png qa-screenshots/header-1440.png qa-screenshots/header-1280.png qa-screenshots/header-1024.png
+          if ! git diff --cached --quiet; then
+            git commit -m "Record four-width deployed header overlap measurements"
+            git pull --rebase
+            git push
+          fi
+      - name: Require zero collisions
+        run: node -e "const r=require('./qa-screenshots/header-layout.json'); if(r.issues.length){console.error(r.issues.join('\\n'));process.exit(1)}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: header-overlap-qa
+          path: qa-screenshots/header*
