@@ -9,3 +9,32 @@
 @media(max-width:900px){.site-header{height:82px;justify-content:space-between}.site-header:after{display:none}.brand{flex:1;height:82px}.brand-pic{width:64px;height:64px;flex-basis:64px;top:0;box-shadow:none}.brand-name{font-size:27px}.brand-sub{font-size:8px}.brand-rule,.brand-flame{display:none}.header-actions{display:none}.nav-toggle{display:block;flex:0 0 36px}.site-nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--cream);min-width:0;padding:12px 17px 20px;box-shadow:0 8px 12px #0001;flex-direction:column;align-items:stretch}.site-nav.open{display:flex}.site-nav a{font-size:12px;padding:11px;border-bottom:1px solid var(--line)}.features{grid-template-columns:repeat(2,1fr)}.page-hero{padding:38px 22px}}
 @media(max-width:768px){.site-header{height:85px;padding:0 13px}.brand{gap:10px;min-width:0}.brand-pic{width:64px;height:64px;flex-basis:64px}.brand-name{font-size:clamp(20px,5.7vw,27px)}.brand-sub{font-size:clamp(6px,1.65vw,8px);letter-spacing:.13em}.hero-desktop{display:none}.hero-mobile{display:block;width:100%;height:auto;aspect-ratio:280/230}.features{display:block;padding:0}.feature{height:94px;display:grid;grid-template-columns:96px minmax(0,1fr) 22px;gap:13px;align-items:center;text-align:left;border-bottom:1px solid var(--line);padding:8px 14px}.feature img{width:96px;height:72px;object-fit:cover;border-radius:4px}.feature h2{font:600 clamp(18px,4.7vw,23px)/1.12 var(--serif);white-space:nowrap;margin:0}.feature .pill{min-width:0;width:22px;padding:0;background:none;color:var(--green);font-size:0}.feature .pill span{display:none}.feature .pill svg{display:none}.feature .pill:after{content:"›";font:400 29px Arial}.bottom-photo{display:none}.mobile-actions{display:grid;gap:7px;padding:12px 14px 18px}.mobile-actions .action{width:100%;min-height:52px;justify-content:center;font-size:11px;border-radius:10px}.page-hero{display:block;padding:34px 20px}.page-hero h1{font-size:48px}.page-hero img{margin-top:20px}.content{padding:28px 18px 65px}.cards,.split,.fields,.choice-group{grid-template-columns:1fr}.buttons{flex-direction:column}.buttons .button{width:100%}.panel{padding:21px}.menu-links{flex-wrap:nowrap;overflow-x:auto}.menu-links a{white-space:nowrap}.footer{padding:32px 14px}.footer-links{gap:12px}}
 @media(max-width:360px){.brand-name{font-size:19px}.brand-sub{font-size:6px}.feature{gap:8px;padding:8px}.feature h2{font-size:18px}}
+
+/* Visual QA refinements: proportions measured against the approved artwork. */
+@media(min-width:901px){
+ .feature img{aspect-ratio:auto;height:clamp(128px,10vw,164px);object-fit:cover}
+ .feature{padding-bottom:17px}
+}
+@media(min-width:769px) and (max-width:900px){
+ .feature img{aspect-ratio:auto;height:155px;object-fit:cover}
+}
+@media(min-width:361px) and (max-width:768px){
+ .site-header{height:135px;padding:0 13px}
+ .brand{height:135px;gap:10px}
+ .brand-pic{width:94px;height:94px;flex-basis:94px}
+ .brand-name{font-size:clamp(27px,7.4vw,34px)}
+ .brand-sub{font-size:clamp(7px,2vw,9px);letter-spacing:.11em}
+ .nav-toggle{flex:0 0 30px;padding:3px}
+ .feature{height:110px;grid-template-columns:116px minmax(0,1fr) 22px;gap:12px;padding:8px 12px}
+ .feature img{width:116px;height:88px}
+ .feature h2{font-size:clamp(21px,5.6vw,25px)}
+ .mobile-actions{padding-top:14px}
+}
+@media(max-width:360px){
+ .site-header{height:103px}
+ .brand{height:103px}
+ .brand-pic{width:73px;height:73px;flex-basis:73px}
+ .brand-name{font-size:23px}
+ .feature{height:98px;grid-template-columns:100px minmax(0,1fr) 20px}
+ .feature img{width:100px;height:76px}
+}
