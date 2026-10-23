@@ -7,6 +7,7 @@ on:
       - 'site-style.css'
       - 'site-app.js'
       - 'tools/qa_deployed.mjs'
+      - 'tools/font-study.mjs'
       - 'index.html'
       - 'menus/**'
       - 'reservations/**'
@@ -30,6 +31,8 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
+      - name: Compare candidate serif fonts to approved reference
+        run: node tools/font-study.mjs
       - name: Render and inspect public staging
         run: node tools/qa_deployed.mjs
       - name: Build comparison images
