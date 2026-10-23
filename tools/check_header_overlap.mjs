@@ -87,6 +87,103 @@ for(const width of widths){
  console.log(width,JSON.stringify({measured,issues}));
  await page.close();
 }
+
+/* Mobile title and wordmark bounding-box regression tests */
+report.mobileViewports=[];
+for(const [width,height] of [[390,844],[375,667],[360,780]]){
+ const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1});
+ let ready=false;
+ for(let attempt=0;attempt<12;attempt++){
+  try{
+   await page.goto(url+'?mobile-row-qa='+Date.now(),{waitUntil:'load',timeout:25000});
+   await page.evaluate(async()=>await document.fonts.ready);
+   const state=await page.evaluate(()=>{
+    const row=document.querySelector('.feature');
+    const title=row?.querySelector('h2');
+    return {
+     header:document.querySelector('.site-header')?.getBoundingClientRect().height,
+     emblem:document.querySelector('.brand-pic')?.getBoundingClientRect().width,
+     row:row?.getBoundingClientRect().height,
+     fontSize:title?parseFloat(getComputedStyle(title).fontSize):0,
+     transform:title?getComputedStyle(title).textTransform:null,
+     caps:title?getComputedStyle(title).fontVariantCaps:null,
+     fontWeight:title?getComputedStyle(title).fontWeight:null
+    };
+   });
+   if(Math.abs(state.header-96)<1 && Math.abs(state.emblem-64)<1 &&
+      Math.abs(state.row-96)<1 && Math.abs(state.fontSize-(width<=375?19:20))<0.5 &&
+      state.transform==='none' && state.caps==='small-caps' && state.fontWeight==='400'){
+     ready=true;break;
+   }
+  }catch(e){console.log('mobile loading retry',width,String(e).slice(0,180))}
+  await new Promise(resolve=>setTimeout(resolve,10000));
+ }
+ if(!ready){
+  report.issues.push(width+'×'+height+': new mobile title stylesheet was not deployed');
+  await page.close();
+  continue;
+ }
+ const measurements=await page.evaluate(()=>{
+  const box=r=>({left:+r.left.toFixed(2),right:+r.right.toFixed(2),
+    top:+r.top.toFixed(2),bottom:+r.bottom.toFixed(2),width:+r.width.toFixed(2),height:+r.height.toFixed(2)});
+  const textBox=element=>{const range=document.createRange();
+    range.selectNodeContents(element);return box(range.getBoundingClientRect());};
+  const header=document.querySelector('.site-header');
+  const emblem=document.querySelector('.brand-pic');
+  const wordmark=document.querySelector('.brand-name');
+  const subtitle=document.querySelector('.brand-sub');
+  const toggle=document.querySelector('#nav-toggle');
+  const brandBox=textBox(wordmark),subtitleBox=textBox(subtitle),toggleBox=box(toggle.getBoundingClientRect());
+  const rows=[...document.querySelectorAll('.features .feature')].map(row=>{
+   const h2=row.querySelector('h2'),arrow=row.querySelector('.pill'),image=row.querySelector('img');
+   const rr=box(row.getBoundingClientRect()),tr=textBox(h2),ar=box(arrow.getBoundingClientRect()),im=box(image.getBoundingClientRect());
+   const css=getComputedStyle(h2);
+   return {title:h2.textContent.trim(),row:rr,text:tr,arrow:ar,image:im,
+    fontSize:+parseFloat(css.fontSize).toFixed(2),fontWeight:css.fontWeight,
+    textTransform:css.textTransform,fontVariantCaps:css.fontVariantCaps,
+    letterSpacing:css.letterSpacing,
+    fitsHorizontally:tr.left>=rr.left-1&&tr.right<=ar.left-5,
+    fitsVertically:tr.top>=rr.top-1&&tr.bottom<=rr.bottom+1,
+    imageFits:im.left>=rr.left-1&&im.right<tr.left,
+    rowHeight:rr.height};
+  });
+  return {headerHeight:header.getBoundingClientRect().height,
+   emblemDiameter:emblem.getBoundingClientRect().width,
+   brandName:brandBox,subtitle:subtitleBox,hamburger:toggleBox,
+   wordmarkToHamburgerGap:+(toggleBox.left-Math.max(brandBox.right,subtitleBox.right)).toFixed(2),
+   horizontalOverflow:document.documentElement.scrollWidth>innerWidth,
+   rows};
+ });
+ const problems=[];
+ const expectedTitles=['Weekend Brunch','Our Menus','Craft Cocktails','Events Calendar'];
+ if(measurements.rows.length!==4)problems.push('Expected 4 mobile feature rows, found '+measurements.rows.length);
+ for(let i=0;i<measurements.rows.length;i++){
+  const row=measurements.rows[i];
+  if(row.title!==expectedTitles[i])problems.push('Incorrect Title Case for row '+(i+1)+': '+row.title);
+  if(!row.fitsHorizontally)problems.push(row.title+' text intersects chevron or extends beyond row; textRight='+row.text.right+' arrowLeft='+row.arrow.left);
+  if(!row.fitsVertically)problems.push(row.title+' title clipped vertically by row');
+  if(!row.imageFits)problems.push(row.title+' text overlaps thumbnail');
+  if(row.textTransform!=='none')problems.push(row.title+' text-transform is '+row.textTransform);
+  if(row.fontVariantCaps!=='small-caps')problems.push(row.title+' font-variant-caps is '+row.fontVariantCaps);
+  if(Number(row.fontWeight)>500)problems.push(row.title+' font weight too heavy: '+row.fontWeight);
+  if(Math.abs(row.fontSize-(width<=375?19:20))>.6)problems.push(row.title+' font size '+row.fontSize+' differs from target');
+  if(parseFloat(row.letterSpacing)>.25||parseFloat(row.letterSpacing)<-.1)problems.push(row.title+' letter spacing '+row.letterSpacing+' is too tight or too wide');
+ }
+ if(measurements.wordmarkToHamburgerGap<12)problems.push('Wordmark to hamburger gap '+measurements.wordmarkToHamburgerGap+'px, below 12px requirement');
+ if(Math.abs(measurements.emblemDiameter-64)>1)problems.push('Emblem is not 64px');
+ if(measurements.horizontalOverflow)problems.push('Horizontal scrolling detected');
+ if(width===390){
+  const bottom=measurements.rows[3]?.row.bottom??Infinity;
+  if(bottom>height+1)problems.push('Fourth row extends below '+height+'px first viewport (bottom='+bottom+')');
+ }
+ const screenshot='qa-screenshots/mobile-rows-'+width+'.png';
+ await page.screenshot({path:screenshot,fullPage:true});
+ report.mobileViewports.push({width,height,...measurements,issues:problems,screenshot});
+ report.issues.push(...problems.map(issue=>width+'×'+height+': '+issue));
+ console.log('MOBILE_ROWS_QA',width,JSON.stringify({issues:problems,wordmarkClearance:measurements.wordmarkToHamburgerGap,rows:measurements.rows.map(r=>({title:r.title,fitsHorizontally:r.fitsHorizontally,fitsVertically:r.fitsVertically,text:r.text}))}));
+ await page.close();
+}
+
 await browser.close();
 fs.writeFileSync('qa-screenshots/header-layout.json',JSON.stringify(report,null,2));
 console.log('QA_HEADER_RESULT',JSON.stringify({issues:report.issues,measured:report.viewports.map(v=>({width:v.width,...v.measured}))}));
