@@ -6,6 +6,7 @@ on:
     paths:
       - 'site-style.css'
       - 'site-app.js'
+      - 'tools/qa_deployed.mjs'
       - 'index.html'
       - 'menus/**'
       - 'reservations/**'
