@@ -292,3 +292,8 @@
 @media(min-width:769px) and (max-width:1179px){
  .header-actions .reserve,.header-actions .order,.header-actions .pin{display:inline-flex}
 }
+
+/* Automated bounding-box QA requires >=6px clearance between adjacent controls. */
+@media(min-width:1180px) and (max-width:1439px){.header-actions{gap:7px}}
+@media(min-width:1050px) and (max-width:1179px){.header-actions{gap:7px}}
+@media(min-width:769px) and (max-width:1049px){.header-actions{gap:7px}}
