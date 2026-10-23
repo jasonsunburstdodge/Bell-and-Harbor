@@ -4,7 +4,7 @@ root=Path(__file__).resolve().parents[1]
 source=root/'assets/concept.png'
 if not source.exists(): raise SystemExit('Missing assets/concept.png')
 rects={
-'hero-desktop.jpg':(0,92,1214,527),
+'hero-desktop.jpg':(0,130,1214,527),
 'hero-mobile.jpg':(1236,232,1516,462),
 'feature-brunch.jpg':(20,535,320,652),
 'feature-menus.jpg':(330,535,622,652),
