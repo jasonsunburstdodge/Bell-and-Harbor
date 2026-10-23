@@ -7,8 +7,8 @@ https://jasonsunburstdodge.github.io/Bell-and-Harbor/
 
 ## Visual master
 - `assets/concept.png` is the design reference and source for artwork crops.
-- `assets/hero-desktop.jpg` is generated from exact coordinates **(0, 92, 1214, 527)** at JPEG quality 85.
-- The hero contains the brand lockup in the image; no HTML logo or headline is overlaid on it.
+- `assets/hero-desktop.jpg` is generated from exact coordinates **(0, 130, 1214, 527)** at JPEG quality 85.
+- The hero contains the center-stage brand lockup in the image; no HTML logo or headline is overlaid on it. The upper baked-in partial header emblem is removed by starting the hero at y=130, and the header tab is drawn in CSS. The header wordmark and feature titles use Playfair Display SC 700 following a visual comparison of four serif options.
 - A visually hidden home-page H1 supplies accessible semantic text.
 - On mobile, `assets/hero-mobile.jpg` uses (1236, 232, 1516, 462), which excludes the baked-in desktop branding.
 - The four feature-image crops and the two bottom-row images are generated using the specified rectangles.
