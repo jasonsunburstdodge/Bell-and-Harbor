@@ -10,7 +10,8 @@ for(const [name,width,height] of [['desktop',1536,1024],['mobile',390,844]]){
  let loaded=false;
  for(let attempt=0;attempt<12;attempt++){
   try{
-   await page.goto(base,{waitUntil:'domcontentloaded',timeout:20000});
+   await page.goto(base,{waitUntil:'load',timeout:20000});
+   await page.locator('.hero-desktop').evaluate(img=>img.decode().catch(()=>{}));
    if(await page.locator('link[href*="site-style.css"]').count() && await page.locator('.features').count() && await page.evaluate(() => {
     const header=document.querySelector('.site-header');
     const hero=document.querySelector('.hero-desktop');
