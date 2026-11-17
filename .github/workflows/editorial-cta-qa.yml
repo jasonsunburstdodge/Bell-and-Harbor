@@ -1,0 +1,56 @@
+name: Bell and Harbor editorial CTA verification
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'lakeside-ctas.css'
+      - 'tools/editorial-cta-qa.mjs'
+      - '.github/workflows/editorial-cta-qa.yml'
+      - 'menus/**'
+      - 'reservations/**'
+      - 'private-events/**'
+      - 'events/**'
+      - 'contact/**'
+      - 'order/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bell-harbor-editorial-cta
+  cancel-in-progress: true
+jobs:
+  visual-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Capture CTA rendering at desktop and mobile
+        run: node tools/editorial-cta-qa.mjs
+        continue-on-error: true
+      - name: Commit QA images and metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add qa-screenshots/editorial-cta-*.png qa-screenshots/editorial-cta-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record deployed boutique CTA visual QA"
+            git pull --rebase
+            git push
+          fi
+      - name: Upload QA artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bell-harbor-editorial-cta-qa
+          path: qa-screenshots/editorial-cta-*
+      - name: Require no CTA layout defects
+        run: |
+          node -e "const r=require('./qa-screenshots/editorial-cta-report.json');if(r.issues.length){console.error(r.issues.join('\n'));process.exit(1)}"
