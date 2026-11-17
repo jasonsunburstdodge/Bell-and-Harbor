@@ -40,10 +40,15 @@ for(const route of ['menus/','menus/main/','menus/brunch/','menus/drinks/','menu
  const errors=[];page.on('pageerror',e=>errors.push(String(e)));
  let status=0;
  try{
-  const response=await page.goto(base+route+'?lakeside-route-check='+Date.now(),{waitUntil:'load',timeout:25000});
-  status=response?.status()??0;
-  await page.evaluate(async()=>await document.fonts.ready);
-  const details=await page.evaluate(()=>({header:!!document.querySelector('.lake-header'),redesignBody:document.body.classList.contains('lakeside-inner'),nav:!!document.querySelector('#lake-navigation'),stylesheet:[...document.querySelectorAll('link[rel=stylesheet]')].some(x=>x.href.includes('lakeside-inner.css')),title:document.querySelector('h1')?.textContent?.trim()??'',oldLogo:!!document.querySelector('img[src*="header-emblem"]'),oldPalette:!!document.querySelector('.site-header')}));
+  let details=null;
+  for(let attempt=0;attempt<8;attempt++){
+   const response=await page.goto(base+route+'?lakeside-route-check='+Date.now(),{waitUntil:'load',timeout:25000});
+   status=response?.status()??0;
+   await page.evaluate(async()=>await document.fonts.ready);
+   details=await page.evaluate(()=>({header:!!document.querySelector('.lake-header'),redesignBody:document.body.classList.contains('lakeside-inner'),nav:!!document.querySelector('#lake-navigation'),stylesheet:[...document.querySelectorAll('link[rel=stylesheet]')].some(x=>x.href.includes('lakeside-inner.css')),title:document.querySelector('h1')?.textContent?.trim()??'',oldLogo:!!document.querySelector('img[src*="header-emblem"]'),oldPalette:!!document.querySelector('.site-header')}));
+   if(details.header&&details.redesignBody&&details.stylesheet)break;
+   await new Promise(resolve=>setTimeout(resolve,6000));
+  }
   report.innerPages.push({route,status,details,errors});
   if(status!==200||!details.header||!details.redesignBody||!details.nav||!details.stylesheet||details.oldLogo||details.oldPalette||!details.title||errors.length)report.issues.push('Inner page not fully migrated: '+route+' '+JSON.stringify({status,details,errors}));
  }catch(e){report.issues.push('Inner page failed '+route+': '+String(e).slice(0,200))}
