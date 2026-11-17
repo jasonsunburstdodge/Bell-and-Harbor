@@ -1,0 +1,261 @@
+/* Bell and Harbor | Editorial coastal action system | 2026-11-17
+   Deep navy, warm cream and brushed-gold accents.
+   Intentionally angular, restrained and consistent across all pages. */
+:root{
+  --bh-cta-ink:#052549;
+  --bh-cta-blue:#1d5d7e;
+  --bh-cta-cream:#fff7e9;
+  --bh-cta-gold:#edab24;
+  --bh-cta-outline:#123958;
+  --bh-cta-ease:cubic-bezier(.22,.8,.22,1);
+}
+.lakeside-redesign .lake-cta,
+.lakeside-inner .button,
+.lakeside-inner button.button{
+  position:relative;
+  isolation:isolate;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  min-height:55px;
+  padding:15px 33px;
+  border:1px solid var(--bh-cta-ink);
+  border-radius:0;
+  background:var(--bh-cta-ink);
+  color:var(--bh-cta-cream) !important;
+  font:500 12px/1.3 'DM Sans',Arial,sans-serif;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  letter-spacing:.19em;
+  box-shadow:4px 4px 0 var(--bh-cta-gold);
+  cursor:pointer;
+  transition:background .25s var(--bh-cta-ease),color .25s var(--bh-cta-ease),border-color .25s var(--bh-cta-ease),box-shadow .25s var(--bh-cta-ease),transform .25s var(--bh-cta-ease);
+}
+.lakeside-redesign .lake-cta:before,
+.lakeside-inner .button:before{
+  content:"";
+  width:22px;
+  height:1px;
+  background:var(--bh-cta-gold);
+  flex:0 0 22px;
+  transition:width .25s var(--bh-cta-ease),background .25s var(--bh-cta-ease);
+}
+.lakeside-redesign .lake-cta:after{
+  content:"↗";
+  font:400 18px/1 'DM Sans',Arial,sans-serif;
+  color:var(--bh-cta-gold);
+  transition:transform .25s var(--bh-cta-ease);
+}
+.lakeside-redesign .lake-cta:hover,
+.lakeside-inner .button:hover,
+.lakeside-inner button.button:hover{
+  background:var(--bh-cta-blue);
+  border-color:var(--bh-cta-blue);
+  color:#fffaf2!important;
+  box-shadow:6px 6px 0 var(--bh-cta-gold);
+  transform:translate(-2px,-2px);
+}
+.lakeside-redesign .lake-cta:hover:before,
+.lakeside-inner .button:hover:before{width:32px}
+.lakeside-redesign .lake-cta:hover:after{transform:translate(3px,-3px)}
+.lakeside-inner .button.outline{
+  color:var(--bh-cta-ink)!important;
+  background:#e6f1f5;
+  border:1px solid var(--bh-cta-ink);
+  box-shadow:4px 4px 0 #92b8cb;
+}
+.lakeside-inner .button.outline:hover{
+  color:#fffaf2!important;
+  background:var(--bh-cta-blue);
+  border-color:var(--bh-cta-blue);
+  box-shadow:6px 6px 0 var(--bh-cta-gold);
+}
+.lakeside-redesign .lake-navigation .lake-order,
+.lakeside-inner .lake-navigation .lake-order{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:48px;
+  padding:11px 20px;
+  border:1px solid var(--bh-cta-ink);
+  border-radius:0;
+  background:rgba(255,250,243,.22);
+  color:var(--bh-cta-ink);
+  font:600 12px/1.2 'DM Sans',Arial,sans-serif;
+  letter-spacing:.16em;
+  box-shadow:3px 3px 0 var(--bh-cta-gold);
+  text-decoration:none;
+  white-space:nowrap;
+  transition:background .25s var(--bh-cta-ease),color .25s var(--bh-cta-ease),box-shadow .25s var(--bh-cta-ease),transform .25s var(--bh-cta-ease);
+}
+.lakeside-redesign .lake-navigation .lake-order:before,
+.lakeside-inner .lake-navigation .lake-order:before{
+  content:"";
+  width:11px;
+  height:11px;
+  margin-right:10px;
+  border-top:1.5px solid var(--bh-cta-gold);
+  border-right:1.5px solid var(--bh-cta-gold);
+  transform:rotate(45deg);
+  flex:0 0 11px;
+  transition:transform .25s var(--bh-cta-ease);
+}
+.lakeside-redesign .lake-navigation .lake-order:hover,
+.lakeside-inner .lake-navigation .lake-order:hover{
+  color:var(--bh-cta-cream);
+  background:var(--bh-cta-ink);
+  box-shadow:5px 5px 0 var(--bh-cta-gold);
+  transform:translate(-1px,-1px);
+  text-decoration:none;
+}
+.lakeside-redesign .lake-navigation .lake-order:hover:before,
+.lakeside-inner .lake-navigation .lake-order:hover:before{
+  transform:translate(2px,-2px) rotate(45deg);
+}
+/* Editorial menu & calendar tabs use a thin underline instead of pill chrome. */
+.lakeside-inner .menu-links a,
+.lakeside-inner .filters button,
+.lakeside-inner .tabs button{
+  position:relative;
+  border:0;
+  border-bottom:1px solid #7198ad;
+  border-radius:0;
+  box-shadow:none;
+  background:transparent;
+  color:var(--bh-cta-ink);
+  padding:12px 15px 13px;
+  font:600 11px/1.5 'DM Sans',Arial,sans-serif;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  transition:background .2s var(--bh-cta-ease),color .2s var(--bh-cta-ease);
+}
+.lakeside-inner .menu-links a:after,
+.lakeside-inner .filters button:after,
+.lakeside-inner .tabs button:after{
+  content:"";
+  position:absolute;
+  height:2px;
+  left:15px;
+  right:100%;
+  bottom:-1px;
+  background:var(--bh-cta-gold);
+  transition:right .25s var(--bh-cta-ease);
+}
+.lakeside-inner .menu-links a:hover,
+.lakeside-inner .filters button:hover,
+.lakeside-inner .tabs button:hover{
+  color:var(--bh-cta-ink);
+  background:rgba(255,255,255,.38);
+}
+.lakeside-inner .menu-links a:hover:after,
+.lakeside-inner .filters button:hover:after,
+.lakeside-inner .tabs button:hover:after{
+  right:15px;
+}
+.lakeside-inner .menu-links a[aria-current="page"],
+.lakeside-inner .filters button.active,
+.lakeside-inner .tabs button.active{
+  background:var(--bh-cta-ink);
+  color:var(--bh-cta-cream);
+  border-bottom-color:var(--bh-cta-ink);
+  box-shadow:inset 0 -2px 0 var(--bh-cta-gold);
+}
+.lakeside-inner .menu-links a[aria-current="page"]:after,
+.lakeside-inner .filters button.active:after,
+.lakeside-inner .tabs button.active:after{display:none}
+/* Cards read like editorial image captions with a signature gold rule. */
+.lakeside-inner .card-link,
+.lakeside-redesign .lake-events a,
+.lakeside-redesign .lake-kids{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  width:max-content;
+  max-width:100%;
+  border:0;
+  border-bottom:1px solid var(--bh-cta-gold);
+  text-decoration:none;
+  padding:0 0 5px;
+  box-shadow:inset 0 -1px 0 var(--bh-cta-gold);
+  font:600 11px/1.5 'DM Sans',Arial,sans-serif;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+  transition:letter-spacing .25s var(--bh-cta-ease),color .2s var(--bh-cta-ease);
+}
+.lakeside-inner .card:hover .card-link,
+.lakeside-inner .card:focus-visible .card-link,
+.lakeside-redesign .lake-events a:hover,
+.lakeside-redesign .lake-kids:hover{
+  letter-spacing:.19em;
+}
+.lakeside-redesign .lake-kids{justify-self:center}
+.lakeside-redesign .lake-events a{color:var(--bh-cta-ink)}
+/* Link treatments stay quiet in the footer and support the primary actions. */
+.lakeside-redesign .lake-footer a,
+.lakeside-inner .lake-footer a{
+  position:relative;
+  transition:color .2s var(--bh-cta-ease);
+}
+.lakeside-redesign .lake-footer a:hover,
+.lakeside-inner .lake-footer a:hover{
+  color:#ffce68;
+  text-decoration:none;
+}
+.lakeside-redesign .lake-footer a:focus-visible,
+.lakeside-inner .lake-footer a:focus-visible,
+.lakeside-redesign .lake-cta:focus-visible,
+.lakeside-inner .button:focus-visible,
+.lakeside-redesign .lake-navigation .lake-order:focus-visible,
+.lakeside-inner .lake-navigation .lake-order:focus-visible,
+.lakeside-inner .menu-links a:focus-visible,
+.lakeside-inner .filters button:focus-visible,
+.lakeside-inner .tabs button:focus-visible{
+  outline:3px solid #f0aa25;
+  outline-offset:4px;
+}
+@media(max-width:850px){
+  .lakeside-redesign .lake-navigation .lake-order,
+  .lakeside-inner .lake-navigation .lake-order{
+    align-self:flex-start;
+  }
+}
+@media(max-width:570px){
+  .lakeside-redesign .lake-cta{
+    min-height:56px;
+    width:100%;
+    min-width:0;
+    margin-left:0;
+    padding:12px 17px;
+    font-size:11px;
+    letter-spacing:.13em;
+    gap:9px;
+  }
+  .lakeside-redesign .lake-cta:before{width:13px;flex-basis:13px}
+  .lakeside-redesign .lake-cta:hover:before{width:18px}
+  .lakeside-inner .button{
+    width:100%;
+    gap:11px;
+    padding:14px 18px;
+    letter-spacing:.12em;
+  }
+  .lakeside-inner .menu-links a,
+  .lakeside-inner .filters button,
+  .lakeside-inner .tabs button{font-size:10px;padding:10px 12px}
+  .lakeside-inner .menu-links a:after,
+  .lakeside-inner .filters button:after,
+  .lakeside-inner .tabs button:after{left:12px}
+}
+@media(prefers-reduced-motion:reduce){
+  .lakeside-redesign .lake-cta,
+  .lakeside-inner .button,
+  .lakeside-redesign .lake-navigation .lake-order,
+  .lakeside-inner .lake-navigation .lake-order,
+  .lakeside-inner .menu-links a,
+  .lakeside-inner .filters button,
+  .lakeside-inner .tabs button,
+  .lakeside-inner .card-link{transition:none}
+}
