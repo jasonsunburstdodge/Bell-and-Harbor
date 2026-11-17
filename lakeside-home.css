@@ -12,3 +12,14 @@
  .lake-hero-copy h1 .lake-hero-subline{font-size:.53em}
  .lake-intro-second{display:inline;white-space:normal}
 }
+
+/* Alignment pass against the approved 1024 x 1536 visual master. */
+@media(min-width:851px){
+ .lake-hero-copy h1 .lake-hero-brandline{transform:scaleX(1.05);margin-top:0}
+ .lake-hero-copy h1 .lake-hero-subline{font-size:.59em;letter-spacing:-.7px}
+ .lake-intro h2{font-family:'DM Sans',Arial,sans-serif;font-weight:400;font-size:55px;letter-spacing:-2.7px;line-height:1.07}
+ .lake-intro-second{transform:scaleX(.96)}
+ .lake-intro p{max-width:298px}
+ .lake-events h2{font-family:'DM Sans',Arial,sans-serif;font-weight:400;font-size:50px;line-height:1.08;letter-spacing:-2.6px}
+ .lake-events p{max-width:340px}
+}
