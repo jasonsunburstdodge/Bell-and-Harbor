@@ -31,7 +31,12 @@ for(const [name,route,width,height,selector] of views){
     const style=el?getComputedStyle(el):null;
     const nstyle=nav?getComputedStyle(nav):null;
     const bounds=el?.getBoundingClientRect();
-    return{hasStyle:[...document.querySelectorAll('link[rel=stylesheet]')].some(x=>x.href.includes('lakeside-ctas.css')),
+    const header=document.querySelector('.lake-header');
+    const logo=document.querySelector('.lake-logo');
+    const orderBounds=nav?.getBoundingClientRect();
+    return{hasStyle:[...document.querySelectorAll('link[rel=stylesheet]')].some(x=>x.href.includes('lakeside-ctas.css?v=editorial-header-fix-20261117')),
+      headerHeight:header?.getBoundingClientRect().height, logoWidth:logo?.getBoundingClientRect().width, logoHeight:logo?.getBoundingClientRect().height,
+      orderHeight:orderBounds?.height, orderFontSize:nstyle?.fontSize, orderBeforeContent:getComputedStyle(nav,'::before').content,
       ctaBorderRadius:style?.borderRadius,ctaBoxShadow:style?.boxShadow,ctaLetterSpacing:style?.letterSpacing,
       ctaHeight:bounds?.height,ctaLeft:bounds?.left,ctaRight:bounds?.right,
       navShadow:nstyle?.boxShadow,navRadius:nstyle?.borderRadius,
@@ -39,7 +44,7 @@ for(const [name,route,width,height,selector] of views){
       brokenImages:[...document.images].filter(x=>x.complete&&!x.naturalWidth).map(x=>x.src),
       mainHeader:!!document.querySelector('.lake-header'),h1:document.querySelectorAll('h1').length};
    },selector);
-   ready=resp?.status()===200 && metrics.hasStyle && !!metrics.ctaBoxShadow && metrics.navShadow!=='none';
+   ready=resp?.status()===200 && metrics.hasStyle && !!metrics.ctaBoxShadow && metrics.navShadow!=='none' && Math.abs(metrics.headerHeight-(width<=850?100:133))<1 && metrics.orderBeforeContent==='none';
    if(ready)break;
   }catch(e){errors.push(String(e).slice(0,150))}
   await new Promise(r=>setTimeout(r,6000));
@@ -53,6 +58,9 @@ for(const [name,route,width,height,selector] of views){
   if(metrics.ctaBorderRadius!=='0px')issues.push('Primary control retained default rounding');
   if(metrics.brokenImages.length)issues.push('Broken images: '+metrics.brokenImages.join(','));
   if(metrics.navRadius!=='0px')issues.push('Header action retained default rounding');
+  if(Math.abs(metrics.headerHeight-(width<=850?100:133))>1)issues.push('Header height changed from approved 133px/100px');
+  if(metrics.orderBeforeContent!=='none')issues.push('Decorative header CTA icon still expands button width');
+  if(width>850 && Math.abs(metrics.orderHeight-44.6)>3)issues.push('Header Order CTA footprint changed: '+metrics.orderHeight+'px');
  }
  if(errors.length)issues.push('JavaScript errors '+errors.join(';'));
  if(ready){
