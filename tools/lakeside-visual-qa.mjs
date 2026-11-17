@@ -19,7 +19,7 @@ for(const [name,width,height] of [['concept-desktop',1024,1536],['desktop-wide',
   await new Promise(r=>setTimeout(r,7500));
  }
  if(!loaded){report.issues.push(name+' did not load redesigned homepage');await page.close();continue;}
- await page.evaluate(async()=>document.fonts.ready);
+ await page.evaluate(async()=>{await document.fonts.ready;for(const img of document.images){img.loading='eager';await img.decode().catch(()=>{})}});
  const metrics=await page.evaluate(()=>{
  const rect=(sel)=>{const el=document.querySelector(sel);if(!el)return null;const r=el.getBoundingClientRect();return {x:Math.round(r.x),y:Math.round(r.y),w:Math.round(r.width),h:Math.round(r.height)}};
  return {header:rect('.lake-header'),logo:rect('.lake-logo'),hero:rect('.lake-hero'),heroCopy:rect('.lake-hero-copy'),heroImage:rect('.lake-hero-photo'),ribbon:rect('.lake-ribbon'),intro:rect('.lake-intro'),menu:rect('.lake-menu-stripe'),events:rect('.lake-events'),footer:rect('.lake-footer'),body:rect('body'),imageStatus:[...document.images].map(x=>({src:x.src.split('/').pop(),loaded:x.complete&&x.naturalWidth>0})),overflow:document.documentElement.scrollWidth>innerWidth, brandline:rect('.lake-hero-brandline'), introSecond:rect('.lake-intro-second')}
