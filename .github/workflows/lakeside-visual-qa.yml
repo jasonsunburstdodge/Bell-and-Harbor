@@ -1,0 +1,43 @@
+name: Bell and Harbor Nov 17 visual fidelity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'lakeside-home.css'
+      - 'tools/lakeside-visual-qa.mjs'
+      - '.github/workflows/lakeside-visual-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bell-harbor-lakeside-qa
+  cancel-in-progress: true
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - run: node tools/lakeside-visual-qa.mjs
+      - name: Commit deployed visual QA
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add qa-screenshots/lakeside-redesign-*.png qa-screenshots/lakeside-redesign-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record current lakeside concept deployed screenshot QA"
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bell-harbor-nov17-visual-qa
+          path: qa-screenshots/lakeside-redesign-*
