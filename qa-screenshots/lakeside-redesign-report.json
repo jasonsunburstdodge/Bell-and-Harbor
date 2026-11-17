@@ -1,10 +1,7 @@
 {
-  "capturedAt": "2026-11-17T22:17:26.820Z",
+  "capturedAt": "2026-11-17T22:19:17.229Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
-  "issues": [
-    "concept-desktop missing image dining-room.jpg",
-    "concept-desktop missing image live-music.jpg"
-  ],
+  "issues": [],
   "screenshots": {
     "concept-desktop": {
       "header": {
@@ -84,7 +81,7 @@
         },
         {
           "src": "dining-room.jpg",
-          "loaded": false
+          "loaded": true
         },
         {
           "src": "menu-salmon.jpg",
@@ -100,7 +97,7 @@
         },
         {
           "src": "live-music.jpg",
-          "loaded": false
+          "loaded": true
         }
       ],
       "overflow": false,
@@ -220,15 +217,15 @@
       "overflow": false,
       "brandline": {
         "x": 35,
-        "y": 229,
-        "w": 467,
+        "y": 225,
+        "w": 599,
         "h": 70
       },
       "introSecond": {
         "x": 44,
-        "y": 726,
-        "w": 275,
-        "h": 57
+        "y": 728,
+        "w": 342,
+        "h": 59
       },
       "width": 1440,
       "height": 950,
