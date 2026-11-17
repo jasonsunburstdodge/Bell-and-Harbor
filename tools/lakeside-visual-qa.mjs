@@ -51,9 +51,18 @@ for(const route of ['menus/','menus/main/','menus/brunch/','menus/drinks/','menu
 }
 {
  const page=await browser.newPage({viewport:{width:390,height:844}});
- await page.goto(base+'menus/?mobile-nav-qa='+Date.now(),{waitUntil:'load',timeout:25000});
- await page.locator('.lake-menu-toggle').click();
- if(!await page.locator('#lake-navigation').isVisible())report.issues.push('Mobile inner-page navigation does not open');
+ let ready=false;
+ for(let attempt=0;attempt<20;attempt++){
+  await page.goto(base+'menus/?mobile-nav-qa='+Date.now(),{waitUntil:'load',timeout:25000});
+  ready=await page.locator('.lake-menu-toggle').count()>0 && await page.locator('.lake-navigation').count()>0;
+  if(ready)break;
+  await new Promise(resolve=>setTimeout(resolve,7500));
+ }
+ if(!ready)report.issues.push('New inner page header was not deployed after retry window');
+ else{
+  await page.locator('.lake-menu-toggle').click();
+  if(!await page.locator('#lake-navigation').isVisible())report.issues.push('Mobile inner-page navigation does not open');
+ }
  await page.close();
 }
 await browser.close();
