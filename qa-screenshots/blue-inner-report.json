@@ -1,0 +1,341 @@
+{
+  "capturedAt": "2026-11-17T22:43:47.302Z",
+  "issues": [],
+  "pages": [
+    {
+      "route": "menus/",
+      "name": "menus",
+      "width": 1024,
+      "height": 900,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": {
+          "background": "rgb(5, 37, 73)",
+          "backgroundImage": "none",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(23, 76, 108)"
+        },
+        "panel": null,
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 1024,
+        "imgBroken": [],
+        "viewWidth": 1024,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "menus/main/",
+      "name": "main-menu",
+      "width": 1024,
+      "height": 900,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": null,
+        "panel": null,
+        "menu": {
+          "background": "rgb(231, 242, 247)",
+          "backgroundImage": "none",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(168, 206, 222) rgb(168, 206, 222) rgb(168, 206, 222) rgb(57, 116, 147)"
+        },
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 1024,
+        "imgBroken": [],
+        "viewWidth": 1024,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "reservations/",
+      "name": "reservations",
+      "width": 1024,
+      "height": 900,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": null,
+        "panel": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(140deg, rgb(8, 41, 75) 0%, rgb(32, 95, 128) 100%)",
+          "color": "rgb(245, 245, 237)",
+          "border": "rgb(20, 79, 112)"
+        },
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 1024,
+        "imgBroken": [],
+        "viewWidth": 1024,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "private-events/",
+      "name": "private-events",
+      "width": 1024,
+      "height": 900,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": null,
+        "panel": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(140deg, rgb(8, 41, 75) 0%, rgb(32, 95, 128) 100%)",
+          "color": "rgb(245, 245, 237)",
+          "border": "rgb(20, 79, 112)"
+        },
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 1024,
+        "imgBroken": [],
+        "viewWidth": 1024,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "events/",
+      "name": "events",
+      "width": 1024,
+      "height": 900,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": null,
+        "panel": null,
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 1024,
+        "imgBroken": [],
+        "viewWidth": 1024,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "contact/",
+      "name": "contact",
+      "width": 1024,
+      "height": 900,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": null,
+        "panel": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(140deg, rgb(8, 41, 75) 0%, rgb(32, 95, 128) 100%)",
+          "color": "rgb(245, 245, 237)",
+          "border": "rgb(20, 79, 112)"
+        },
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 1024,
+        "imgBroken": [],
+        "viewWidth": 1024,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "order/",
+      "name": "order",
+      "width": 1024,
+      "height": 900,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": null,
+        "panel": null,
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 1024,
+        "imgBroken": [],
+        "viewWidth": 1024,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "menus/",
+      "name": "menus-mobile",
+      "width": 390,
+      "height": 844,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": {
+          "background": "rgb(5, 37, 73)",
+          "backgroundImage": "none",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(23, 76, 108)"
+        },
+        "panel": null,
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 390,
+        "imgBroken": [],
+        "viewWidth": 390,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "reservations/",
+      "name": "reservations-mobile",
+      "width": 390,
+      "height": 844,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": null,
+        "panel": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(140deg, rgb(8, 41, 75) 0%, rgb(32, 95, 128) 100%)",
+          "color": "rgb(245, 245, 237)",
+          "border": "rgb(20, 79, 112)"
+        },
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 390,
+        "imgBroken": [],
+        "viewWidth": 390,
+        "hasH1": true
+      }
+    },
+    {
+      "route": "events/",
+      "name": "events-mobile",
+      "width": 390,
+      "height": 844,
+      "ready": true,
+      "metrics": {
+        "background": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "hero": {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
+          "color": "rgb(6, 40, 75)",
+          "border": "rgb(6, 40, 75)"
+        },
+        "card": null,
+        "panel": null,
+        "menu": null,
+        "header": true,
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "scrollWidth": 390,
+        "imgBroken": [],
+        "viewWidth": 390,
+        "hasH1": true
+      }
+    }
+  ]
+}
