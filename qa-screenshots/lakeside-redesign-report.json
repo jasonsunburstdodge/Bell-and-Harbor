@@ -1,0 +1,313 @@
+{
+  "capturedAt": "2026-11-17T22:12:44.439Z",
+  "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
+  "issues": [],
+  "screenshots": {
+    "concept-desktop": {
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 133
+      },
+      "logo": {
+        "x": 32,
+        "y": 8,
+        "w": 180,
+        "h": 200
+      },
+      "hero": {
+        "x": 0,
+        "y": 133,
+        "w": 1024,
+        "h": 448
+      },
+      "heroCopy": {
+        "x": 0,
+        "y": 133,
+        "w": 455,
+        "h": 448
+      },
+      "heroImage": {
+        "x": 455,
+        "y": 133,
+        "w": 569,
+        "h": 448
+      },
+      "ribbon": {
+        "x": 0,
+        "y": 581,
+        "w": 1024,
+        "h": 55
+      },
+      "intro": {
+        "x": 0,
+        "y": 636,
+        "w": 1024,
+        "h": 295
+      },
+      "menu": {
+        "x": 0,
+        "y": 931,
+        "w": 1024,
+        "h": 293
+      },
+      "events": {
+        "x": 0,
+        "y": 1224,
+        "w": 1024,
+        "h": 233
+      },
+      "footer": {
+        "x": 0,
+        "y": 1457,
+        "w": 1024,
+        "h": 78
+      },
+      "body": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 1535
+      },
+      "imageStatus": [
+        {
+          "src": "brand-bell-harbor.jpg",
+          "loaded": true
+        },
+        {
+          "src": "hero-lakeside-couple.jpg",
+          "loaded": true
+        },
+        {
+          "src": "dining-room.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-salmon.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-brunch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-cocktails.jpg",
+          "loaded": true
+        },
+        {
+          "src": "live-music.jpg",
+          "loaded": true
+        }
+      ],
+      "overflow": false,
+      "width": 1024,
+      "height": 1536,
+      "file": "qa-screenshots/lakeside-redesign-concept-desktop.png"
+    },
+    "desktop-wide": {
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 133
+      },
+      "logo": {
+        "x": 32,
+        "y": 8,
+        "w": 180,
+        "h": 200
+      },
+      "hero": {
+        "x": 0,
+        "y": 133,
+        "w": 1440,
+        "h": 448
+      },
+      "heroCopy": {
+        "x": 0,
+        "y": 133,
+        "w": 640,
+        "h": 448
+      },
+      "heroImage": {
+        "x": 640,
+        "y": 133,
+        "w": 800,
+        "h": 448
+      },
+      "ribbon": {
+        "x": 0,
+        "y": 581,
+        "w": 1440,
+        "h": 55
+      },
+      "intro": {
+        "x": 0,
+        "y": 636,
+        "w": 1440,
+        "h": 295
+      },
+      "menu": {
+        "x": 0,
+        "y": 931,
+        "w": 1440,
+        "h": 293
+      },
+      "events": {
+        "x": 0,
+        "y": 1224,
+        "w": 1440,
+        "h": 233
+      },
+      "footer": {
+        "x": 0,
+        "y": 1457,
+        "w": 1440,
+        "h": 78
+      },
+      "body": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1535
+      },
+      "imageStatus": [
+        {
+          "src": "brand-bell-harbor.jpg",
+          "loaded": true
+        },
+        {
+          "src": "hero-lakeside-couple.jpg",
+          "loaded": true
+        },
+        {
+          "src": "dining-room.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-salmon.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-brunch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-cocktails.jpg",
+          "loaded": true
+        },
+        {
+          "src": "live-music.jpg",
+          "loaded": true
+        }
+      ],
+      "overflow": false,
+      "width": 1440,
+      "height": 950,
+      "file": "qa-screenshots/lakeside-redesign-desktop-wide.png"
+    },
+    "mobile": {
+      "header": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 100
+      },
+      "logo": {
+        "x": 12,
+        "y": 8,
+        "w": 93,
+        "h": 104
+      },
+      "hero": {
+        "x": 0,
+        "y": 100,
+        "w": 390,
+        "h": 588
+      },
+      "heroCopy": {
+        "x": 0,
+        "y": 100,
+        "w": 390,
+        "h": 318
+      },
+      "heroImage": {
+        "x": 0,
+        "y": 418,
+        "w": 390,
+        "h": 270
+      },
+      "ribbon": {
+        "x": 0,
+        "y": 688,
+        "w": 390,
+        "h": 55
+      },
+      "intro": {
+        "x": 0,
+        "y": 743,
+        "w": 390,
+        "h": 648
+      },
+      "menu": {
+        "x": 0,
+        "y": 1391,
+        "w": 390,
+        "h": 649
+      },
+      "events": {
+        "x": 0,
+        "y": 2040,
+        "w": 390,
+        "h": 464
+      },
+      "footer": {
+        "x": 0,
+        "y": 2504,
+        "w": 390,
+        "h": 85
+      },
+      "body": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 2590
+      },
+      "imageStatus": [
+        {
+          "src": "brand-bell-harbor.jpg",
+          "loaded": true
+        },
+        {
+          "src": "hero-lakeside-couple.jpg",
+          "loaded": true
+        },
+        {
+          "src": "dining-room.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-salmon.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-brunch.jpg",
+          "loaded": true
+        },
+        {
+          "src": "menu-cocktails.jpg",
+          "loaded": true
+        },
+        {
+          "src": "live-music.jpg",
+          "loaded": true
+        }
+      ],
+      "overflow": false,
+      "width": 390,
+      "height": 844,
+      "file": "qa-screenshots/lakeside-redesign-mobile.png"
+    }
+  }
+}
