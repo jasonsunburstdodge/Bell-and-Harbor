@@ -259,3 +259,39 @@
   .lakeside-inner .tabs button,
   .lakeside-inner .card-link{transition:none}
 }
+
+/* Header regression correction: preserve approved original footprint.
+   Decorative header CTA treatment must never enlarge or push navigation. */
+.lakeside-redesign .lake-header,
+.lakeside-inner .lake-header{
+  box-sizing:border-box;
+  height:133px;
+  min-height:0;
+}
+.lakeside-redesign .lake-navigation .lake-order,
+.lakeside-inner .lake-navigation .lake-order{
+  box-sizing:border-box;
+  min-height:0;
+  height:auto;
+  padding:11px 18px;
+  border:1.5px solid #06254a;
+  font:600 14px/1.4 'DM Sans',sans-serif;
+  letter-spacing:1.8px;
+  gap:0;
+  flex-shrink:0;
+}
+.lakeside-redesign .lake-navigation .lake-order:before,
+.lakeside-inner .lake-navigation .lake-order:before{
+  content:none;
+  display:none;
+}
+@media(max-width:850px){
+  .lakeside-redesign .lake-header,
+  .lakeside-inner .lake-header{height:100px}
+  .lakeside-redesign .lake-navigation .lake-order,
+  .lakeside-inner .lake-navigation .lake-order{
+    font-size:13px;
+    letter-spacing:1.2px;
+    align-self:flex-start;
+  }
+}
