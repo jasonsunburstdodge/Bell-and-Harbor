@@ -1,7 +1,10 @@
 {
-  "capturedAt": "2026-11-17T22:14:53.145Z",
+  "capturedAt": "2026-11-17T22:17:26.820Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
-  "issues": [],
+  "issues": [
+    "concept-desktop missing image dining-room.jpg",
+    "concept-desktop missing image live-music.jpg"
+  ],
   "screenshots": {
     "concept-desktop": {
       "header": {
@@ -81,7 +84,7 @@
         },
         {
           "src": "dining-room.jpg",
-          "loaded": true
+          "loaded": false
         },
         {
           "src": "menu-salmon.jpg",
@@ -97,10 +100,22 @@
         },
         {
           "src": "live-music.jpg",
-          "loaded": true
+          "loaded": false
         }
       ],
       "overflow": false,
+      "brandline": {
+        "x": 35,
+        "y": 236,
+        "w": 316,
+        "h": 61
+      },
+      "introSecond": {
+        "x": 44,
+        "y": 726,
+        "w": 275,
+        "h": 57
+      },
       "width": 1024,
       "height": 1536,
       "file": "qa-screenshots/lakeside-redesign-concept-desktop.png"
@@ -203,6 +218,18 @@
         }
       ],
       "overflow": false,
+      "brandline": {
+        "x": 35,
+        "y": 229,
+        "w": 467,
+        "h": 70
+      },
+      "introSecond": {
+        "x": 44,
+        "y": 726,
+        "w": 275,
+        "h": 57
+      },
       "width": 1440,
       "height": 950,
       "file": "qa-screenshots/lakeside-redesign-desktop-wide.png"
@@ -224,47 +251,47 @@
         "x": 0,
         "y": 100,
         "w": 390,
-        "h": 588
+        "h": 575
       },
       "heroCopy": {
         "x": 0,
         "y": 100,
         "w": 390,
-        "h": 318
+        "h": 305
       },
       "heroImage": {
         "x": 0,
-        "y": 418,
+        "y": 405,
         "w": 390,
         "h": 270
       },
       "ribbon": {
         "x": 0,
-        "y": 688,
+        "y": 675,
         "w": 390,
         "h": 55
       },
       "intro": {
         "x": 0,
-        "y": 743,
+        "y": 730,
         "w": 390,
         "h": 648
       },
       "menu": {
         "x": 0,
-        "y": 1391,
+        "y": 1378,
         "w": 390,
         "h": 649
       },
       "events": {
         "x": 0,
-        "y": 2040,
+        "y": 2027,
         "w": 390,
         "h": 464
       },
       "footer": {
         "x": 0,
-        "y": 2504,
+        "y": 2492,
         "w": 390,
         "h": 85
       },
@@ -272,7 +299,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2590
+        "h": 2577
       },
       "imageStatus": [
         {
@@ -305,6 +332,18 @@
         }
       ],
       "overflow": false,
+      "brandline": {
+        "x": 23,
+        "y": 175,
+        "w": 199,
+        "h": 20
+      },
+      "introSecond": {
+        "x": 25,
+        "y": 815,
+        "w": 266,
+        "h": 45
+      },
       "width": 390,
       "height": 844,
       "file": "qa-screenshots/lakeside-redesign-mobile.png"
@@ -312,9 +351,9 @@
   },
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      19.95,
-      18.31,
-      18.33
+      19.36,
+      17.8,
+      17.93
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
