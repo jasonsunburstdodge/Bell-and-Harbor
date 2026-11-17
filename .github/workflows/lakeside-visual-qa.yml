@@ -26,11 +26,15 @@ jobs:
           npm install --no-save playwright
           npx playwright install --with-deps chromium
       - run: node tools/lakeside-visual-qa.mjs
+      - name: Export lightweight screenshot comparisons
+        run: |
+          python -m pip install Pillow
+          python tools/lakeside-compare.py
       - name: Commit deployed visual QA
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add qa-screenshots/lakeside-redesign-*.png qa-screenshots/lakeside-redesign-report.json
+          git add qa-screenshots/lakeside-redesign-*.png qa-screenshots/lakeside-redesign-report.json qa-screenshots/lakeside-compare-*.jpg
           if ! git diff --cached --quiet; then
             git commit -m "Record current lakeside concept deployed screenshot QA"
             git pull --rebase
