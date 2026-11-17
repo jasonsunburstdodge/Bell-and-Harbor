@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-17T22:20:25.020Z",
+  "capturedAt": "2026-11-17T22:25:00.092Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -346,6 +346,148 @@
       "file": "qa-screenshots/lakeside-redesign-mobile.png"
     }
   },
+  "innerPages": [
+    {
+      "route": "menus/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Our Menus",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "menus/main/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Main Menu",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "menus/brunch/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Weekend Brunch",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "menus/drinks/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Craft Cocktails",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "menus/kids/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Kids Menu & Kids Cocktails",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "reservations/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Reserve a Patio Table",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "private-events/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Private Events",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "events/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Events Calendar",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "contact/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Contact & Directions",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    },
+    {
+      "route": "order/",
+      "status": 200,
+      "details": {
+        "header": true,
+        "redesignBody": true,
+        "nav": true,
+        "stylesheet": true,
+        "title": "Order Online",
+        "oldLogo": false,
+        "oldPalette": false
+      },
+      "errors": []
+    }
+  ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
       19.57,
