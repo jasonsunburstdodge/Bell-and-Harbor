@@ -1,22 +1,6 @@
-name: Verify deployed Bell and Harbor pages
+name: Archived previous concept visual QA (manual)
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'site-style.css'
-      - 'site-app.js'
-      - 'tools/qa_deployed.mjs'
-      - 'tools/check_header_overlap.mjs'
-      - 'tools/font-study.mjs'
-      - 'index.html'
-      - 'menus/**'
-      - 'reservations/**'
-      - 'private-events/**'
-      - 'events/**'
-      - 'contact/**'
-      - 'order/**'
-      - '.github/workflows/visual-qa.yml'
 concurrency:
   group: bell-harbor-live-visual-qa
   cancel-in-progress: true
