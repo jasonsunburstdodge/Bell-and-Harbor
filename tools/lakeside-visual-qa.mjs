@@ -33,6 +33,29 @@ for(const [name,width,height] of [['concept-desktop',1024,1536],['desktop-wide',
  report.screenshots[name]={...metrics,width,height,file};
  await page.close();
 }
+
+report.innerPages=[];
+for(const route of ['menus/','menus/main/','menus/brunch/','menus/drinks/','menus/kids/','reservations/','private-events/','events/','contact/','order/']){
+ const page=await browser.newPage({viewport:{width:1024,height:800}});
+ const errors=[];page.on('pageerror',e=>errors.push(String(e)));
+ let status=0;
+ try{
+  const response=await page.goto(base+route+'?lakeside-route-check='+Date.now(),{waitUntil:'load',timeout:25000});
+  status=response?.status()??0;
+  await page.evaluate(async()=>await document.fonts.ready);
+  const details=await page.evaluate(()=>({header:!!document.querySelector('.lake-header'),redesignBody:document.body.classList.contains('lakeside-inner'),nav:!!document.querySelector('#lake-navigation'),stylesheet:[...document.querySelectorAll('link[rel=stylesheet]')].some(x=>x.href.includes('lakeside-inner.css')),title:document.querySelector('h1')?.textContent?.trim()??'',oldLogo:!!document.querySelector('img[src*="header-emblem"]'),oldPalette:!!document.querySelector('.site-header')}));
+  report.innerPages.push({route,status,details,errors});
+  if(status!==200||!details.header||!details.redesignBody||!details.nav||!details.stylesheet||details.oldLogo||details.oldPalette||!details.title||errors.length)report.issues.push('Inner page not fully migrated: '+route+' '+JSON.stringify({status,details,errors}));
+ }catch(e){report.issues.push('Inner page failed '+route+': '+String(e).slice(0,200))}
+ await page.close();
+}
+{
+ const page=await browser.newPage({viewport:{width:390,height:844}});
+ await page.goto(base+'menus/?mobile-nav-qa='+Date.now(),{waitUntil:'load',timeout:25000});
+ await page.locator('.lake-menu-toggle').click();
+ if(!await page.locator('#lake-navigation').isVisible())report.issues.push('Mobile inner-page navigation does not open');
+ await page.close();
+}
 await browser.close();
 fs.writeFileSync('qa-screenshots/lakeside-redesign-report.json',JSON.stringify(report,null,2));
 console.log(JSON.stringify(report,null,2));
