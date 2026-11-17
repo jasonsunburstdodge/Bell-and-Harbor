@@ -6,6 +6,7 @@ on:
       - 'index.html'
       - 'lakeside-home.css'
       - 'tools/lakeside-visual-qa.mjs'
+      - 'tools/lakeside-compare.py'
       - '.github/workflows/lakeside-visual-qa.yml'
   workflow_dispatch:
 permissions:
