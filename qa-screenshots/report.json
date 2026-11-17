@@ -1,58 +1,7 @@
 {
   "source": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
-  "capturedAt": "2026-10-23T16:49:19.701Z",
-  "screenshots": {
-    "desktop": {
-      "filename": "qa-screenshots/deployed-desktop.png",
-      "width": 1536,
-      "height": 1024,
-      "broken": [],
-      "horizontalScroll": false,
-      "h1": [
-        "Bell and Harbor – Lakeside Grill and Social"
-      ],
-      "heroNative": {
-        "width": 1214,
-        "height": 397
-      },
-      "fontFamily": "\"Playfair Display SC\", Georgia, serif",
-      "brandWidth": 348,
-      "headerHeight": 92,
-      "featureImageHeight": 153.59375,
-      "pillHeight": 49,
-      "wordmarkFontSize": 29,
-      "mobileFeatureText": null,
-      "errors": []
-    },
-    "mobile": {
-      "filename": "qa-screenshots/deployed-mobile.png",
-      "width": 390,
-      "height": 844,
-      "broken": [],
-      "horizontalScroll": false,
-      "h1": [
-        "Bell and Harbor – Lakeside Grill and Social"
-      ],
-      "heroNative": {
-        "width": 1214,
-        "height": 397
-      },
-      "fontFamily": "\"Playfair Display SC\", Georgia, serif",
-      "brandWidth": 318,
-      "headerHeight": 96,
-      "featureImageHeight": 72,
-      "pillHeight": 38,
-      "wordmarkFontSize": 22,
-      "mobileFeatureText": {
-        "fontSize": "20px",
-        "fontWeight": "400",
-        "textTransform": "none",
-        "fontVariantCaps": "small-caps",
-        "letterSpacing": "0.1px"
-      },
-      "errors": []
-    }
-  },
+  "capturedAt": "2026-11-17T22:22:47.130Z",
+  "screenshots": {},
   "pages": [
     {
       "route": "menus/",
@@ -125,5 +74,8 @@
       ]
     }
   ],
-  "issues": []
+  "issues": [
+    "desktop: public deployed page did not serve rebuilt source",
+    "mobile: public deployed page did not serve rebuilt source"
+  ]
 }
