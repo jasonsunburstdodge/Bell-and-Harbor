@@ -1,0 +1,54 @@
+name: Bell and Harbor blue inner-page QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'lakeside-inner.css'
+      - 'tools/inner-blue-qa.mjs'
+      - '.github/workflows/inner-blue-qa.yml'
+      - 'menus/**'
+      - 'reservations/**'
+      - 'private-events/**'
+      - 'events/**'
+      - 'contact/**'
+      - 'order/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bell-harbor-blue-inner
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Capture live inner-page screenshots and CSS colors
+        run: node tools/inner-blue-qa.mjs
+        continue-on-error: true
+      - name: Save deployed evidence to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add qa-screenshots/blue-inner-*.png qa-screenshots/blue-inner-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record deployed blue inner-page visual QA"
+            git pull --rebase
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bell-harbor-blue-inner-screenshots
+          path: qa-screenshots/blue-inner-*
+      - name: Fail on missing blue styling or visual errors
+        run: |
+          node -e "const x=require('./qa-screenshots/blue-inner-report.json');if(x.issues.length){console.error(x.issues.join('\n'));process.exit(1)}"
