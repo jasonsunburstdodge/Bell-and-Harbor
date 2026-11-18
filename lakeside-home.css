@@ -93,3 +93,6 @@
 .lake-patio-intro p{max-width:560px;font-size:19px;line-height:1.55}
 .lake-intro.lake-patio-intro>img{height:clamp(320px,39vw,540px);object-fit:cover;object-position:center}
 @media(max-width:850px){.lake-patio-intro .lake-intro-copy{grid-template-columns:1fr;gap:22px;padding:36px 24px}.lake-patio-intro h2{font-size:clamp(35px,6vw,48px)}.lake-patio-intro p{font-size:17px}.lake-intro.lake-patio-intro>img{height:320px}}
+
+/* Supporting description beneath the existing kids menu link. */
+.lake-kids-description{grid-column:1/-1;justify-self:center;max-width:640px;margin:0 0 4px;text-align:center;font:400 15px/1.5 'DM Sans',Arial,sans-serif}
