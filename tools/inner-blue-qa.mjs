@@ -21,13 +21,13 @@ for(const [route,name,w,h] of [
    metrics=await page.evaluate(()=>{
     const style=s=>{const e=document.querySelector(s);if(!e)return null;const c=getComputedStyle(e);return{background:c.backgroundColor,backgroundImage:c.backgroundImage,color:c.color,border:c.borderColor}};
     const blues=style('main'),hero=style('.page-hero'),card=style('.card'),panel=style('.split>.panel:first-child'),menu=style('.menu-group');
-    return{background:blues,hero,card,panel,menu,header:!!document.querySelector('.lake-header'),
+    return{brandNavy:getComputedStyle(document.documentElement).getPropertyValue('--bh-navy').trim(),background:blues,hero,card,panel,menu,header:!!document.querySelector('.lake-header'),
       styleHref:[...document.querySelectorAll('link[rel=stylesheet]')].map(x=>x.getAttribute('href')).find(x=>x.includes('lakeside-inner.css')),
       scrollWidth:document.documentElement.scrollWidth,
       imgBroken:[...document.images].filter(x=>x.loading!=='lazy'&&(!x.complete||!x.naturalWidth)).map(x=>x.currentSrc),
       viewWidth:innerWidth,hasH1:document.querySelectorAll('h1').length===1};
    });
-   ready=res?.status()===200&&metrics.styleHref?.includes('blue2')&&metrics.hero?.backgroundImage?.includes('linear-gradient')&&metrics.background?.backgroundImage?.includes('linear-gradient');
+   ready=res?.status()===200&&metrics.styleHref?.includes('lakeside-inner.css')&&metrics.brandNavy==='#002140'&&metrics.hero?.backgroundImage?.includes('linear-gradient')&&metrics.background?.backgroundImage?.includes('linear-gradient');
    if(ready)break;
   }catch(e){errors.push(String(e).slice(0,150))}
   await new Promise(r=>setTimeout(r,6500));
@@ -35,7 +35,7 @@ for(const [route,name,w,h] of [
  if(!ready){report.issues.push(name+': deployed blue stylesheet not verified');}
  if(metrics){
   const css=(metrics.card?.background||'');
-  if(name.startsWith('menus')&&name==='menus'&&!css.includes('5, 37, 73'))report.issues.push(name+': expected deep navy cards, got '+css);
+  if(name.startsWith('menus')&&name==='menus'&&!css.includes('0, 33, 64'))report.issues.push(name+': expected deep navy cards, got '+css);
   if(name==='reservations'&&!metrics.panel?.backgroundImage?.includes('linear-gradient'))report.issues.push(name+': navy reservation information panel missing');
   if(metrics.scrollWidth>metrics.viewWidth+1)report.issues.push(name+': horizontal scrolling');
   if(!metrics.hasH1||!metrics.header)report.issues.push(name+': missing page heading or header');
