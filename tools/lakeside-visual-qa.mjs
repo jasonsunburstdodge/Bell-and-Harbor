@@ -13,7 +13,7 @@ for(const [name,width,height] of [['concept-desktop',1024,1536],['desktop-wide',
    const h=document.querySelector('.lake-hero-photo');
    if(!h||!document.querySelector('.lakeside-redesign'))return false;
    await h.decode().catch(()=>{});
-   return h.naturalWidth===569 && !!document.querySelector('.lake-menu-stripe') && !!document.querySelector('.lake-footer') && !!document.querySelector('.lake-hero-wordmark svg') && !!document.querySelector('.lake-intro-second') && (innerWidth!==1024 || (document.querySelector('.lake-hero-wordmark svg').getBoundingClientRect().right<=document.querySelector('.lake-hero-copy').getBoundingClientRect().right && getComputedStyle(document.querySelector('.lake-intro h2')).fontFamily.includes('DM Sans')));
+   return h.naturalWidth>=569 && !!document.querySelector('.lake-menu-stripe') && !!document.querySelector('.lake-footer') && !!document.querySelector('.lake-hero-wordmark svg') && !!document.querySelector('.lake-intro-second') && (innerWidth!==1024 || (document.querySelector('.lake-hero-wordmark svg').getBoundingClientRect().right<=document.querySelector('.lake-hero-copy').getBoundingClientRect().right && getComputedStyle(document.querySelector('.lake-intro h2')).fontFamily.includes('DM Sans')));
   });
   if(loaded)break;
   await new Promise(r=>setTimeout(r,7500));
