@@ -74,3 +74,10 @@
 .lake-hero-wordmark svg{display:block;width:100%;height:auto;overflow:visible}
 @media(min-width:851px){.lake-hero{height:500px}.lake-hero-photo{height:500px}.lake-hero-copy{padding-top:90px;padding-bottom:35px}}
 @media(max-width:850px){.lake-hero-copy{padding-top:62px;padding-bottom:36px}.lake-hero-copy h1.lake-hero-wordmark{margin-bottom:28px}}
+
+/* A welcoming supporting voice beneath the unchanged brand wordmark. */
+.lake-hero-copy p.lake-hero-welcome{margin:0 9px 28px;max-width:100%;letter-spacing:0}
+.lake-hero-invitation{display:block;max-width:26ch;font:400 clamp(24px,2.3vw,30px)/1.22 'Newsreader',Georgia,serif;letter-spacing:0}
+.lake-hero-location{display:block;margin-top:13px;font:500 13px/1.5 'DM Sans',Arial,sans-serif;letter-spacing:.5px;color:#fff5e8}
+@media(max-width:570px){.lake-hero-copy p.lake-hero-welcome{margin-left:0;margin-right:0}.lake-hero-invitation{font-size:25px}.lake-hero-location{font-size:12px;margin-top:12px}}
+@media(min-width:851px){.lake-hero-copy:has(.lake-hero-welcome){min-height:0}.lake-hero-copy:has(.lake-hero-welcome) h1.lake-hero-wordmark{margin-bottom:24px}}
