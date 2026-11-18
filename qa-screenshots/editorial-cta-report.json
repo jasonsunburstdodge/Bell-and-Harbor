@@ -1,15 +1,26 @@
 {
-  "capturedAt": "2026-11-17T23:26:09.351Z",
-  "issues": [],
+  "capturedAt": "2026-11-18T01:20:02.707Z",
+  "issues": [
+    "home-desktop: Deployed CTA stylesheet not confirmed",
+    "home-mobile: Deployed CTA stylesheet not confirmed",
+    "menus-desktop: Deployed CTA stylesheet not confirmed",
+    "menus-mobile: Deployed CTA stylesheet not confirmed",
+    "reservations-desktop: Deployed CTA stylesheet not confirmed",
+    "reservations-mobile: Deployed CTA stylesheet not confirmed",
+    "events-desktop: Deployed CTA stylesheet not confirmed",
+    "events-mobile: Deployed CTA stylesheet not confirmed",
+    "order-desktop: Deployed CTA stylesheet not confirmed",
+    "order-mobile: Deployed CTA stylesheet not confirmed"
+  ],
   "views": [
     {
       "name": "home-desktop",
       "route": "",
       "width": 1024,
       "height": 1000,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -18,10 +29,10 @@
         "orderBeforeContent": "none",
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(237, 171, 36) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "2.28px",
+        "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 44,
-        "ctaRight": 355,
+        "ctaLeft": 33,
+        "ctaRight": 344,
         "navShadow": "rgb(237, 171, 36) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -29,16 +40,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "home-mobile",
       "route": "",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -47,10 +60,10 @@
         "orderBeforeContent": "none",
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(237, 171, 36) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "1.43px",
+        "ctaLetterSpacing": "1.44px",
         "ctaHeight": 56,
-        "ctaLeft": 23,
-        "ctaRight": 367,
+        "ctaLeft": 24,
+        "ctaRight": 366,
         "navShadow": "rgb(237, 171, 36) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -58,16 +71,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "menus-desktop",
       "route": "menus/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -76,10 +91,10 @@
         "orderBeforeContent": "none",
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(237, 171, 36) 0px -1px 0px 0px inset",
-        "ctaLetterSpacing": "1.65px",
-        "ctaHeight": 22.5,
+        "ctaLetterSpacing": "1.17px",
+        "ctaHeight": 44,
         "ctaLeft": 53,
-        "ctaRight": 147.15625,
+        "ctaRight": 154.875,
         "navShadow": "rgb(237, 171, 36) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -87,16 +102,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "menus-mobile",
       "route": "menus/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -105,10 +122,10 @@
         "orderBeforeContent": "none",
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(237, 171, 36) 0px -1px 0px 0px inset",
-        "ctaLetterSpacing": "1.65px",
-        "ctaHeight": 22.5,
+        "ctaLetterSpacing": "1.17px",
+        "ctaHeight": 44,
         "ctaLeft": 37,
-        "ctaRight": 131.15625,
+        "ctaRight": 138.875,
         "navShadow": "rgb(237, 171, 36) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -116,16 +133,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "reservations-desktop",
       "route": "reservations/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -145,16 +164,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "reservations-mobile",
       "route": "reservations/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -174,16 +195,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "events-desktop",
       "route": "events/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -192,10 +215,10 @@
         "orderBeforeContent": "none",
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(237, 171, 36) 0px -2px 0px 0px inset",
-        "ctaLetterSpacing": "0.99px",
-        "ctaHeight": 42.5,
+        "ctaLetterSpacing": "0.72px",
+        "ctaHeight": 44,
         "ctaLeft": 32,
-        "ctaRight": 123.921875,
+        "ctaRight": 125.484375,
         "navShadow": "rgb(237, 171, 36) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -203,16 +226,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "events-mobile",
       "route": "events/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -221,10 +246,10 @@
         "orderBeforeContent": "none",
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(237, 171, 36) 0px -2px 0px 0px inset",
-        "ctaLetterSpacing": "0.9px",
-        "ctaHeight": 36,
+        "ctaLetterSpacing": "0.72px",
+        "ctaHeight": 44,
         "ctaLeft": 16,
-        "ctaRight": 97.109375,
+        "ctaRight": 103.484375,
         "navShadow": "rgb(237, 171, 36) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -232,16 +257,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "order-desktop",
       "route": "order/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -250,10 +277,10 @@
         "orderBeforeContent": "none",
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(237, 171, 36) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "2.28px",
+        "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 32,
-        "ctaRight": 343.171875,
+        "ctaRight": 340.328125,
         "navShadow": "rgb(237, 171, 36) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -261,16 +288,18 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     },
     {
       "name": "order-mobile",
       "route": "order/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -279,7 +308,7 @@
         "orderBeforeContent": "none",
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(237, 171, 36) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "1.44px",
+        "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 16,
         "ctaRight": 374,
@@ -290,7 +319,9 @@
         "mainHeader": true,
         "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Deployed CTA stylesheet not confirmed"
+      ]
     }
   ]
 }
