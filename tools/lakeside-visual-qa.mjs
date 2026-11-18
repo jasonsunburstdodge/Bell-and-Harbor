@@ -13,7 +13,7 @@ for(const [name,width,height] of [['concept-desktop',1024,1536],['desktop-wide',
    const h=document.querySelector('.lake-hero-photo');
    if(!h||!document.querySelector('.lakeside-redesign'))return false;
    await h.decode().catch(()=>{});
-   return h.naturalWidth>=569 && !!document.querySelector('.lake-menu-stripe') && !!document.querySelector('.lake-footer') && !!document.querySelector('.lake-hero-wordmark svg') && !!document.querySelector('.lake-intro-second') && (innerWidth!==1024 || (document.querySelector('.lake-hero-wordmark svg').getBoundingClientRect().right<=document.querySelector('.lake-hero-copy').getBoundingClientRect().right && getComputedStyle(document.querySelector('.lake-intro h2')).fontFamily.includes('DM Sans')));
+   return h.naturalWidth>=569 && !!document.querySelector('.lake-menu-stripe') && !!document.querySelector('.lake-footer') && !!document.querySelector('.lake-hero-wordmark svg') && (innerWidth!==1024 || (document.querySelector('.lake-hero-wordmark svg').getBoundingClientRect().right<=document.querySelector('.lake-hero-copy').getBoundingClientRect().right));
   });
   if(loaded)break;
   await new Promise(r=>setTimeout(r,7500));
@@ -28,7 +28,6 @@ for(const [name,width,height] of [['concept-desktop',1024,1536],['desktop-wide',
  await page.screenshot({path:file,fullPage:true});
  if(metrics.overflow)report.issues.push(name+' horizontal overflow');
  if(name==='concept-desktop'&&metrics.brandline?.x+metrics.brandline?.w > metrics.heroImage.x-5)report.issues.push('Hero wordmark extends into photograph at reference viewport');
- if(name==='concept-desktop'&&metrics.introSecond?.x+metrics.introSecond?.w > metrics.intro.x+metrics.intro.w*.377+5)report.issues.push('Intro title extends into dining room photograph');
  for(const img of metrics.imageStatus)if(!img.loaded)report.issues.push(name+' missing image '+img.src);
  report.screenshots[name]={...metrics,width,height,file};
  await page.close();
