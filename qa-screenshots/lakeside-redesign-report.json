@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-18T17:11:34.536Z",
+  "capturedAt": "2026-11-18T17:56:18.499Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -50,17 +50,17 @@
         "x": 0,
         "y": 1268,
         "w": 1024,
-        "h": 381
+        "h": 511
       },
       "events": {
         "x": 0,
-        "y": 1649,
+        "y": 1779,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 2015,
+        "y": 2145,
         "w": 1024,
         "h": 78
       },
@@ -68,7 +68,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2093
+        "h": 2223
       },
       "imageStatus": [
         {
@@ -80,7 +80,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-patio-gathering.webp",
+          "src": "lakeside-patio-gathering-daylight.webp",
           "loaded": true
         },
         {
@@ -159,17 +159,17 @@
         "x": 0,
         "y": 1439,
         "w": 1440,
-        "h": 347
+        "h": 425
       },
       "events": {
         "x": 0,
-        "y": 1786,
+        "y": 1864,
         "w": 1440,
         "h": 515
       },
       "footer": {
         "x": 0,
-        "y": 2300,
+        "y": 2378,
         "w": 1440,
         "h": 78
       },
@@ -177,7 +177,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2378
+        "h": 2456
       },
       "imageStatus": [
         {
@@ -189,7 +189,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-patio-gathering.webp",
+          "src": "lakeside-patio-gathering-daylight.webp",
           "loaded": true
         },
         {
@@ -268,17 +268,17 @@
         "x": 0,
         "y": 1474,
         "w": 390,
-        "h": 794
+        "h": 902
       },
       "events": {
         "x": 0,
-        "y": 2268,
+        "y": 2376,
         "w": 390,
         "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 2800,
+        "y": 2908,
         "w": 390,
         "h": 180
       },
@@ -286,7 +286,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2980
+        "h": 3088
       },
       "imageStatus": [
         {
@@ -298,7 +298,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-patio-gathering.webp",
+          "src": "lakeside-patio-gathering-daylight.webp",
           "loaded": true
         },
         {
@@ -475,9 +475,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      70.79,
-      71.0,
-      77.79
+      70.06,
+      70.53,
+      78.62
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
