@@ -68,9 +68,9 @@
 }
 @media(prefers-reduced-motion:reduce){.lake-feature{transition:none}}
 
-/* Supplied brand artwork: preserve lettering, gold rules and flame intact. */
-.lake-hero-copy{background:#06284d;padding-left:24px;padding-right:24px}
-.lake-hero-copy h1.lake-hero-wordmark{width:100%;margin:0 0 34px;line-height:0;letter-spacing:normal}
-.lake-hero-wordmark img{display:block;width:100%;height:auto;max-width:830px}
+/* Recreated wordmark: transparent vector lettering and decorative details. */
+.lake-hero-copy{padding-left:24px;padding-right:24px}
+.lake-hero-copy h1.lake-hero-wordmark{width:100%;margin:0 0 34px;line-height:0;letter-spacing:normal;color:#fff5e8}
+.lake-hero-wordmark svg{display:block;width:100%;height:auto;overflow:visible}
 @media(min-width:851px){.lake-hero{height:500px}.lake-hero-photo{height:500px}.lake-hero-copy{padding-top:90px;padding-bottom:35px}}
 @media(max-width:850px){.lake-hero-copy{padding-top:62px;padding-bottom:36px}.lake-hero-copy h1.lake-hero-wordmark{margin-bottom:28px}}
