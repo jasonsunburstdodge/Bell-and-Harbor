@@ -1,13 +1,24 @@
 {
-  "capturedAt": "2026-11-18T00:39:51.627Z",
-  "issues": [],
+  "capturedAt": "2026-11-18T01:47:32.719Z",
+  "issues": [
+    "menus: deployed blue stylesheet not verified",
+    "main-menu: deployed blue stylesheet not verified",
+    "reservations: deployed blue stylesheet not verified",
+    "private-events: deployed blue stylesheet not verified",
+    "events: deployed blue stylesheet not verified",
+    "contact: deployed blue stylesheet not verified",
+    "order: deployed blue stylesheet not verified",
+    "menus-mobile: deployed blue stylesheet not verified",
+    "reservations-mobile: deployed blue stylesheet not verified",
+    "events-mobile: deployed blue stylesheet not verified"
+  ],
   "pages": [
     {
       "route": "menus/",
       "name": "menus",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -30,7 +41,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -42,7 +53,7 @@
       "name": "main-menu",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -65,7 +76,7 @@
           "border": "rgb(168, 206, 222) rgb(168, 206, 222) rgb(168, 206, 222) rgb(57, 116, 147)"
         },
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -77,7 +88,7 @@
       "name": "reservations",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -100,7 +111,7 @@
         },
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -112,7 +123,7 @@
       "name": "private-events",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -135,7 +146,7 @@
         },
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -147,7 +158,7 @@
       "name": "events",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -165,7 +176,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -177,7 +188,7 @@
       "name": "contact",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -200,7 +211,7 @@
         },
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -212,7 +223,7 @@
       "name": "order",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -230,7 +241,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -242,7 +253,7 @@
       "name": "menus-mobile",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -265,7 +276,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 390,
         "imgBroken": [],
         "viewWidth": 390,
@@ -277,7 +288,7 @@
       "name": "reservations-mobile",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -300,7 +311,7 @@
         },
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 390,
         "imgBroken": [],
         "viewWidth": 390,
@@ -312,7 +323,7 @@
       "name": "events-mobile",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "background": {
           "background": "rgba(0, 0, 0, 0)",
@@ -330,7 +341,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261117-blue2",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-image-spacing-v2",
         "scrollWidth": 390,
         "imgBroken": [],
         "viewWidth": 390,
