@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-18T05:01:00.018Z",
+  "capturedAt": "2026-11-18T16:57:27.706Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -40,22 +40,27 @@
         "w": 1024,
         "h": 55
       },
-      "intro": null,
-      "menu": {
+      "intro": {
         "x": 0,
         "y": 688,
+        "w": 1024,
+        "h": 580
+      },
+      "menu": {
+        "x": 0,
+        "y": 1268,
         "w": 1024,
         "h": 381
       },
       "events": {
         "x": 0,
-        "y": 1069,
+        "y": 1649,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 1435,
+        "y": 2015,
         "w": 1024,
         "h": 78
       },
@@ -63,15 +68,19 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 1513
+        "h": 2093
       },
       "imageStatus": [
         {
-          "src": "brand-bell-harbor.jpg",
+          "src": "brand-bell-harbor.jpg?v=20261118-navy-brand",
           "loaded": true
         },
         {
           "src": "hero-lakeside-couple-open-patio.webp",
+          "loaded": true
+        },
+        {
+          "src": "lakeside-patio-gathering.webp",
           "loaded": true
         },
         {
@@ -140,22 +149,27 @@
         "w": 1440,
         "h": 55
       },
-      "intro": null,
-      "menu": {
+      "intro": {
         "x": 0,
         "y": 688,
+        "w": 1440,
+        "h": 751
+      },
+      "menu": {
+        "x": 0,
+        "y": 1439,
         "w": 1440,
         "h": 347
       },
       "events": {
         "x": 0,
-        "y": 1035,
+        "y": 1786,
         "w": 1440,
         "h": 515
       },
       "footer": {
         "x": 0,
-        "y": 1550,
+        "y": 2300,
         "w": 1440,
         "h": 78
       },
@@ -163,15 +177,19 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 1628
+        "h": 2378
       },
       "imageStatus": [
         {
-          "src": "brand-bell-harbor.jpg",
+          "src": "brand-bell-harbor.jpg?v=20261118-navy-brand",
           "loaded": true
         },
         {
           "src": "hero-lakeside-couple-open-patio.webp",
+          "loaded": true
+        },
+        {
+          "src": "lakeside-patio-gathering.webp",
           "loaded": true
         },
         {
@@ -240,22 +258,27 @@
         "w": 390,
         "h": 55
       },
-      "intro": null,
-      "menu": {
+      "intro": {
         "x": 0,
         "y": 879,
+        "w": 390,
+        "h": 595
+      },
+      "menu": {
+        "x": 0,
+        "y": 1474,
         "w": 390,
         "h": 794
       },
       "events": {
         "x": 0,
-        "y": 1673,
+        "y": 2268,
         "w": 390,
         "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 2205,
+        "y": 2800,
         "w": 390,
         "h": 180
       },
@@ -263,15 +286,19 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2385
+        "h": 2980
       },
       "imageStatus": [
         {
-          "src": "brand-bell-harbor.jpg",
+          "src": "brand-bell-harbor.jpg?v=20261118-navy-brand",
           "loaded": true
         },
         {
           "src": "hero-lakeside-couple-open-patio.webp",
+          "loaded": true
+        },
+        {
+          "src": "lakeside-patio-gathering.webp",
           "loaded": true
         },
         {
@@ -448,9 +475,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      60.55,
-      58.21,
-      65.12
+      70.79,
+      71.0,
+      77.79
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
