@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-18T02:21:16.085Z",
+  "capturedAt": "2026-11-18T02:35:10.440Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -76,7 +76,7 @@
           "loaded": true
         },
         {
-          "src": "hero-lakeside-couple.jpg",
+          "src": "hero-lakeside-couple-open-patio.webp",
           "loaded": true
         },
         {
@@ -84,19 +84,19 @@
           "loaded": true
         },
         {
-          "src": "lakeside-grilled-salmon.webp",
+          "src": "lakeside-grilled-salmon-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "weekend-brunch-pancakes.webp",
+          "src": "weekend-brunch-pancakes-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "berry-craft-cocktail-closeup.webp",
+          "src": "berry-craft-cocktail-closeup-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "lakeside-acoustic-music.webp",
+          "src": "lakeside-acoustic-music-open-patio.webp",
           "loaded": true
         }
       ],
@@ -190,7 +190,7 @@
           "loaded": true
         },
         {
-          "src": "hero-lakeside-couple.jpg",
+          "src": "hero-lakeside-couple-open-patio.webp",
           "loaded": true
         },
         {
@@ -198,19 +198,19 @@
           "loaded": true
         },
         {
-          "src": "lakeside-grilled-salmon.webp",
+          "src": "lakeside-grilled-salmon-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "weekend-brunch-pancakes.webp",
+          "src": "weekend-brunch-pancakes-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "berry-craft-cocktail-closeup.webp",
+          "src": "berry-craft-cocktail-closeup-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "lakeside-acoustic-music.webp",
+          "src": "lakeside-acoustic-music-open-patio.webp",
           "loaded": true
         }
       ],
@@ -304,7 +304,7 @@
           "loaded": true
         },
         {
-          "src": "hero-lakeside-couple.jpg",
+          "src": "hero-lakeside-couple-open-patio.webp",
           "loaded": true
         },
         {
@@ -312,19 +312,19 @@
           "loaded": true
         },
         {
-          "src": "lakeside-grilled-salmon.webp",
+          "src": "lakeside-grilled-salmon-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "weekend-brunch-pancakes.webp",
+          "src": "weekend-brunch-pancakes-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "berry-craft-cocktail-closeup.webp",
+          "src": "berry-craft-cocktail-closeup-open-patio.webp",
           "loaded": true
         },
         {
-          "src": "lakeside-acoustic-music.webp",
+          "src": "lakeside-acoustic-music-open-patio.webp",
           "loaded": true
         }
       ],
@@ -490,9 +490,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      59.12,
-      55.8,
-      58.46
+      59.71,
+      56.93,
+      63.42
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
