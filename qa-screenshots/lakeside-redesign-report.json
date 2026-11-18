@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-18T01:21:00.258Z",
+  "capturedAt": "2026-11-18T01:43:12.393Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -88,11 +88,11 @@
           "loaded": true
         },
         {
-          "src": "menu-brunch.jpg",
+          "src": "weekend-brunch-pancakes.webp",
           "loaded": true
         },
         {
-          "src": "menu-cocktails.jpg",
+          "src": "berry-craft-cocktail-closeup.webp",
           "loaded": true
         },
         {
@@ -202,11 +202,11 @@
           "loaded": true
         },
         {
-          "src": "menu-brunch.jpg",
+          "src": "weekend-brunch-pancakes.webp",
           "loaded": true
         },
         {
-          "src": "menu-cocktails.jpg",
+          "src": "berry-craft-cocktail-closeup.webp",
           "loaded": true
         },
         {
@@ -316,11 +316,11 @@
           "loaded": true
         },
         {
-          "src": "menu-brunch.jpg",
+          "src": "weekend-brunch-pancakes.webp",
           "loaded": true
         },
         {
-          "src": "menu-cocktails.jpg",
+          "src": "berry-craft-cocktail-closeup.webp",
           "loaded": true
         },
         {
@@ -490,9 +490,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      60.0,
-      56.62,
-      58.9
+      59.12,
+      55.8,
+      58.46
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
