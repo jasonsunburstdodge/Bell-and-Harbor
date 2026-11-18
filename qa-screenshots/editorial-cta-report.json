@@ -1,10 +1,12 @@
 {
-  "capturedAt": "2026-11-18T17:45:08.819Z",
-  "sourceCommit": "0f4d773ad4d30697ba7df8510274f7084c33b3f4",
+  "capturedAt": "2026-11-18T17:53:58.074Z",
+  "sourceCommit": "bbf5d514ea844fe40e66e8080a784423b14fb47e",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
-    "home-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed"
+    "home-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "order-desktop: Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)",
+    "order-mobile: Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)"
   ],
   "views": [
     {
@@ -1790,6 +1792,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -1803,24 +1809,285 @@
         "ctaFound": true,
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "1.56px",
+        "ctaLetterSpacing": "0.5px",
         "ctaHeight": 55,
-        "ctaLeft": 32,
-        "ctaRight": 340.328125,
+        "ctaLeft": 486,
+        "ctaRight": 662,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 12,
-        "darkTextViolations": [],
+        "darkTextCount": 164,
+        "darkTextViolations": [
+          {
+            "element": "div.order-bag-icon",
+            "color": "rgb(57, 116, 147)",
+            "text": "＋"
+          }
+        ],
         "placeholders": [],
         "privateContent": [],
-        "dishes": [],
+        "dishes": [
+          {
+            "name": "Wings & Shrimp",
+            "price": null,
+            "description": "Your choice of wings or shrimp with Mild Buffalo, Hot Buffalo, Lemon Pepper, BBQ, Garlic Parmesan, Harbor Sweet Chile, or Cajun seasoning.",
+            "option": null
+          },
+          {
+            "name": "Spinach & Artichoke Dip",
+            "price": null,
+            "description": "A rich, creamy blend of spinach, artichokes, and melted cheeses, served warm with crispy tortilla chips.",
+            "option": null
+          },
+          {
+            "name": "Loaded Harbor Nachos",
+            "price": null,
+            "description": "Crispy tortilla chips layered with black bean spread and melted cheese, topped with your choice of steak, chicken, or shrimp. Finished with cilantro-lime crema and Cotija cheese.",
+            "option": null
+          },
+          {
+            "name": "Crab-Stuffed Mushrooms",
+            "price": null,
+            "description": "Tender mushroom caps filled with crab, cream cheese, and green onions, baked until golden.",
+            "option": null
+          },
+          {
+            "name": "Balsamic Brussels Sprouts",
+            "price": null,
+            "description": "Crispy Brussels sprouts finished with a sweet and tangy balsamic glaze. Add bacon for an additional charge.",
+            "option": null
+          },
+          {
+            "name": "Garlic Butter Sirloin",
+            "price": null,
+            "description": "Grilled sirloin finished with house-made garlic butter. Served with creamy mashed potatoes and garlic butter asparagus. Add sautéed mushrooms and onions.",
+            "option": null
+          },
+          {
+            "name": "Lemon Garlic Butter Salmon",
+            "price": null,
+            "description": "Grilled salmon finished with lemon-garlic butter, served with sweet potato mash and crispy Brussels sprouts.",
+            "option": null
+          },
+          {
+            "name": "Rosemary Skillet Chicken",
+            "price": null,
+            "description": "Pan-seared chicken breast with rosemary and garlic, served with creamy mashed potatoes and crispy Brussels sprouts.",
+            "option": null
+          },
+          {
+            "name": "Steak & Swiss Wrap",
+            "price": null,
+            "description": "Sliced sirloin, melted Swiss cheese, sautéed mushrooms and onions, and smoky aioli in a soft tortilla.",
+            "option": null
+          },
+          {
+            "name": "Garlic Shrimp Scampi Wrap",
+            "price": null,
+            "description": "Garlic butter shrimp, crisp romaine, Parmesan, and garlic aioli in a soft tortilla.",
+            "option": null
+          },
+          {
+            "name": "Grilled Buffalo Chicken Wrap",
+            "price": null,
+            "description": "Grilled Buffalo chicken with romaine, blue cheese, and chopped celery.",
+            "option": null
+          },
+          {
+            "name": "Chicken Caesar Wrap",
+            "price": null,
+            "description": "Grilled chicken, romaine tossed in Caesar dressing, and Parmesan in a soft tortilla.",
+            "option": null
+          },
+          {
+            "name": "Buffalo Chicken Flatbread",
+            "price": null,
+            "description": "Alfredo base, mozzarella, diced chicken, bacon, Buffalo drizzle, and fresh parsley.",
+            "option": null
+          },
+          {
+            "name": "Bell Tower Meat Lovers",
+            "price": null,
+            "description": "House marinara, pepperoni, bacon, sliced steak, and mozzarella.",
+            "option": null
+          },
+          {
+            "name": "Lakeside Caprese Flatbread",
+            "price": null,
+            "description": "Garlic butter base, mozzarella, sliced tomatoes, fresh basil, and sweet balsamic glaze.",
+            "option": null
+          },
+          {
+            "name": "Steak & Mushroom Flatbread",
+            "price": null,
+            "description": "Alfredo base, mozzarella, sliced steak, and sautéed mushrooms.",
+            "option": null
+          },
+          {
+            "name": "The Classic Burger",
+            "price": null,
+            "description": "Juicy grilled beef patty topped with bacon, lettuce, tomato, onion, pickles, and our secret sauce on a toasted brioche bun.",
+            "option": null
+          },
+          {
+            "name": "Goat Cheese & Bacon Jam Burger",
+            "price": null,
+            "description": "Juicy beef burger with creamy goat cheese and sweet-savory bacon jam on a toasted brioche bun.",
+            "option": null
+          },
+          {
+            "name": "Grilled Chicken Sandwich",
+            "price": null,
+            "description": "Tender grilled chicken breast with lettuce, tomato, and pickles on a toasted brioche bun.",
+            "option": null
+          },
+          {
+            "name": "Bell Tower Club Sandwich",
+            "price": null,
+            "description": "Three slices of toasted Texas toast layered with ham, turkey, crispy bacon, Swiss cheese, lettuce, tomato, and mayonnaise.",
+            "option": null
+          },
+          {
+            "name": "Shrimp Scampi Linguine",
+            "price": null,
+            "description": "Succulent shrimp sautéed in white wine garlic butter sauce with shallots, tossed with tender linguine and finished with fresh parsley.",
+            "option": null
+          },
+          {
+            "name": "Fettuccine Alfredo",
+            "price": null,
+            "description": "Tender fettuccine tossed in rich, creamy, house-made white wine Alfredo sauce. Add grilled chicken, sirloin steak, shrimp, or sautéed mushrooms for an additional charge.",
+            "option": null
+          },
+          {
+            "name": "Rustic Garlic-Tomato Pasta",
+            "price": null,
+            "description": "Tender pasta tossed in slow-simmered tomato sauce with roasted garlic, blistered cherry tomatoes, and fresh basil, finished with delicate shavings of Parmesan cheese.",
+            "option": null
+          },
+          {
+            "name": "Classic Clubhouse Mac",
+            "price": null,
+            "description": "Signature creamy, house-made macaroni and cheese, baked until golden.",
+            "option": null
+          },
+          {
+            "name": "High Roller Steak Mac",
+            "price": null,
+            "description": "Signature creamy baked mac and cheese crowned with tender slices of garlic butter sirloin, crispy fried onions, and fresh green onions.",
+            "option": null
+          },
+          {
+            "name": "Sweet Red Chile Shrimp Mac",
+            "price": null,
+            "description": "Creamy baked mac and cheese topped with seared sweet red chile shrimp and fresh green onions.",
+            "option": null
+          },
+          {
+            "name": "Buffalo Chicken Mac",
+            "price": null,
+            "description": "Signature mac and cheese with grilled Buffalo chicken, crispy bacon, and ranch drizzle. Blue cheese dressing and crumbles available instead.",
+            "option": null
+          },
+          {
+            "name": "Big Harbor Caesar Salad",
+            "price": null,
+            "description": "Crisp romaine tossed in Caesar dressing with Parmesan and seasoned croutons, topped with grilled chicken. Upgrade to sliced sirloin or grilled shrimp for an additional charge.",
+            "option": null
+          },
+          {
+            "name": "Strawberry & Goat Cheese Salad",
+            "price": null,
+            "description": "Spring greens, seasonal strawberries, candied pecans, goat cheese crumbles, and balsamic vinaigrette.",
+            "option": null
+          },
+          {
+            "name": "Harbor Club Salad",
+            "price": null,
+            "description": "Romaine topped with diced ham, turkey, chicken, tomatoes, cucumber, hard-boiled eggs, and croutons. Choice of ranch, blue cheese, or balsamic vinaigrette.",
+            "option": null
+          },
+          {
+            "name": "Coastal Seafood Bisque",
+            "price": null,
+            "description": "Rich lobster and crab bisque slowly simmered with cream and aromatic seasonings, finished with a shrimp skewer. Served with toasted garlic bread.",
+            "option": null
+          },
+          {
+            "name": "Rustic Tomato, Basil & Garlic Soup",
+            "price": null,
+            "description": "Slow-simmered tomato soup with roasted garlic and fresh basil. Served with toasted garlic bread.",
+            "option": null
+          },
+          {
+            "name": "Seasoned French Fries",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Sweet Potato Fries",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Clubhouse Mac & Cheese",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Creamy Mashed Potatoes",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Crispy Balsamic Brussels Sprouts",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Garlic Butter Asparagus",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Homestyle Green Beans",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Classic Tiramisu",
+            "price": null,
+            "description": "Espresso-soaked ladyfingers layered with creamy mascarpone and finished with cocoa.",
+            "option": null
+          },
+          {
+            "name": "Vanilla Bean Crème Brûlée",
+            "price": null,
+            "description": "Silky vanilla custard with a caramelized sugar crust.",
+            "option": null
+          },
+          {
+            "name": "Seasonal Cheesecake",
+            "price": null,
+            "description": "Rich, creamy cheesecake with rotating seasonal flavors and toppings.",
+            "option": null
+          }
+        ],
         "menuPriceCount": 0,
         "brokenImages": []
       },
-      "issues": []
+      "issues": [
+        "Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)"
+      ]
     },
     {
       "name": "order-mobile",
@@ -1845,6 +2112,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -1858,24 +2129,285 @@
         "ctaFound": true,
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "1.56px",
+        "ctaLetterSpacing": "0.5px",
         "ctaHeight": 55,
-        "ctaLeft": 16,
+        "ctaLeft": 137.671875,
         "ctaRight": 374,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 6,
-        "darkTextViolations": [],
+        "darkTextCount": 158,
+        "darkTextViolations": [
+          {
+            "element": "div.order-bag-icon",
+            "color": "rgb(57, 116, 147)",
+            "text": "＋"
+          }
+        ],
         "placeholders": [],
         "privateContent": [],
-        "dishes": [],
+        "dishes": [
+          {
+            "name": "Wings & Shrimp",
+            "price": null,
+            "description": "Your choice of wings or shrimp with Mild Buffalo, Hot Buffalo, Lemon Pepper, BBQ, Garlic Parmesan, Harbor Sweet Chile, or Cajun seasoning.",
+            "option": null
+          },
+          {
+            "name": "Spinach & Artichoke Dip",
+            "price": null,
+            "description": "A rich, creamy blend of spinach, artichokes, and melted cheeses, served warm with crispy tortilla chips.",
+            "option": null
+          },
+          {
+            "name": "Loaded Harbor Nachos",
+            "price": null,
+            "description": "Crispy tortilla chips layered with black bean spread and melted cheese, topped with your choice of steak, chicken, or shrimp. Finished with cilantro-lime crema and Cotija cheese.",
+            "option": null
+          },
+          {
+            "name": "Crab-Stuffed Mushrooms",
+            "price": null,
+            "description": "Tender mushroom caps filled with crab, cream cheese, and green onions, baked until golden.",
+            "option": null
+          },
+          {
+            "name": "Balsamic Brussels Sprouts",
+            "price": null,
+            "description": "Crispy Brussels sprouts finished with a sweet and tangy balsamic glaze. Add bacon for an additional charge.",
+            "option": null
+          },
+          {
+            "name": "Garlic Butter Sirloin",
+            "price": null,
+            "description": "Grilled sirloin finished with house-made garlic butter. Served with creamy mashed potatoes and garlic butter asparagus. Add sautéed mushrooms and onions.",
+            "option": null
+          },
+          {
+            "name": "Lemon Garlic Butter Salmon",
+            "price": null,
+            "description": "Grilled salmon finished with lemon-garlic butter, served with sweet potato mash and crispy Brussels sprouts.",
+            "option": null
+          },
+          {
+            "name": "Rosemary Skillet Chicken",
+            "price": null,
+            "description": "Pan-seared chicken breast with rosemary and garlic, served with creamy mashed potatoes and crispy Brussels sprouts.",
+            "option": null
+          },
+          {
+            "name": "Steak & Swiss Wrap",
+            "price": null,
+            "description": "Sliced sirloin, melted Swiss cheese, sautéed mushrooms and onions, and smoky aioli in a soft tortilla.",
+            "option": null
+          },
+          {
+            "name": "Garlic Shrimp Scampi Wrap",
+            "price": null,
+            "description": "Garlic butter shrimp, crisp romaine, Parmesan, and garlic aioli in a soft tortilla.",
+            "option": null
+          },
+          {
+            "name": "Grilled Buffalo Chicken Wrap",
+            "price": null,
+            "description": "Grilled Buffalo chicken with romaine, blue cheese, and chopped celery.",
+            "option": null
+          },
+          {
+            "name": "Chicken Caesar Wrap",
+            "price": null,
+            "description": "Grilled chicken, romaine tossed in Caesar dressing, and Parmesan in a soft tortilla.",
+            "option": null
+          },
+          {
+            "name": "Buffalo Chicken Flatbread",
+            "price": null,
+            "description": "Alfredo base, mozzarella, diced chicken, bacon, Buffalo drizzle, and fresh parsley.",
+            "option": null
+          },
+          {
+            "name": "Bell Tower Meat Lovers",
+            "price": null,
+            "description": "House marinara, pepperoni, bacon, sliced steak, and mozzarella.",
+            "option": null
+          },
+          {
+            "name": "Lakeside Caprese Flatbread",
+            "price": null,
+            "description": "Garlic butter base, mozzarella, sliced tomatoes, fresh basil, and sweet balsamic glaze.",
+            "option": null
+          },
+          {
+            "name": "Steak & Mushroom Flatbread",
+            "price": null,
+            "description": "Alfredo base, mozzarella, sliced steak, and sautéed mushrooms.",
+            "option": null
+          },
+          {
+            "name": "The Classic Burger",
+            "price": null,
+            "description": "Juicy grilled beef patty topped with bacon, lettuce, tomato, onion, pickles, and our secret sauce on a toasted brioche bun.",
+            "option": null
+          },
+          {
+            "name": "Goat Cheese & Bacon Jam Burger",
+            "price": null,
+            "description": "Juicy beef burger with creamy goat cheese and sweet-savory bacon jam on a toasted brioche bun.",
+            "option": null
+          },
+          {
+            "name": "Grilled Chicken Sandwich",
+            "price": null,
+            "description": "Tender grilled chicken breast with lettuce, tomato, and pickles on a toasted brioche bun.",
+            "option": null
+          },
+          {
+            "name": "Bell Tower Club Sandwich",
+            "price": null,
+            "description": "Three slices of toasted Texas toast layered with ham, turkey, crispy bacon, Swiss cheese, lettuce, tomato, and mayonnaise.",
+            "option": null
+          },
+          {
+            "name": "Shrimp Scampi Linguine",
+            "price": null,
+            "description": "Succulent shrimp sautéed in white wine garlic butter sauce with shallots, tossed with tender linguine and finished with fresh parsley.",
+            "option": null
+          },
+          {
+            "name": "Fettuccine Alfredo",
+            "price": null,
+            "description": "Tender fettuccine tossed in rich, creamy, house-made white wine Alfredo sauce. Add grilled chicken, sirloin steak, shrimp, or sautéed mushrooms for an additional charge.",
+            "option": null
+          },
+          {
+            "name": "Rustic Garlic-Tomato Pasta",
+            "price": null,
+            "description": "Tender pasta tossed in slow-simmered tomato sauce with roasted garlic, blistered cherry tomatoes, and fresh basil, finished with delicate shavings of Parmesan cheese.",
+            "option": null
+          },
+          {
+            "name": "Classic Clubhouse Mac",
+            "price": null,
+            "description": "Signature creamy, house-made macaroni and cheese, baked until golden.",
+            "option": null
+          },
+          {
+            "name": "High Roller Steak Mac",
+            "price": null,
+            "description": "Signature creamy baked mac and cheese crowned with tender slices of garlic butter sirloin, crispy fried onions, and fresh green onions.",
+            "option": null
+          },
+          {
+            "name": "Sweet Red Chile Shrimp Mac",
+            "price": null,
+            "description": "Creamy baked mac and cheese topped with seared sweet red chile shrimp and fresh green onions.",
+            "option": null
+          },
+          {
+            "name": "Buffalo Chicken Mac",
+            "price": null,
+            "description": "Signature mac and cheese with grilled Buffalo chicken, crispy bacon, and ranch drizzle. Blue cheese dressing and crumbles available instead.",
+            "option": null
+          },
+          {
+            "name": "Big Harbor Caesar Salad",
+            "price": null,
+            "description": "Crisp romaine tossed in Caesar dressing with Parmesan and seasoned croutons, topped with grilled chicken. Upgrade to sliced sirloin or grilled shrimp for an additional charge.",
+            "option": null
+          },
+          {
+            "name": "Strawberry & Goat Cheese Salad",
+            "price": null,
+            "description": "Spring greens, seasonal strawberries, candied pecans, goat cheese crumbles, and balsamic vinaigrette.",
+            "option": null
+          },
+          {
+            "name": "Harbor Club Salad",
+            "price": null,
+            "description": "Romaine topped with diced ham, turkey, chicken, tomatoes, cucumber, hard-boiled eggs, and croutons. Choice of ranch, blue cheese, or balsamic vinaigrette.",
+            "option": null
+          },
+          {
+            "name": "Coastal Seafood Bisque",
+            "price": null,
+            "description": "Rich lobster and crab bisque slowly simmered with cream and aromatic seasonings, finished with a shrimp skewer. Served with toasted garlic bread.",
+            "option": null
+          },
+          {
+            "name": "Rustic Tomato, Basil & Garlic Soup",
+            "price": null,
+            "description": "Slow-simmered tomato soup with roasted garlic and fresh basil. Served with toasted garlic bread.",
+            "option": null
+          },
+          {
+            "name": "Seasoned French Fries",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Sweet Potato Fries",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Clubhouse Mac & Cheese",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Creamy Mashed Potatoes",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Crispy Balsamic Brussels Sprouts",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Garlic Butter Asparagus",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Homestyle Green Beans",
+            "price": null,
+            "description": null,
+            "option": null
+          },
+          {
+            "name": "Classic Tiramisu",
+            "price": null,
+            "description": "Espresso-soaked ladyfingers layered with creamy mascarpone and finished with cocoa.",
+            "option": null
+          },
+          {
+            "name": "Vanilla Bean Crème Brûlée",
+            "price": null,
+            "description": "Silky vanilla custard with a caramelized sugar crust.",
+            "option": null
+          },
+          {
+            "name": "Seasonal Cheesecake",
+            "price": null,
+            "description": "Rich, creamy cheesecake with rotating seasonal flavors and toppings.",
+            "option": null
+          }
+        ],
         "menuPriceCount": 0,
         "brokenImages": []
       },
-      "issues": []
+      "issues": [
+        "Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)"
+      ]
     }
   ]
 }
