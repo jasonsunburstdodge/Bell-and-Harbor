@@ -295,3 +295,10 @@
     align-self:flex-start;
   }
 }
+
+/* Legible labels and touch targets without altering the approved logo/header. */
+.lakeside-redesign .lake-cta,.lakeside-inner .button{font-size:13px;letter-spacing:.12em}
+.lakeside-redesign .lake-cta:after{content:"";width:9px;height:9px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor;transform:rotate(45deg);flex:none}
+.lakeside-inner .card-link,.lakeside-redesign .lake-events a,.lakeside-redesign .lake-kids{font-size:13px;letter-spacing:.09em;min-height:44px;align-items:center}
+.lakeside-inner .menu-links a,.lakeside-inner .filters button,.lakeside-inner .tabs button{font-size:12px;min-height:44px;letter-spacing:.06em}
+@media(max-width:570px){.lakeside-redesign .lake-cta{font-size:12px}.lakeside-redesign .lake-kids{font-size:12px}}

@@ -23,3 +23,47 @@
  .lake-events h2{font-family:'DM Sans',Arial,sans-serif;font-weight:400;font-size:50px;line-height:1.08;letter-spacing:-2.6px}
  .lake-events p{max-width:340px}
 }
+
+/* Design refinement, Nov. 18: preserve logo and header geometry. */
+.lake-hero-copy{min-width:0}
+.lake-hero-copy h1{max-width:100%;margin-bottom:28px;letter-spacing:-1.2px}
+.lake-hero-copy h1 .lake-hero-brandline{font-size:1em;transform:none;white-space:normal;line-height:1.02;margin:0}
+.lake-hero-copy h1 .lake-hero-subline{font-size:.5em;line-height:1.12;letter-spacing:-.4px;white-space:normal;margin-top:12px}
+.lake-feature{transition:background .2s ease,box-shadow .2s ease}
+.lake-feature:hover{background:#ffffff30;box-shadow:0 0 0 10px #ffffff30}
+.lake-feature-link{display:flex;gap:12px;align-items:center;margin-top:16px;font-size:13px;font-weight:600;text-decoration:underline;text-decoration-color:#a36b05;text-underline-offset:5px}
+.lake-feature-link span{font-size:19px;text-decoration:none}
+.lake-feature p{font-size:15px;line-height:1.45}
+.lake-menu-stripe{padding-top:30px;padding-bottom:24px}
+.lake-feature img{height:230px}
+.lake-intro h2,.lake-events h2{white-space:normal}
+.lake-intro-second{transform:none!important;white-space:normal!important}
+@media(min-width:851px){
+ .lake-hero-copy{padding:86px 36px 32px}
+ .lake-hero-copy h1{font-size:clamp(42px,4.65vw,72px)}
+ .lake-hero-copy h1 .lake-hero-brandline{white-space:nowrap;transform:none}
+ .lake-hero-copy h1 .lake-hero-subline{font-size:.5em}
+ .lake-intro h2{font-size:clamp(34px,4.1vw,55px)}
+ .lake-events h2{font-size:clamp(32px,3.5vw,50px)}
+ .lake-events{height:auto;min-height:270px}
+ .lake-events>img{height:100%;min-height:270px}
+ .lake-events-copy{padding:32px 36px}
+}
+@media(max-width:850px){
+ .lake-hero-copy h1{font-size:clamp(39px,7.4vw,64px)}
+ .lake-hero-copy h1 .lake-hero-brandline{font-size:1em}
+ .lake-hero-copy h1 .lake-hero-subline{font-size:.53em}
+ .lake-hero-copy{min-height:0;padding-bottom:36px}
+ .lake-feature{grid-template-columns:1fr}
+ .lake-feature img{height:220px;width:100%}
+ .lake-feature div{padding:0}
+}
+@media(max-width:570px){
+ .lake-feature{grid-template-columns:42% 1fr;gap:20px}
+ .lake-feature img{height:205px}
+ .lake-feature p{font-size:14px}
+ .lake-feature-link{margin-top:12px}
+ .lake-footer a{font-size:12px;min-height:44px;display:inline-flex;align-items:center}
+ .lake-footer span{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){.lake-feature{transition:none}}

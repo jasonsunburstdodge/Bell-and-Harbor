@@ -373,3 +373,15 @@ body.lakeside-inner{
 @media(prefers-reduced-motion:reduce){
   .lakeside-inner .card{transition:none}
 }
+
+/* Shorter utility-page banners bring menus and event details into view. */
+@media(min-width:851px){
+ .lakeside-inner .page-hero{min-height:300px}
+ .lakeside-inner .page-hero img{height:300px}
+ .lakeside-inner .page-hero>div:first-child{padding-top:78px;padding-bottom:28px}
+ .lakeside-inner .page-hero h1{font-size:clamp(40px,4.4vw,62px)}
+}
+@media(max-width:570px){
+ .lakeside-inner .page-hero img{height:190px}
+ .lakeside-inner .page-hero>div:first-child{padding-bottom:24px}
+}
