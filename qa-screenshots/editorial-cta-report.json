@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-18T17:53:58.074Z",
-  "sourceCommit": "bbf5d514ea844fe40e66e8080a784423b14fb47e",
+  "capturedAt": "2026-11-18T18:04:05.422Z",
+  "sourceCommit": "eb726fa0ca70c15944e248efd672d2a792658126",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -238,6 +238,10 @@
           {
             "name": "lakeside-menus.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "ordering-preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -260,7 +264,7 @@
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 109,
+        "darkTextCount": 163,
         "darkTextViolations": [],
         "placeholders": [],
         "privateContent": [],
@@ -550,6 +554,10 @@
           {
             "name": "lakeside-menus.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "ordering-preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -572,7 +580,7 @@
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 102,
+        "darkTextCount": 156,
         "darkTextViolations": [],
         "placeholders": [],
         "privateContent": [],
@@ -858,6 +866,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "ordering-preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -880,7 +892,7 @@
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 13,
+        "darkTextCount": 15,
         "darkTextViolations": [],
         "placeholders": [],
         "privateContent": [],
@@ -913,6 +925,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "ordering-preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -935,7 +951,7 @@
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 6,
+        "darkTextCount": 8,
         "darkTextViolations": [],
         "placeholders": [],
         "privateContent": [],
@@ -972,6 +988,10 @@
           {
             "name": "lakeside-menus.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "ordering-preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -994,7 +1014,7 @@
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 45,
+        "darkTextCount": 47,
         "darkTextViolations": [],
         "placeholders": [],
         "privateContent": [],
@@ -1086,6 +1106,10 @@
           {
             "name": "lakeside-menus.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "ordering-preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -1108,7 +1132,7 @@
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 38,
+        "darkTextCount": 40,
         "darkTextViolations": [],
         "placeholders": [],
         "privateContent": [],
@@ -1200,6 +1224,10 @@
           {
             "name": "lakeside-menus.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "ordering-preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -1222,7 +1250,7 @@
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 20,
+        "darkTextCount": 35,
         "darkTextViolations": [],
         "placeholders": [],
         "privateContent": [],
@@ -1278,6 +1306,10 @@
           {
             "name": "lakeside-menus.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "ordering-preview.css",
+            "version": "20261118-menus-navy-text"
           }
         ],
         "brandNavy": "#002140",
@@ -1300,7 +1332,7 @@
         "overflow": false,
         "mainHeader": true,
         "h1": 1,
-        "darkTextCount": 13,
+        "darkTextCount": 28,
         "darkTextViolations": [],
         "placeholders": [],
         "privateContent": [],
