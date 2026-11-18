@@ -404,3 +404,6 @@ body.lakeside-inner{
  .lakeside-inner .menu-links[aria-label="Jump to menu section"] a{flex:0 0 auto;white-space:nowrap;min-height:44px;font-size:13px;display:flex;align-items:center}
  .mobile-menu-picker summary:focus-visible{outline:3px solid #e9a21a;outline-offset:3px}
 }
+
+/* Keep the full cocktail glass visible across wide mobile hero crops. */
+.lakeside-inner .page-hero img[src$="berry-craft-cocktail.webp"]{object-position:50% 65%}
