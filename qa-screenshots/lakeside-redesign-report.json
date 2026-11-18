@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-18T02:35:10.440Z",
+  "capturedAt": "2026-11-18T02:55:38.098Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -103,7 +103,7 @@
       "overflow": false,
       "brandline": {
         "x": 24,
-        "y": 267,
+        "y": 255,
         "w": 407,
         "h": 113
       },
@@ -217,7 +217,7 @@
       "overflow": false,
       "brandline": {
         "x": 24,
-        "y": 242,
+        "y": 222,
         "w": 592,
         "h": 164
       },
@@ -248,47 +248,47 @@
         "x": 0,
         "y": 100,
         "w": 390,
-        "h": 618
+        "h": 666
       },
       "heroCopy": {
         "x": 0,
         "y": 100,
         "w": 390,
-        "h": 348
+        "h": 396
       },
       "heroImage": {
         "x": 0,
-        "y": 448,
+        "y": 496,
         "w": 390,
         "h": 270
       },
       "ribbon": {
         "x": 0,
-        "y": 718,
+        "y": 766,
         "w": 390,
         "h": 55
       },
       "intro": {
         "x": 0,
-        "y": 773,
+        "y": 821,
         "w": 390,
         "h": 648
       },
       "menu": {
         "x": 0,
-        "y": 1421,
+        "y": 1469,
         "w": 390,
         "h": 794
       },
       "events": {
         "x": 0,
-        "y": 2215,
+        "y": 2263,
         "w": 390,
         "h": 486
       },
       "footer": {
         "x": 0,
-        "y": 2700,
+        "y": 2749,
         "w": 390,
         "h": 180
       },
@@ -296,7 +296,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2881
+        "h": 2929
       },
       "imageStatus": [
         {
@@ -337,7 +337,7 @@
       },
       "introSecond": {
         "x": 25,
-        "y": 857,
+        "y": 905,
         "w": 266,
         "h": 45
       },
@@ -490,9 +490,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      59.71,
-      56.93,
-      63.42
+      59.84,
+      57.19,
+      63.7
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
