@@ -4,14 +4,14 @@ body.lakeside-inner{--cream:#fbf1e5;--green:var(--bh-navy);--deep:var(--bh-navy)
 .lakeside-inner .page-hero h1{font:400 clamp(44px,5.3vw,69px)/1 'Newsreader',Georgia,serif;letter-spacing:-1.7px;color:var(--bh-navy)}
 .lakeside-inner .page-hero p{font:400 17px/1.5 'DM Sans',Arial,sans-serif}
 .lakeside-inner .page-hero img{border-radius:0;max-height:350px;object-fit:cover}
-.lakeside-inner .eyebrow{font:600 12px 'DM Sans',Arial,sans-serif;letter-spacing:2.2px;color:#a3741d}
+.lakeside-inner .eyebrow{font:600 12px 'DM Sans',Arial,sans-serif;letter-spacing:2.2px;color:var(--bh-navy)}
 .lakeside-inner .content{max-width:1230px;padding:47px 30px 84px}
 .lakeside-inner .cards{gap:21px}
 .lakeside-inner .card{border-radius:0;background:#fffaf2;border-color:#d6cab9;box-shadow:0 5px 18px #102d4110}
 .lakeside-inner .card img{height:195px}
 .lakeside-inner .card-body{padding:22px}
 .lakeside-inner .card h2,.lakeside-inner .section h2,.lakeside-inner .menu-group h2,.lakeside-inner .panel h2{font:400 35px/1.1 'Newsreader',Georgia,serif;letter-spacing:-.7px;color:var(--bh-navy)}
-.lakeside-inner .card p{font:400 14px/1.5 'DM Sans',Arial,sans-serif;color:#324b5d}
+.lakeside-inner .card p{font:400 14px/1.5 'DM Sans',Arial,sans-serif;color:var(--bh-navy)}
 .lakeside-inner .card-link{font:600 12px 'DM Sans',Arial,sans-serif;color:var(--bh-navy);letter-spacing:1.1px}
 .lakeside-inner .button{background:var(--bh-navy);border-color:var(--bh-navy);color:#fff8ef;letter-spacing:1.4px;border-radius:0}
 .lakeside-inner .button.outline{background:#fff7ed;color:var(--bh-navy)}
@@ -212,7 +212,7 @@ body.lakeside-inner{
   margin:0 0 8px;
 }
 .lakeside-inner .menu-group p{
-  color:#36566b;
+  color:var(--bh-navy);
   margin:0 0 12px;
   font-size:13px;
 }
@@ -222,7 +222,7 @@ body.lakeside-inner{
   padding:12px 0 6px;
 }
 .lakeside-inner .menu-item strong{color:var(--lake-deep)}
-.lakeside-inner .menu-item span{color:#3b6074}
+.lakeside-inner .menu-item span{color:var(--bh-navy)}
 /* Form and information pages alternate deep-blue information panels
    with light-sky-blue form panels for legibility. */
 .lakeside-inner .split{gap:20px}
@@ -289,7 +289,7 @@ body.lakeside-inner{
   border-left:4px solid var(--lake-gold);
   color:var(--lake-deep);
 }
-.lakeside-inner .status{color:#335d70}
+.lakeside-inner .status{color:var(--bh-navy)}
 .lakeside-inner .split > .panel:first-child .status{color:#e4edf3}
 .lakeside-inner .map-placeholder{
   background:linear-gradient(145deg,#d6e9f2,#b6d5e3);

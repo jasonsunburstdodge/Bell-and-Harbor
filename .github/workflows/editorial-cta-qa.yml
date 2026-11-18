@@ -4,6 +4,10 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'site-style.css'
+      - 'lakeside-home.css'
+      - 'lakeside-inner.css'
+      - 'lakeside-menus.css'
       - 'lakeside-ctas.css'
       - 'tools/editorial-cta-qa.mjs'
       - '.github/workflows/editorial-cta-qa.yml'
@@ -32,7 +36,7 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
-      - name: Capture CTA rendering at desktop and mobile
+      - name: Capture menus, navy text and CTA rendering at desktop and mobile
         run: node tools/editorial-cta-qa.mjs
         continue-on-error: true
       - name: Commit QA images and metrics
@@ -51,6 +55,6 @@ jobs:
         with:
           name: bell-harbor-editorial-cta-qa
           path: qa-screenshots/editorial-cta-*
-      - name: Require no CTA layout defects
+      - name: Require verified menus, navy text and CTA layout
         run: |
           node -e "const r=require('./qa-screenshots/editorial-cta-report.json');if(r.issues.length){console.error(r.issues.join('\n'));process.exit(1)}"

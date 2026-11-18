@@ -1,0 +1,70 @@
+/* Shared menu typography, scoped to the published food and cocktail menus. */
+.lakeside-inner.menu-page .menu-group{
+  scroll-margin-top:24px;
+  padding:28px 30px 24px;
+}
+.lakeside-inner.menu-page .menu-group h2{
+  margin:0 0 18px;
+}
+.lakeside-inner.menu-page .menu-dishes{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:40px;
+  row-gap:24px;
+}
+.lakeside-inner.menu-page .menu-dish{
+  min-width:0;
+  padding-top:17px;
+  border-top:1px solid #9bbfd0;
+  color:var(--bh-navy);
+}
+.lakeside-inner.menu-page .menu-dish-heading{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:9px;
+}
+.lakeside-inner.menu-page .menu-dish h3{
+  margin:0;
+  color:var(--bh-navy);
+  font:600 18px/1.35 'DM Sans',Arial,sans-serif;
+  letter-spacing:0;
+}
+.lakeside-inner.menu-page .menu-price{
+  flex-shrink:0;
+  margin:0;
+  color:var(--bh-navy);
+  font-size:17px;
+  font-weight:600;
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+.lakeside-inner.menu-page .menu-description,
+.lakeside-inner.menu-page .menu-section-note{
+  margin:0;
+  color:var(--bh-navy);
+  font-size:15px;
+  line-height:1.65;
+}
+.lakeside-inner.menu-page .menu-section-note{
+  margin:-5px 0 20px;
+}
+.lakeside-inner.menu-page .menu-option{
+  margin:12px 0 0;
+  color:var(--bh-navy);
+  font-size:14px;
+  font-weight:500;
+}
+.lakeside-inner.menu-page .menu-group--sides .menu-dishes{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  row-gap:16px;
+}
+@media(max-width:700px){
+  .lakeside-inner.menu-page .menu-group{padding:24px 20px}
+  .lakeside-inner.menu-page .menu-dishes,
+  .lakeside-inner.menu-page .menu-group--sides .menu-dishes{grid-template-columns:1fr;row-gap:22px}
+  .lakeside-inner.menu-page .menu-group h2{font-size:32px;margin-bottom:20px}
+  .lakeside-inner.menu-page .menu-dish h3{font-size:17px}
+  .lakeside-inner.menu-page .menu-dish-heading{gap:12px}
+}
