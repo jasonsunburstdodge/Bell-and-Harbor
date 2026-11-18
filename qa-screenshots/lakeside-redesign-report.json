@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-18T02:55:38.098Z",
+  "capturedAt": "2026-11-18T03:03:44.859Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -40,27 +40,22 @@
         "w": 1024,
         "h": 55
       },
-      "intro": {
-        "x": 0,
-        "y": 688,
-        "w": 1024,
-        "h": 295
-      },
+      "intro": null,
       "menu": {
         "x": 0,
-        "y": 983,
+        "y": 688,
         "w": 1024,
         "h": 381
       },
       "events": {
         "x": 0,
-        "y": 1364,
+        "y": 1069,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 1730,
+        "y": 1435,
         "w": 1024,
         "h": 78
       },
@@ -68,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 1808
+        "h": 1513
       },
       "imageStatus": [
         {
@@ -77,10 +72,6 @@
         },
         {
           "src": "hero-lakeside-couple-open-patio.webp",
-          "loaded": true
-        },
-        {
-          "src": "dining-room.jpg",
           "loaded": true
         },
         {
@@ -103,16 +94,11 @@
       "overflow": false,
       "brandline": {
         "x": 24,
-        "y": 255,
+        "y": 222,
         "w": 407,
         "h": 113
       },
-      "introSecond": {
-        "x": 44,
-        "y": 766,
-        "w": 260,
-        "h": 45
-      },
+      "introSecond": null,
       "width": 1024,
       "height": 1536,
       "file": "qa-screenshots/lakeside-redesign-concept-desktop.png"
@@ -154,27 +140,22 @@
         "w": 1440,
         "h": 55
       },
-      "intro": {
-        "x": 0,
-        "y": 688,
-        "w": 1440,
-        "h": 295
-      },
+      "intro": null,
       "menu": {
         "x": 0,
-        "y": 983,
+        "y": 688,
         "w": 1440,
         "h": 347
       },
       "events": {
         "x": 0,
-        "y": 1330,
+        "y": 1035,
         "w": 1440,
         "h": 515
       },
       "footer": {
         "x": 0,
-        "y": 1845,
+        "y": 1550,
         "w": 1440,
         "h": 78
       },
@@ -182,7 +163,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 1923
+        "h": 1628
       },
       "imageStatus": [
         {
@@ -191,10 +172,6 @@
         },
         {
           "src": "hero-lakeside-couple-open-patio.webp",
-          "loaded": true
-        },
-        {
-          "src": "dining-room.jpg",
           "loaded": true
         },
         {
@@ -217,16 +194,11 @@
       "overflow": false,
       "brandline": {
         "x": 24,
-        "y": 222,
+        "y": 212,
         "w": 592,
         "h": 164
       },
-      "introSecond": {
-        "x": 44,
-        "y": 780,
-        "w": 356,
-        "h": 59
-      },
+      "introSecond": null,
       "width": 1440,
       "height": 950,
       "file": "qa-screenshots/lakeside-redesign-desktop-wide.png"
@@ -248,47 +220,42 @@
         "x": 0,
         "y": 100,
         "w": 390,
-        "h": 666
+        "h": 724
       },
       "heroCopy": {
         "x": 0,
         "y": 100,
         "w": 390,
-        "h": 396
+        "h": 454
       },
       "heroImage": {
         "x": 0,
-        "y": 496,
+        "y": 554,
         "w": 390,
         "h": 270
       },
       "ribbon": {
         "x": 0,
-        "y": 766,
+        "y": 824,
         "w": 390,
         "h": 55
       },
-      "intro": {
-        "x": 0,
-        "y": 821,
-        "w": 390,
-        "h": 648
-      },
+      "intro": null,
       "menu": {
         "x": 0,
-        "y": 1469,
+        "y": 879,
         "w": 390,
         "h": 794
       },
       "events": {
         "x": 0,
-        "y": 2263,
+        "y": 1673,
         "w": 390,
-        "h": 486
+        "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 2749,
+        "y": 2205,
         "w": 390,
         "h": 180
       },
@@ -296,7 +263,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2929
+        "h": 2385
       },
       "imageStatus": [
         {
@@ -305,10 +272,6 @@
         },
         {
           "src": "hero-lakeside-couple-open-patio.webp",
-          "loaded": true
-        },
-        {
-          "src": "dining-room.jpg",
           "loaded": true
         },
         {
@@ -335,12 +298,7 @@
         "w": 342,
         "h": 95
       },
-      "introSecond": {
-        "x": 25,
-        "y": 905,
-        "w": 266,
-        "h": 45
-      },
+      "introSecond": null,
       "width": 390,
       "height": 844,
       "file": "qa-screenshots/lakeside-redesign-mobile.png"
@@ -490,9 +448,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      59.84,
-      57.19,
-      63.7
+      60.55,
+      58.21,
+      65.12
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
