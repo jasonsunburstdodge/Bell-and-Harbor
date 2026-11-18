@@ -385,3 +385,22 @@ body.lakeside-inner{
  .lakeside-inner .page-hero img{height:190px}
  .lakeside-inner .page-hero>div:first-child{padding-bottom:24px}
 }
+
+/* Interior spacing and compact menu navigation. Homepage is unaffected. */
+.mobile-menu-picker{display:none}
+@media(min-width:851px){
+ .lakeside-inner .page-hero>div:first-child{padding-top:104px;padding-bottom:36px}
+ .lakeside-inner .page-hero img{height:100%;min-height:300px}
+}
+@media(max-width:850px){
+ .lakeside-inner .page-hero>div:first-child{padding-top:64px}
+ .lakeside-inner .desktop-menu-categories{display:none}
+ .lakeside-inner .mobile-menu-picker{display:block;margin:0 0 20px;border:1px solid #9bb4c2;background:#edf5f7}
+ .mobile-menu-picker summary{cursor:pointer;padding:15px 16px;font-size:14px;font-weight:600;min-height:52px;color:#06284b}
+ .mobile-menu-picker summary span{display:block;padding-left:17px;font-size:13px;font-weight:400;margin-top:3px}
+ .lakeside-inner .mobile-menu-picker .menu-links{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 12px 12px;margin:0}
+ .lakeside-inner .mobile-menu-picker .menu-links a{font-size:13px;min-height:44px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px}
+ .lakeside-inner .menu-links[aria-label="Jump to menu section"]{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:8px;padding-bottom:10px;scrollbar-width:thin}
+ .lakeside-inner .menu-links[aria-label="Jump to menu section"] a{flex:0 0 auto;white-space:nowrap;min-height:44px;font-size:13px;display:flex;align-items:center}
+ .mobile-menu-picker summary:focus-visible{outline:3px solid #e9a21a;outline-offset:3px}
+}
