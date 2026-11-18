@@ -5,7 +5,7 @@ Responsive GitHub Pages staging implementation of the approved 1536 × 1024 webs
 ## Staging site
 https://jasonsunburstdodge.github.io/Bell-and-Harbor/
 
-## Visual master
+## Earlier visual master
 - `assets/concept.png` is the design reference and source for artwork crops.
 - `assets/hero-desktop.jpg` is generated from exact coordinates **(0, 130, 1214, 527)** at JPEG quality 85.
 - The hero contains the center-stage brand lockup in the image; no HTML logo or headline is overlaid on it. The upper baked-in partial header emblem is removed by starting the hero at y=130, and the header tab is drawn in CSS. The header wordmark and feature titles use Playfair Display SC 700 following a visual comparison of four serif options.
@@ -43,3 +43,11 @@ GitHub Pages should be configured to deploy from the **main** branch, **/(root)*
 
 ## Source continuity
 Previous approved implementation was preserved in branch `backup-before-concept-fidelity`. The visual master and sitemap remain the design and content references. Do not replace with a generic template.
+
+## Current approved brand system
+
+The November 18, 2026 brand pass uses the exact approved navy logo in `assets/redesign/brand-bell-harbor.jpg` on all 11 pages and as the browser icon. The circular lakeside illustration and logo lettering are preserved. The homepage retains its existing cream-and-gold SVG wordmark, title/subtitle proportions, photography and layout.
+
+Shared color tokens in `site-style.css` define logo navy `#002140`, lake blue `#397493`, lighter lake blue `#568ba8`, sky `#9bbfd0`, mist `#d9e9f1`, cream `#fff5e8` and gold `#efb345`. Home, inner-page and editorial CTA styles reference those tokens; inherited green component colors have been changed to complementary blues.
+
+The source before this color pass is preserved at commit `06ec8b457d5678de30fdd354c339d4c154a40d95` in branch `backup-before-brand-palette-20261118`. The current asset remains the same GitHub Pages staging site linked above.

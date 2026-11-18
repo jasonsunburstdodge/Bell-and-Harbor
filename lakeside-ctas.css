@@ -2,11 +2,11 @@
    Deep navy, warm cream and brushed-gold accents.
    Intentionally angular, restrained and consistent across all pages. */
 :root{
-  --bh-cta-ink:#052549;
+  --bh-cta-ink:var(--bh-navy);
   --bh-cta-blue:#1d5d7e;
-  --bh-cta-cream:#fff7e9;
-  --bh-cta-gold:#edab24;
-  --bh-cta-outline:#123958;
+  --bh-cta-cream:var(--bh-cream);
+  --bh-cta-gold:var(--bh-gold);
+  --bh-cta-outline:var(--bh-navy);
   --bh-cta-ease:cubic-bezier(.22,.8,.22,1);
 }
 .lakeside-redesign .lake-cta,
@@ -214,7 +214,7 @@
 .lakeside-inner .menu-links a:focus-visible,
 .lakeside-inner .filters button:focus-visible,
 .lakeside-inner .tabs button:focus-visible{
-  outline:3px solid #f0aa25;
+  outline:3px solid var(--bh-gold);
   outline-offset:4px;
 }
 @media(max-width:850px){
@@ -274,7 +274,7 @@
   min-height:0;
   height:auto;
   padding:11px 18px;
-  border:1.5px solid #06254a;
+  border:1.5px solid var(--bh-navy);
   font:600 14px/1.4 'DM Sans',sans-serif;
   letter-spacing:1.8px;
   gap:0;

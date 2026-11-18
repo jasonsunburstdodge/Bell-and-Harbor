@@ -34,7 +34,7 @@ for(const [name,route,width,height,selector] of views){
     const header=document.querySelector('.lake-header');
     const logo=document.querySelector('.lake-logo');
     const orderBounds=nav?.getBoundingClientRect();
-    return{hasStyle:[...document.querySelectorAll('link[rel=stylesheet]')].some(x=>x.href.includes('lakeside-ctas.css?v=editorial-header-fix-20261117')),
+    return{hasStyle:[...document.querySelectorAll('link[rel=stylesheet]')].some(x=>new URL(x.href).pathname.endsWith('/lakeside-ctas.css')) && getComputedStyle(document.documentElement).getPropertyValue('--bh-navy').trim()==='#002140',
       headerHeight:header?.getBoundingClientRect().height, logoWidth:logo?.getBoundingClientRect().width, logoHeight:logo?.getBoundingClientRect().height,
       orderHeight:orderBounds?.height, orderFontSize:nstyle?.fontSize, orderBeforeContent:getComputedStyle(nav,'::before').content,
       ctaBorderRadius:style?.borderRadius,ctaBoxShadow:style?.boxShadow,ctaLetterSpacing:style?.letterSpacing,
