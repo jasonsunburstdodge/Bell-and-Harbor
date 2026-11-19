@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-18T18:04:05.422Z",
-  "sourceCommit": "eb726fa0ca70c15944e248efd672d2a792658126",
+  "capturedAt": "2026-11-19T04:56:28.020Z",
+  "sourceCommit": "02a3c588087d3d32e8056aceaa1c0bd5331a6ecd",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
