@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T07:01:30.392Z",
+  "capturedAt": "2026-11-19T07:15:46.202Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -68,6 +68,10 @@
       "imageStatus": [
         {
           "src": "brand-bell-harbor.jpg?v=20261118-navy-brand",
+          "loaded": true
+        },
+        {
+          "src": "lakeside-food-drink-final.webp",
           "loaded": true
         },
         {
@@ -175,6 +179,10 @@
           "loaded": true
         },
         {
+          "src": "lakeside-food-drink-final.webp",
+          "loaded": true
+        },
+        {
           "src": "lakeside-couple-final-frame.webp",
           "loaded": true
         },
@@ -276,6 +284,10 @@
       "imageStatus": [
         {
           "src": "brand-bell-harbor.jpg?v=20261118-navy-brand",
+          "loaded": true
+        },
+        {
+          "src": "lakeside-food-drink-final.webp",
           "loaded": true
         },
         {
@@ -460,9 +472,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      74.17,
-      73.72,
-      82.87
+      77.72,
+      74.76,
+      86.26
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
