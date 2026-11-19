@@ -153,3 +153,10 @@
 .lake-intro-overlay[hidden],.lake-intro-overlay [hidden]{display:none}
 .lake-intro-overlay.is-revealing{opacity:0}
 @media(prefers-reduced-motion:reduce){.lake-intro-overlay{display:none;transition:none}}
+/* On stacked screens, match the welcome/overlay card to the full-frame film. */
+@media(max-width:1023px){
+ .lake-video-hero .lake-hero-copy{height:auto;min-height:0;aspect-ratio:16/9;padding:clamp(6px,2vw,18px)}
+ .lake-video-hero h1.lake-video-heading{font-size:clamp(16px,4.7vw,32px);line-height:1.15;max-width:36ch;letter-spacing:-.2px;margin:0 auto 6px}
+ .lake-video-hero p.lake-video-location{font-size:clamp(10px,2.8vw,13px);line-height:1.3;margin:0 0 8px}
+ .lake-video-hero .lake-cta{min-height:44px;padding:8px 14px;font-size:clamp(10px,2.8vw,12px);letter-spacing:.1em;gap:8px}
+}
