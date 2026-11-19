@@ -426,3 +426,13 @@ body.lakeside-inner{
 .lakeside-inner .hero-text-panel{width:100%;padding-left:clamp(32px,5vw,85px);padding-right:32px}
 @media(max-width:850px){.lakeside-inner .hero-text-panel{padding-left:24px;padding-right:24px}}
 @media(max-width:570px){.lakeside-inner .hero-text-panel{padding-left:22px;padding-right:22px}}
+
+/* Plated menu photography beside each category heading. */
+.lakeside-inner .menu-category-heading{display:grid;grid-template-columns:minmax(0,1fr) 240px;align-items:center;gap:24px;margin-bottom:20px}
+.lakeside-inner .menu-category-heading h2{margin:0}
+.lakeside-inner .menu-category-heading img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-bottom:4px solid var(--bh-gold)}
+@media(max-width:570px){.lakeside-inner .menu-category-heading{grid-template-columns:1fr;gap:16px}.lakeside-inner .menu-category-heading img{max-width:100%}}
+
+.lakeside-inner .page-hero p.menu-hero-prompt{color:var(--bh-navy);margin:18px 32px 0 clamp(32px,5vw,85px);font-weight:600}
+@media(max-width:850px){.lakeside-inner .page-hero p.menu-hero-prompt{margin-left:24px;margin-right:24px}}
+@media(max-width:570px){.lakeside-inner .page-hero p.menu-hero-prompt{margin-left:22px;margin-right:22px}}

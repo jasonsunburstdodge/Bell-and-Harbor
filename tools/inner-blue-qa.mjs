@@ -36,7 +36,7 @@ for(const [route,name,w,h] of [
  if(metrics){
   const css=(metrics.card?.background||'');
   if(name.startsWith('menus')&&name==='menus'&&!css.includes('0, 33, 64'))report.issues.push(name+': expected deep navy cards, got '+css);
-  if(name==='reservations'&&!metrics.panel?.backgroundImage?.includes('linear-gradient'))report.issues.push(name+': navy reservation information panel missing');
+  if(name==='reservations'&&(metrics.panel?.background!=='rgb(0, 33, 64)'||metrics.panel?.backgroundImage!=='none'))report.issues.push(name+': solid navy reservation information panel missing');
   if(metrics.scrollWidth>metrics.viewWidth+1)report.issues.push(name+': horizontal scrolling');
   if(!metrics.hasH1||!metrics.header)report.issues.push(name+': missing page heading or header');
   if(metrics.imgBroken.length)report.issues.push(name+': image errors '+metrics.imgBroken.join(','));
