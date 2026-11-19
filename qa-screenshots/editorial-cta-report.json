@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T14:38:39.035Z",
-  "sourceCommit": "5e5e2e0b6754b139a55c8d7ac552272bc54a2a75",
+  "capturedAt": "2026-11-19T14:53:03.180Z",
+  "sourceCommit": "63b032814bc8dd39b59fad42291702bf8a93cb0d",
   "expectedStyleVersion": "20261119-cool-white-blue",
   "issues": [
     "order-desktop: Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)",
