@@ -420,3 +420,9 @@ body.lakeside-inner{
 /* Keep all seven calendar columns inside narrow phone panels. */
 .lakeside-inner #cal-grid{grid-template-columns:repeat(7,minmax(0,1fr));min-width:0}
 @media(max-width:570px){.lakeside-inner #cal-grid{gap:3px}.lakeside-inner #cal-grid span{min-width:0;padding:10px 2px;font-size:11px}}
+
+/* Navy background runs side to side behind all interior hero lettering. */
+.lakeside-inner .page-hero>div:first-child{padding-left:0;padding-right:0}
+.lakeside-inner .hero-text-panel{width:100%;padding-left:clamp(32px,5vw,85px);padding-right:32px}
+@media(max-width:850px){.lakeside-inner .hero-text-panel{padding-left:24px;padding-right:24px}}
+@media(max-width:570px){.lakeside-inner .hero-text-panel{padding-left:22px;padding-right:22px}}
