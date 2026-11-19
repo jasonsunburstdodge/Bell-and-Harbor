@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T13:49:32.159Z",
-  "sourceCommit": "9ab6b5915f6642691164fcca15dfa621d2eae155",
+  "capturedAt": "2026-11-19T14:01:23.002Z",
+  "sourceCommit": "5f737af3b13827439c7e1044df23e14f2e143f69",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -15,8 +15,6 @@
     "cocktails-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "kids-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "kids-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
-    "reservations-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
-    "reservations-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "private-events-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "private-events-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "events-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -278,11 +276,11 @@
         "orderBeforeContent": "none",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
+        "ctaBoxShadow": "rgb(146, 184, 203) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 40,
-        "ctaRight": 339.890625,
+        "ctaRight": 271.84375,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -344,7 +342,7 @@
         "orderBeforeContent": "none",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
+        "ctaBoxShadow": "rgb(146, 184, 203) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 22,
@@ -534,11 +532,11 @@
         "orderBeforeContent": "none",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
+        "ctaBoxShadow": "rgb(146, 184, 203) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 40,
-        "ctaRight": 339.890625,
+        "ctaRight": 271.84375,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -600,7 +598,7 @@
         "orderBeforeContent": "none",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
+        "ctaBoxShadow": "rgb(146, 184, 203) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 22,
@@ -666,11 +664,11 @@
         "orderBeforeContent": "none",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
+        "ctaBoxShadow": "rgb(146, 184, 203) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 40,
-        "ctaRight": 339.890625,
+        "ctaRight": 271.84375,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -732,119 +730,11 @@
         "orderBeforeContent": "none",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
+        "ctaBoxShadow": "rgb(146, 184, 203) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 22,
         "ctaRight": 368,
-        "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
-        "navRadius": "0px",
-        "overflow": false,
-        "mainHeader": true,
-        "h1": 1
-      },
-      "issues": [
-        "Current menu/navy styles or approved header/CTA geometry not confirmed"
-      ]
-    },
-    {
-      "name": "reservations-desktop",
-      "route": "reservations/",
-      "width": 1024,
-      "height": 900,
-      "ready": false,
-      "metrics": {
-        "styles": [
-          {
-            "name": "site-style.css",
-            "version": "20261118-menus-navy-text"
-          },
-          {
-            "name": "lakeside-home.css",
-            "version": "20261118-menus-navy-text"
-          },
-          {
-            "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
-          },
-          {
-            "name": "lakeside-ctas.css",
-            "version": "20261118-menus-navy-text"
-          },
-          {
-            "name": "lakeside-editorial.css",
-            "version": "20261119-editorial"
-          }
-        ],
-        "brandNavy": "#002140",
-        "hasStyle": false,
-        "headerHeight": 133,
-        "logoWidth": 180,
-        "logoHeight": 200,
-        "orderHeight": 43.59375,
-        "orderFontSize": "14px",
-        "orderBeforeContent": "none",
-        "ctaFound": true,
-        "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "2.28px",
-        "ctaHeight": 55,
-        "ctaLeft": 564,
-        "ctaRight": 818.484375,
-        "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
-        "navRadius": "0px",
-        "overflow": false,
-        "mainHeader": true,
-        "h1": 1
-      },
-      "issues": [
-        "Current menu/navy styles or approved header/CTA geometry not confirmed"
-      ]
-    },
-    {
-      "name": "reservations-mobile",
-      "route": "reservations/",
-      "width": 390,
-      "height": 844,
-      "ready": false,
-      "metrics": {
-        "styles": [
-          {
-            "name": "site-style.css",
-            "version": "20261118-menus-navy-text"
-          },
-          {
-            "name": "lakeside-home.css",
-            "version": "20261118-menus-navy-text"
-          },
-          {
-            "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
-          },
-          {
-            "name": "lakeside-ctas.css",
-            "version": "20261118-menus-navy-text"
-          },
-          {
-            "name": "lakeside-editorial.css",
-            "version": "20261119-editorial"
-          }
-        ],
-        "brandNavy": "#002140",
-        "hasStyle": false,
-        "headerHeight": 100,
-        "logoWidth": 93,
-        "logoHeight": 104,
-        "orderHeight": 0,
-        "orderFontSize": "13px",
-        "orderBeforeContent": "none",
-        "ctaFound": true,
-        "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "2.28px",
-        "ctaHeight": 55,
-        "ctaLeft": 50,
-        "ctaRight": 340,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
