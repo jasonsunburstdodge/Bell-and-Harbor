@@ -1,18 +1,28 @@
 {
-  "capturedAt": "2026-11-19T05:56:03.730Z",
-  "issues": [],
+  "capturedAt": "2026-11-19T13:57:59.464Z",
+  "issues": [
+    "menus: deployed blue stylesheet not verified",
+    "menus: expected deep navy cards, got rgba(0, 0, 0, 0)",
+    "main-menu: deployed blue stylesheet not verified",
+    "private-events: deployed blue stylesheet not verified",
+    "events: deployed blue stylesheet not verified",
+    "contact: deployed blue stylesheet not verified",
+    "order: deployed blue stylesheet not verified",
+    "menus-mobile: deployed blue stylesheet not verified",
+    "events-mobile: deployed blue stylesheet not verified"
+  ],
   "pages": [
     {
       "route": "menus/",
       "name": "menus",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "brandNavy": "#002140",
         "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "background": "rgb(217, 233, 241)",
+          "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
           "border": "rgb(0, 33, 64)"
         },
@@ -23,10 +33,10 @@
           "border": "rgb(0, 33, 64)"
         },
         "card": {
-          "background": "rgb(0, 33, 64)",
+          "background": "rgba(0, 0, 0, 0)",
           "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
-          "border": "rgb(23, 76, 108)"
+          "border": "rgb(0, 33, 64)"
         },
         "panel": null,
         "menu": null,
@@ -43,12 +53,12 @@
       "name": "main-menu",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "brandNavy": "#002140",
         "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "background": "rgb(217, 233, 241)",
+          "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
           "border": "rgb(0, 33, 64)"
         },
@@ -61,49 +71,13 @@
         "card": null,
         "panel": null,
         "menu": {
-          "background": "rgb(197, 225, 238)",
+          "background": "rgba(0, 0, 0, 0)",
           "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
-          "border": "rgb(145, 191, 212) rgb(145, 191, 212) rgb(145, 191, 212) rgb(0, 33, 64)"
+          "border": "rgb(0, 33, 64) rgb(0, 33, 64) rgb(155, 191, 208)"
         },
         "header": true,
         "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-category-images-final",
-        "scrollWidth": 1024,
-        "imgBroken": [],
-        "viewWidth": 1024,
-        "hasH1": true
-      }
-    },
-    {
-      "route": "reservations/",
-      "name": "reservations",
-      "width": 1024,
-      "height": 900,
-      "ready": true,
-      "metrics": {
-        "brandNavy": "#002140",
-        "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
-          "color": "rgb(0, 33, 64)",
-          "border": "rgb(0, 33, 64)"
-        },
-        "hero": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
-          "color": "rgb(0, 33, 64)",
-          "border": "rgb(0, 33, 64)"
-        },
-        "card": null,
-        "panel": {
-          "background": "rgb(0, 33, 64)",
-          "backgroundImage": "none",
-          "color": "rgb(245, 245, 237)",
-          "border": "rgb(20, 79, 112)"
-        },
-        "menu": null,
-        "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-full-width-text-bar",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -115,12 +89,12 @@
       "name": "private-events",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "brandNavy": "#002140",
         "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "background": "rgb(217, 233, 241)",
+          "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
           "border": "rgb(0, 33, 64)"
         },
@@ -135,7 +109,7 @@
           "background": "rgb(0, 33, 64)",
           "backgroundImage": "none",
           "color": "rgb(245, 245, 237)",
-          "border": "rgb(20, 79, 112)"
+          "border": "rgb(245, 245, 237)"
         },
         "menu": null,
         "header": true,
@@ -151,12 +125,12 @@
       "name": "events",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "brandNavy": "#002140",
         "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "background": "rgb(217, 233, 241)",
+          "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
           "border": "rgb(0, 33, 64)"
         },
@@ -182,12 +156,12 @@
       "name": "contact",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "brandNavy": "#002140",
         "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "background": "rgb(217, 233, 241)",
+          "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
           "border": "rgb(0, 33, 64)"
         },
@@ -202,7 +176,7 @@
           "background": "rgb(0, 33, 64)",
           "backgroundImage": "none",
           "color": "rgb(245, 245, 237)",
-          "border": "rgb(20, 79, 112)"
+          "border": "rgb(245, 245, 237)"
         },
         "menu": null,
         "header": true,
@@ -218,12 +192,12 @@
       "name": "order",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "brandNavy": "#002140",
         "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "background": "rgb(217, 233, 241)",
+          "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
           "border": "rgb(0, 33, 64)"
         },
@@ -236,10 +210,10 @@
         "card": null,
         "panel": null,
         "menu": {
-          "background": "rgb(231, 242, 247)",
+          "background": "rgba(0, 0, 0, 0)",
           "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
-          "border": "rgb(168, 206, 222) rgb(168, 206, 222) rgb(155, 191, 208) rgb(57, 116, 147)"
+          "border": "rgb(0, 33, 64) rgb(0, 33, 64) rgb(155, 191, 208)"
         },
         "header": true,
         "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-category-images-final",
@@ -254,12 +228,12 @@
       "name": "menus-mobile",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "brandNavy": "#002140",
         "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "background": "rgb(217, 233, 241)",
+          "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
           "border": "rgb(0, 33, 64)"
         },
@@ -270,10 +244,10 @@
           "border": "rgb(0, 33, 64)"
         },
         "card": {
-          "background": "rgb(0, 33, 64)",
+          "background": "rgba(0, 0, 0, 0)",
           "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
-          "border": "rgb(23, 76, 108)"
+          "border": "rgb(0, 33, 64)"
         },
         "panel": null,
         "menu": null,
@@ -286,52 +260,16 @@
       }
     },
     {
-      "route": "reservations/",
-      "name": "reservations-mobile",
-      "width": 390,
-      "height": 844,
-      "ready": true,
-      "metrics": {
-        "brandNavy": "#002140",
-        "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
-          "color": "rgb(0, 33, 64)",
-          "border": "rgb(0, 33, 64)"
-        },
-        "hero": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(115deg, rgb(57, 116, 147) 0%, rgb(86, 139, 168) 100%)",
-          "color": "rgb(0, 33, 64)",
-          "border": "rgb(0, 33, 64)"
-        },
-        "card": null,
-        "panel": {
-          "background": "rgb(0, 33, 64)",
-          "backgroundImage": "none",
-          "color": "rgb(245, 245, 237)",
-          "border": "rgb(20, 79, 112)"
-        },
-        "menu": null,
-        "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-full-width-text-bar",
-        "scrollWidth": 390,
-        "imgBroken": [],
-        "viewWidth": 390,
-        "hasH1": true
-      }
-    },
-    {
       "route": "events/",
       "name": "events-mobile",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "brandNavy": "#002140",
         "background": {
-          "background": "rgba(0, 0, 0, 0)",
-          "backgroundImage": "linear-gradient(165deg, rgb(191, 220, 233) 0%, rgb(217, 234, 242) 40%, rgb(197, 225, 237) 78%, rgb(183, 215, 229) 100%)",
+          "background": "rgb(217, 233, 241)",
+          "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
           "border": "rgb(0, 33, 64)"
         },
