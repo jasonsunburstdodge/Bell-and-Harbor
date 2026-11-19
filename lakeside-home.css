@@ -117,3 +117,27 @@
 .lakeside-redesign .lake-feature-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;margin-top:16px;padding:10px 12px;border:1px solid var(--bh-navy);background:var(--bh-navy);color:var(--bh-cream);font:600 12px/1.3 'DM Sans',Arial,sans-serif;text-align:center;text-decoration:none;box-shadow:3px 3px 0 var(--bh-gold)}
 .lakeside-redesign .lake-feature-button:hover{background:#1d5d7e;color:white}
 .lakeside-redesign .lake-feature-button:focus-visible{outline:3px solid var(--bh-gold);outline-offset:4px}
+
+/* A full-frame, silent film alongside the centered welcome. */
+.lake-video-hero{height:500px;grid-template-columns:minmax(0,1fr) 888.888889px}
+.lake-video-hero .lake-hero-copy{padding:50px 24px;display:flex;align-items:center;justify-content:center;min-width:0;text-align:center}
+.lake-hero-centered{width:100%;max-width:600px}
+.lake-video-hero h1.lake-video-heading{font:400 clamp(25px,2.5vw,38px)/1.25 'Newsreader',Georgia,serif;letter-spacing:-.5px;max-width:26ch;margin:0 auto 22px;white-space:normal;color:var(--bh-cream)}
+.lake-video-hero p.lake-video-location{font:500 13px/1.5 'DM Sans',Arial,sans-serif;letter-spacing:.5px;margin:0 0 28px;color:var(--bh-cream)}
+.lake-video-hero .lake-cta{margin:0;max-width:100%;min-width:0;width:auto}
+.lake-video-media{position:relative;height:500px;aspect-ratio:16/9;min-width:0;background:var(--bh-navy)}
+.lake-video-media video,.lake-video-media .lake-video-still{display:block;width:100%;height:100%;object-fit:contain}
+.lake-video-media [hidden]{display:none}
+.lake-video-pause{position:absolute;bottom:14px;right:14px;border:1px solid var(--bh-cream);padding:10px 14px;min-height:44px;background:var(--bh-navy);color:var(--bh-cream);font:500 12px 'DM Sans',Arial,sans-serif;cursor:pointer}
+.lake-video-pause:focus-visible{outline:3px solid var(--bh-gold);outline-offset:3px}
+@media(max-width:1199px){.lake-video-hero{height:auto;grid-template-columns:1fr}.lake-video-hero .lake-hero-copy{padding:64px 24px 40px;min-height:300px}.lake-video-hero h1.lake-video-heading{font-size:clamp(27px,4vw,38px)}.lake-video-media{height:auto;width:100%;aspect-ratio:16/9}.lake-video-media video,.lake-video-media .lake-video-still{height:auto;aspect-ratio:16/9}}
+@media(prefers-reduced-motion:reduce){.lake-video-pause{display:none}}
+/* Keep ordinary laptop widths side by side without cropping the film. */
+@media(min-width:1024px) and (max-width:1199px){
+ .lake-video-hero{grid-template-columns:300px minmax(0,1fr);height:auto;align-items:stretch}
+ .lake-video-hero .lake-hero-copy{min-height:0;padding:26px 18px}
+ .lake-video-hero h1.lake-video-heading{font-size:24px;line-height:1.2;margin-bottom:18px}
+ .lake-video-hero p.lake-video-location{font-size:12px;margin-bottom:20px}
+ .lake-video-hero .lake-cta{padding:13px 15px;font-size:12px;gap:9px}
+ .lake-video-media{height:auto;aspect-ratio:16/9;align-self:center}
+}
