@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T18:07:47.041Z",
+  "capturedAt": "2026-11-19T18:13:44.699Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -57,13 +57,13 @@
         "x": 0,
         "y": 2426,
         "w": 1024,
-        "h": 78
+        "h": 265
       },
       "body": {
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2504
+        "h": 2692
       },
       "imageStatus": [
         {
@@ -165,13 +165,13 @@
         "x": 0,
         "y": 2692,
         "w": 1440,
-        "h": 78
+        "h": 265
       },
       "body": {
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2770
+        "h": 2958
       },
       "imageStatus": [
         {
@@ -273,13 +273,13 @@
         "x": 0,
         "y": 2849,
         "w": 390,
-        "h": 78
+        "h": 408
       },
       "body": {
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2927
+        "h": 3258
       },
       "imageStatus": [
         {
@@ -352,20 +352,6 @@
         "nav": true,
         "stylesheet": true,
         "title": "Main Menu",
-        "oldLogo": false,
-        "oldPalette": false
-      },
-      "errors": []
-    },
-    {
-      "route": "menus/brunch/",
-      "status": 200,
-      "details": {
-        "header": true,
-        "redesignBody": true,
-        "nav": true,
-        "stylesheet": true,
-        "title": "Weekend Brunch",
         "oldLogo": false,
         "oldPalette": false
       },
@@ -458,9 +444,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      107.38,
-      87.8,
-      88.06
+      107.42,
+      87.71,
+      87.9
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
