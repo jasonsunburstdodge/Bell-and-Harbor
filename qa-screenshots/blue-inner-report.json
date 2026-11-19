@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-18T17:59:10.221Z",
+  "capturedAt": "2026-11-19T05:10:58.433Z",
   "issues": [],
   "pages": [
     {
@@ -61,10 +61,10 @@
         "card": null,
         "panel": null,
         "menu": {
-          "background": "rgb(231, 242, 247)",
+          "background": "rgb(197, 225, 238)",
           "backgroundImage": "none",
           "color": "rgb(0, 33, 64)",
-          "border": "rgb(168, 206, 222) rgb(168, 206, 222) rgb(168, 206, 222) rgb(57, 116, 147)"
+          "border": "rgb(145, 191, 212) rgb(145, 191, 212) rgb(145, 191, 212) rgb(0, 33, 64)"
         },
         "header": true,
         "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261118-menus-navy-text",
