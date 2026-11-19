@@ -82,7 +82,7 @@
   padding:11px 20px;
   border:1px solid var(--bh-cta-ink);
   border-radius:0;
-  background:rgba(255,250,243,.22);
+  background:var(--bh-sky);
   color:var(--bh-cta-ink);
   font:600 12px/1.2 'DM Sans',Arial,sans-serif;
   letter-spacing:.16em;
