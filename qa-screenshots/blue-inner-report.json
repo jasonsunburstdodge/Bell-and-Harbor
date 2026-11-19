@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T13:57:59.464Z",
+  "capturedAt": "2026-11-19T14:37:45.814Z",
   "issues": [
     "menus: deployed blue stylesheet not verified",
     "menus: expected deep navy cards, got rgba(0, 0, 0, 0)",
@@ -41,7 +41,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-category-images-final",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-cool-white-blue",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -77,7 +77,7 @@
           "border": "rgb(0, 33, 64) rgb(0, 33, 64) rgb(155, 191, 208)"
         },
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-category-images-final",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-cool-white-blue",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -108,12 +108,12 @@
         "panel": {
           "background": "rgb(0, 33, 64)",
           "backgroundImage": "none",
-          "color": "rgb(245, 245, 237)",
-          "border": "rgb(245, 245, 237)"
+          "color": "rgb(242, 248, 252)",
+          "border": "rgb(242, 248, 252)"
         },
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-full-width-text-bar",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-cool-white-blue",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -144,7 +144,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-full-width-text-bar",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-cool-white-blue",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -175,12 +175,12 @@
         "panel": {
           "background": "rgb(0, 33, 64)",
           "backgroundImage": "none",
-          "color": "rgb(245, 245, 237)",
-          "border": "rgb(245, 245, 237)"
+          "color": "rgb(242, 248, 252)",
+          "border": "rgb(242, 248, 252)"
         },
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-full-width-text-bar",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-cool-white-blue",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -216,7 +216,7 @@
           "border": "rgb(0, 33, 64) rgb(0, 33, 64) rgb(155, 191, 208)"
         },
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-category-images-final",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-cool-white-blue",
         "scrollWidth": 1024,
         "imgBroken": [],
         "viewWidth": 1024,
@@ -252,7 +252,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-category-images-final",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-cool-white-blue",
         "scrollWidth": 390,
         "imgBroken": [],
         "viewWidth": 390,
@@ -283,7 +283,7 @@
         "panel": null,
         "menu": null,
         "header": true,
-        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-full-width-text-bar",
+        "styleHref": "/Bell-and-Harbor/lakeside-inner.css?v=20261119-cool-white-blue",
         "scrollWidth": 390,
         "imgBroken": [],
         "viewWidth": 390,
