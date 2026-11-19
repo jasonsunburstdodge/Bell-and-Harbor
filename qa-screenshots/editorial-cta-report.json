@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T07:01:27.196Z",
-  "sourceCommit": "b816100060a3408739a438456766c07525d26b83",
+  "capturedAt": "2026-11-19T07:19:09.402Z",
+  "sourceCommit": "4dd65d6ad0584051943d703779184a424a4aebec",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -41,7 +41,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-left-intro"
+            "version": "20261119-equal-mobile-hero"
           },
           {
             "name": "lakeside-ctas.css",
@@ -87,7 +87,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-left-intro"
+            "version": "20261119-equal-mobile-hero"
           },
           {
             "name": "lakeside-ctas.css",
@@ -107,8 +107,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.44px",
         "ctaHeight": 56,
-        "ctaLeft": 24,
-        "ctaRight": 366,
+        "ctaLeft": 7.796875,
+        "ctaRight": 382.203125,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
