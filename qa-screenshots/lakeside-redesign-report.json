@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T14:22:05.100Z",
+  "capturedAt": "2026-11-19T14:24:01.220Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -37,25 +37,25 @@
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 764,
+        "y": 769,
         "w": 1024,
         "h": 580
       },
       "menu": {
         "x": 0,
-        "y": 1344,
+        "y": 1349,
         "w": 1024,
         "h": 538
       },
       "events": {
         "x": 0,
-        "y": 1882,
+        "y": 1887,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 2247,
+        "y": 2253,
         "w": 1024,
         "h": 78
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2325
+        "h": 2331
       },
       "imageStatus": [
         {
@@ -145,25 +145,25 @@
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 889,
+        "y": 894,
         "w": 1440,
         "h": 751
       },
       "menu": {
         "x": 0,
-        "y": 1639,
+        "y": 1645,
         "w": 1440,
         "h": 442
       },
       "events": {
         "x": 0,
-        "y": 2082,
+        "y": 2087,
         "w": 1440,
         "h": 515
       },
       "footer": {
         "x": 0,
-        "y": 2596,
+        "y": 2602,
         "w": 1440,
         "h": 78
       },
@@ -171,7 +171,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2674
+        "h": 2680
       },
       "imageStatus": [
         {
@@ -458,9 +458,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      89.57,
-      80.22,
-      87.48
+      89.43,
+      80.01,
+      87.38
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
