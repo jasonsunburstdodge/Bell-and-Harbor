@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T14:14:45.290Z",
+  "capturedAt": "2026-11-19T14:19:00.321Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -37,25 +37,25 @@
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 704,
+        "y": 719,
         "w": 1024,
         "h": 580
       },
       "menu": {
         "x": 0,
-        "y": 1283,
+        "y": 1299,
         "w": 1024,
         "h": 538
       },
       "events": {
         "x": 0,
-        "y": 1821,
+        "y": 1837,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 2187,
+        "y": 2203,
         "w": 1024,
         "h": 78
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2265
+        "h": 2281
       },
       "imageStatus": [
         {
@@ -145,25 +145,25 @@
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 812,
+        "y": 828,
         "w": 1440,
         "h": 751
       },
       "menu": {
         "x": 0,
-        "y": 1563,
+        "y": 1579,
         "w": 1440,
         "h": 442
       },
       "events": {
         "x": 0,
-        "y": 2006,
+        "y": 2021,
         "w": 1440,
         "h": 515
       },
       "footer": {
         "x": 0,
-        "y": 2520,
+        "y": 2536,
         "w": 1440,
         "h": 78
       },
@@ -171,7 +171,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2598
+        "h": 2614
       },
       "imageStatus": [
         {
@@ -253,25 +253,25 @@
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 662,
+        "y": 680,
         "w": 390,
         "h": 595
       },
       "menu": {
         "x": 0,
-        "y": 1257,
+        "y": 1275,
         "w": 390,
         "h": 951
       },
       "events": {
         "x": 0,
-        "y": 2208,
+        "y": 2226,
         "w": 390,
         "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 2740,
+        "y": 2758,
         "w": 390,
         "h": 78
       },
@@ -279,7 +279,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2818
+        "h": 2836
       },
       "imageStatus": [
         {
@@ -458,9 +458,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      85.09,
-      79.58,
-      89.09
+      87.68,
+      78.93,
+      87.88
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
