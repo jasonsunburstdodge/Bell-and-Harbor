@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T05:36:53.037Z",
-  "sourceCommit": "d002df0b972c0dacaa5e5765b8d2fe17b13d3288",
+  "capturedAt": "2026-11-19T05:48:05.411Z",
+  "sourceCommit": "2e1a653e9ddaa3f32a70617ada9fa4e786d25d98",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -41,7 +41,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-blue-visit-buttons"
+            "version": "20261119-flame-visit-band"
           },
           {
             "name": "lakeside-ctas.css",
@@ -87,7 +87,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-blue-visit-buttons"
+            "version": "20261119-flame-visit-band"
           },
           {
             "name": "lakeside-ctas.css",
@@ -137,7 +137,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -187,7 +187,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -237,7 +237,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -295,7 +295,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -353,7 +353,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -407,7 +407,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -461,7 +461,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -519,7 +519,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -577,7 +577,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -635,7 +635,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -1093,7 +1093,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
@@ -1147,7 +1147,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-full-width-text-bar"
+            "version": "20261119-category-images-final"
           },
           {
             "name": "lakeside-ctas.css",
