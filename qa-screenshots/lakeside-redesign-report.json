@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T06:33:49.172Z",
+  "capturedAt": "2026-11-19T06:36:43.235Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -20,42 +20,42 @@
         "x": 0,
         "y": 133,
         "w": 1024,
-        "h": 500
+        "h": 407
       },
       "heroCopy": {
         "x": 0,
         "y": 133,
-        "w": 455,
-        "h": 500
+        "w": 300,
+        "h": 407
       },
       "heroImage": {
-        "x": 455,
+        "x": 300,
         "y": 133,
-        "w": 569,
-        "h": 500
+        "w": 724,
+        "h": 407
       },
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 729,
+        "y": 637,
         "w": 1024,
         "h": 580
       },
       "menu": {
         "x": 0,
-        "y": 1309,
+        "y": 1216,
         "w": 1024,
         "h": 538
       },
       "events": {
         "x": 0,
-        "y": 1847,
+        "y": 1754,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 2213,
+        "y": 2120,
         "w": 1024,
         "h": 78
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2291
+        "h": 2198
       },
       "imageStatus": [
         {
@@ -71,7 +71,7 @@
           "loaded": true
         },
         {
-          "src": "hero-lakeside-couple-open-patio.webp",
+          "src": "lakeside-couple-final-frame.webp",
           "loaded": true
         },
         {
@@ -97,10 +97,10 @@
       ],
       "overflow": false,
       "brandline": {
-        "x": 24,
-        "y": 222,
-        "w": 407,
-        "h": 113
+        "x": 18,
+        "y": 204,
+        "w": 264,
+        "h": 144
       },
       "introSecond": null,
       "width": 1024,
@@ -129,13 +129,13 @@
       "heroCopy": {
         "x": 0,
         "y": 133,
-        "w": 640,
+        "w": 551,
         "h": 500
       },
       "heroImage": {
-        "x": 640,
+        "x": 551,
         "y": 133,
-        "w": 800,
+        "w": 889,
         "h": 500
       },
       "ribbon": null,
@@ -175,7 +175,7 @@
           "loaded": true
         },
         {
-          "src": "hero-lakeside-couple-open-patio.webp",
+          "src": "lakeside-couple-final-frame.webp",
           "loaded": true
         },
         {
@@ -202,9 +202,9 @@
       "overflow": false,
       "brandline": {
         "x": 24,
-        "y": 212,
-        "w": 592,
-        "h": 164
+        "y": 231,
+        "w": 503,
+        "h": 180
       },
       "introSecond": null,
       "width": 1440,
@@ -228,42 +228,42 @@
         "x": 0,
         "y": 100,
         "w": 390,
-        "h": 724
+        "h": 618
       },
       "heroCopy": {
         "x": 0,
         "y": 100,
         "w": 390,
-        "h": 454
+        "h": 398
       },
       "heroImage": {
         "x": 0,
-        "y": 554,
+        "y": 498,
         "w": 390,
-        "h": 270
+        "h": 219
       },
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 966,
+        "y": 860,
         "w": 390,
         "h": 595
       },
       "menu": {
         "x": 0,
-        "y": 1561,
+        "y": 1455,
         "w": 390,
         "h": 951
       },
       "events": {
         "x": 0,
-        "y": 2511,
+        "y": 2405,
         "w": 390,
         "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 3044,
+        "y": 2938,
         "w": 390,
         "h": 78
       },
@@ -271,7 +271,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 3122
+        "h": 3016
       },
       "imageStatus": [
         {
@@ -279,7 +279,7 @@
           "loaded": true
         },
         {
-          "src": "hero-lakeside-couple-open-patio.webp",
+          "src": "lakeside-couple-final-frame.webp",
           "loaded": true
         },
         {
@@ -306,9 +306,9 @@
       "overflow": false,
       "brandline": {
         "x": 24,
-        "y": 162,
+        "y": 164,
         "w": 342,
-        "h": 95
+        "h": 169
       },
       "introSecond": null,
       "width": 390,
@@ -460,9 +460,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      73.15,
-      71.09,
-      77.21
+      74.71,
+      73.89,
+      82.82
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
