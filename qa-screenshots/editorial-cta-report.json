@@ -1,8 +1,10 @@
 {
-  "capturedAt": "2026-11-19T14:53:03.180Z",
-  "sourceCommit": "63b032814bc8dd39b59fad42291702bf8a93cb0d",
+  "capturedAt": "2026-11-19T14:59:48.942Z",
+  "sourceCommit": "875d35c80de102f9ca890312525ad125fa110c66",
   "expectedStyleVersion": "20261119-cool-white-blue",
   "issues": [
+    "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "home-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "order-desktop: Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)",
     "order-mobile: Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)"
   ],
@@ -12,7 +14,7 @@
       "route": "",
       "width": 1024,
       "height": 1000,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -21,7 +23,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-compact-visit"
+            "version": "20261119-five-line-quote"
           },
           {
             "name": "lakeside-ctas.css",
@@ -35,7 +37,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -53,23 +55,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 18,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "home-mobile",
       "route": "",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -78,7 +75,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-compact-visit"
+            "version": "20261119-five-line-quote"
           },
           {
             "name": "lakeside-ctas.css",
@@ -92,7 +89,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -110,16 +107,11 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 14,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "menus-desktop",
