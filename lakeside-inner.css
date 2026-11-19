@@ -416,3 +416,7 @@ body.lakeside-inner{
 .lakeside-inner .menu-overview-cards .card-body{display:flex;flex-direction:column;flex:1}
 .lakeside-inner .menu-overview-cards .card p{font-size:16px;line-height:1.55;margin-bottom:20px}
 .lakeside-inner .menu-overview-cards .card-link{margin-top:auto;align-self:flex-start}
+
+/* Keep all seven calendar columns inside narrow phone panels. */
+.lakeside-inner #cal-grid{grid-template-columns:repeat(7,minmax(0,1fr));min-width:0}
+@media(max-width:570px){.lakeside-inner #cal-grid{gap:3px}.lakeside-inner #cal-grid span{min-width:0;padding:10px 2px;font-size:11px}}
