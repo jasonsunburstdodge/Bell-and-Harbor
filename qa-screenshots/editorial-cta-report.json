@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T17:45:22.084Z",
-  "sourceCommit": "a4f5f7f0f4b137fe5785f36ce388e8cb6a855eeb",
+  "capturedAt": "2026-11-19T17:55:35.696Z",
+  "sourceCommit": "8070af83e130c80504003be383608d46addd6671",
   "expectedStyleVersion": "20261119-cool-white-blue",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
