@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T18:13:44.699Z",
+  "capturedAt": "2026-11-19T18:36:48.509Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -45,17 +45,17 @@
         "x": 0,
         "y": 1523,
         "w": 1024,
-        "h": 538
+        "h": 464
       },
       "events": {
         "x": 0,
-        "y": 2060,
+        "y": 1986,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 2426,
+        "y": 2352,
         "w": 1024,
         "h": 265
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2692
+        "h": 2617
       },
       "imageStatus": [
         {
@@ -84,10 +84,6 @@
         },
         {
           "src": "lakeside-grilled-salmon-open-patio.webp",
-          "loaded": true
-        },
-        {
-          "src": "weekend-brunch-pancakes-open-patio.webp",
           "loaded": true
         },
         {
@@ -153,17 +149,17 @@
         "x": 0,
         "y": 1736,
         "w": 1440,
-        "h": 442
+        "h": 412
       },
       "events": {
         "x": 0,
-        "y": 2178,
+        "y": 2148,
         "w": 1440,
         "h": 515
       },
       "footer": {
         "x": 0,
-        "y": 2692,
+        "y": 2662,
         "w": 1440,
         "h": 265
       },
@@ -171,7 +167,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2958
+        "h": 2927
       },
       "imageStatus": [
         {
@@ -192,10 +188,6 @@
         },
         {
           "src": "lakeside-grilled-salmon-open-patio.webp",
-          "loaded": true
-        },
-        {
-          "src": "weekend-brunch-pancakes-open-patio.webp",
           "loaded": true
         },
         {
@@ -261,17 +253,17 @@
         "x": 0,
         "y": 1366,
         "w": 390,
-        "h": 951
+        "h": 708
       },
       "events": {
         "x": 0,
-        "y": 2317,
+        "y": 2074,
         "w": 390,
         "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 2849,
+        "y": 2607,
         "w": 390,
         "h": 408
       },
@@ -279,7 +271,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 3258
+        "h": 3015
       },
       "imageStatus": [
         {
@@ -300,10 +292,6 @@
         },
         {
           "src": "lakeside-grilled-salmon-open-patio.webp",
-          "loaded": true
-        },
-        {
-          "src": "weekend-brunch-pancakes-open-patio.webp",
           "loaded": true
         },
         {
@@ -444,9 +432,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      107.42,
-      87.71,
-      87.9
+      107.4,
+      87.77,
+      87.99
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
