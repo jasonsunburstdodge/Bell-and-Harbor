@@ -225,3 +225,21 @@
 .lake-video-hero .lake-hero-centered .lake-video-heading{position:relative;top:-6px}
 .lake-video-hero .lake-hero-centered>.lake-cta{position:relative;top:6px}
 @media(max-width:1023px){.lake-video-hero .lake-hero-centered .lake-video-heading{top:-3px}.lake-video-hero .lake-hero-centered>.lake-cta{top:3px}}
+
+/* Compact visit details; align the action titles at their natural center. */
+.lake-visit-details.lake-daily-hours{padding-bottom:3px}
+.lake-visit-details:not(.lake-daily-hours){padding-bottom:5px}
+.lake-quick-actions a{min-height:65px}
+.lake-action-label{position:relative}
+.lake-action-single::after{display:none}
+.lake-action-label small{position:absolute;top:100%;left:50%;transform:translateX(-50%);width:max-content;margin:3px 0 0;white-space:nowrap}
+@media(max-width:570px){
+ .lake-visit-band{padding-top:6px}
+ .lake-quick-actions{grid-template-columns:repeat(2,minmax(0,160px));justify-content:center;column-gap:12px;padding:5px 16px 13px}
+}
+@media(max-width:360px) and (max-height:600px){
+ .lake-quick-actions a{min-height:55px}
+ .lake-visit-details.lake-daily-hours{padding-bottom:1px}
+ .lake-visit-details:not(.lake-daily-hours){padding-bottom:2px}
+ .lake-quick-actions{padding-top:2px}
+}

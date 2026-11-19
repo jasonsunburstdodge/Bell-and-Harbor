@@ -3,7 +3,7 @@ import fs from 'node:fs';
 
 const base='https://jasonsunburstdodge.github.io/Bell-and-Harbor/';
 const out='qa-screenshots';
-const version='20261118-menus-navy-text';
+const version='20261119-cool-white-blue';
 const expectedCocktails=[
  ['Hazelnut Espresso Martini','$13'],['Golden Spritz','$13'],['Harbor 75','$13'],
  ['Harbor Breeze','$12'],['Misty Bay Paloma','$12'],['Purple Pier','$13'],
@@ -43,7 +43,8 @@ for(const [index,[name,route,width,height,selector]] of views.entries()){
    await p.evaluate(async()=>document.fonts.ready);
    metrics=await p.evaluate(({selector,route,version,needsMenuStyle})=>{
     const el=document.querySelector(selector);
-    const nav=document.querySelector('.lake-navigation .lake-order');
+    const nav=document.querySelector('.lake-navigation');
+    const navLinks=[...nav.querySelectorAll('a')].map(a=>a.textContent.trim());
     const style=el?getComputedStyle(el):null;
     const nstyle=nav?getComputedStyle(nav):null;
     const bounds=el?.getBoundingClientRect();
@@ -59,8 +60,8 @@ for(const [index,[name,route,width,height,selector]] of views.entries()){
     if(needsMenuStyle)required.push('lakeside-menus.css');
     const brandNavy=getComputedStyle(document.documentElement).getPropertyValue('--bh-navy').trim();
     return{
-     styles,brandNavy,
-     hasStyle:required.every(name=>styles.some(s=>s.name===name&&s.version===version))&&styles.every(s=>s.version===version)&&brandNavy==='#002140',
+     styles,brandNavy,navLinks,
+     hasStyle:required.every(name=>styles.some(s=>s.name===name&&s.version===(route?version:'20261119-compact-visit')))&&styles.every(s=>s.version===(route?version:'20261119-compact-visit'))&&brandNavy==='#002140',
      headerHeight:header?.getBoundingClientRect().height,logoWidth:logo?.getBoundingClientRect().width,logoHeight:logo?.getBoundingClientRect().height,
      orderHeight:orderBounds?.height,orderFontSize:nstyle?.fontSize,orderBeforeContent:nav?getComputedStyle(nav,'::before').content:null,
      ctaFound:!!el,ctaBorderRadius:style?.borderRadius,ctaBoxShadow:style?.boxShadow,ctaLetterSpacing:style?.letterSpacing,
@@ -70,7 +71,7 @@ for(const [index,[name,route,width,height,selector]] of views.entries()){
      mainHeader:!!header,h1:document.querySelectorAll('h1').length
     };
    },{selector,route,version,needsMenuStyle:Object.hasOwn(menuCounts,route)});
-   ready=resp?.status()===200&&metrics.hasStyle&&metrics.ctaFound&&!!metrics.ctaBoxShadow&&metrics.navShadow!=='none'&&Math.abs(metrics.headerHeight-(width<=850?100:133))<1&&metrics.orderBeforeContent==='none';
+   ready=resp?.status()===200&&metrics.hasStyle&&metrics.ctaFound&&!!metrics.ctaBoxShadow&&metrics.navLinks.join('|')==='Home|Menus|Events Calendar|Contact'&&Math.abs(metrics.headerHeight-(width<=850?100:133))<1;
    if(ready)break;
   }catch(e){lastLoadError=String(e).slice(0,250);}
   if(attempt+1<attempts)await new Promise(r=>setTimeout(r,6000));
@@ -83,10 +84,7 @@ for(const [index,[name,route,width,height,selector]] of views.entries()){
   if(!metrics.ctaFound)issues.push('Primary control missing: '+selector);
   if(metrics.ctaRight>width+1||metrics.ctaLeft< -1)issues.push('Primary control extends beyond viewport');
   if(metrics.ctaBorderRadius!=='0px')issues.push('Primary control retained default rounding');
-  if(metrics.navRadius!=='0px')issues.push('Header action retained default rounding');
   if(Math.abs(metrics.headerHeight-(width<=850?100:133))>1)issues.push('Header height changed from approved 133px/100px');
-  if(metrics.orderBeforeContent!=='none')issues.push('Decorative header CTA icon still expands button width');
-  if(width>850&&Math.abs(metrics.orderHeight-44.6)>3)issues.push('Header Order CTA footprint changed: '+metrics.orderHeight+'px');
  }
  if(ready){
   await p.evaluate(async()=>{for(const img of document.images){img.loading='eager';await img.decode().catch(()=>{});}});
