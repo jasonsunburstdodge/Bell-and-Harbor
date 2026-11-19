@@ -1,0 +1,12 @@
+/* Footer-only sitemap and linked address. */
+footer.bh-sitemap{display:block;padding:36px clamp(20px,5vw,76px);text-align:left}
+.bh-sitemap-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1.25fr;gap:clamp(28px,7vw,100px)}
+.bh-sitemap nav{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.bh-sitemap h2{margin:0 0 8px;color:#efb345;font:500 21px/1.2 Newsreader,Georgia,serif;text-transform:none;letter-spacing:0}
+.bh-sitemap ul{list-style:none;margin:0;padding:0}.bh-sitemap li{margin:0;padding:0}
+footer.bh-sitemap a{color:#f2f8fc;display:inline-flex;align-items:center;min-height:32px;padding:2px 0;border:0;white-space:normal;text-decoration:none;letter-spacing:0;text-transform:none;font-size:15px;line-height:1.45}
+footer.bh-sitemap .bh-sitemap-address{max-width:32ch;text-decoration:underline;text-underline-offset:4px;line-height:1.6}
+footer.bh-sitemap a:hover{text-decoration:underline;text-underline-offset:4px;color:#efb345}
+@media(max-width:650px){footer.bh-sitemap{padding:28px 20px}.bh-sitemap-inner{grid-template-columns:1fr;gap:22px}.bh-sitemap nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}footer.bh-sitemap a{min-height:44px;font-size:14px}.bh-sitemap h2{font-size:19px}}
+/* The existing mobile toggle keeps its dimensions, behavior and hit area. */
+@media(max-width:850px){.lake-header .lake-menu-toggle{background:#002140;border-color:#efb345}.lake-header .lake-menu-toggle span{background:#efb345}}
