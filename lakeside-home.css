@@ -112,3 +112,14 @@
 .lake-quick-actions a::before{content:"";display:block;width:20px;height:2px;flex:0 0 20px;background:var(--bh-gold)}
 .lake-quick-actions a::after{content:"";display:block;width:9px;height:9px;flex:0 0 9px;border-top:2px solid var(--bh-gold);border-right:2px solid var(--bh-gold);transform:rotate(45deg)}
 @media(max-width:570px){.lake-quick-actions a{gap:5px;padding-inline:5px;font-size:12px;letter-spacing:.03em}.lake-quick-actions a::before{width:12px;flex-basis:12px}.lake-quick-actions a::after{width:7px;height:7px;flex-basis:7px}}
+
+/* Two clear menu-card actions without changing the approved homepage layout. */
+.lake-feature-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.lake-feature-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 14px;border:1px solid var(--bh-navy);background:var(--bh-navy);color:var(--bh-cream);font:600 12px/1.3 'DM Sans',Arial,sans-serif;text-decoration:none;box-shadow:3px 3px 0 var(--bh-gold)}
+.lake-feature-actions a+a{background:var(--bh-sky);color:var(--bh-navy)}
+.lake-feature-actions a:hover{background:#1d5d7e;color:white}
+.lake-feature-actions a:focus-visible{outline:3px solid var(--bh-gold);outline-offset:4px}
+
+.lake-feature{grid-template-rows:1fr auto;align-items:start}
+.lake-feature-actions{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-self:end;margin-top:4px}
+.lake-feature-actions a{width:100%;padding:10px 8px}

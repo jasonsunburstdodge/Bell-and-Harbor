@@ -1,0 +1,73 @@
+/* Lakeside editorial: open layouts, generous photography and a quiet blue palette. */
+.lakeside-inner main{background:#d9e9f1}
+.lakeside-inner .content{max-width:1320px;padding:64px 40px 96px}
+.lakeside-inner .section{margin:0 0 56px;max-width:100%}
+.lakeside-inner .section h2{font-size:clamp(35px,4vw,52px);letter-spacing:-1.2px;max-width:20ch}
+.lakeside-inner .section>p{max-width:720px;font-size:18px;line-height:1.7}
+.lakeside-inner .buttons{gap:16px;margin-top:26px}
+/* Spacious menu chapters, each led by its own dish photograph. */
+.lakeside-inner .menu-group,.lakeside-inner.menu-page .menu-group,.lakeside-inner .order-preview .menu-group{display:grid;grid-template-columns:minmax(0,36fr) minmax(0,64fr);gap:36px;align-items:start;margin:0;padding:48px 0;background:none;border:0;border-bottom:1px solid #9bbfd0}
+.lakeside-inner .menu-category-heading{display:flex;flex-direction:column;align-items:stretch;gap:20px;margin:0;position:sticky;top:30px}
+.lakeside-inner .menu-category-heading h2,.lakeside-inner.menu-page .menu-category-heading h2{font-size:clamp(32px,3.2vw,46px);line-height:1.08;margin:0;max-width:14ch}
+.lakeside-inner .menu-category-heading img{width:100%;height:auto;aspect-ratio:3/2;border:0;box-shadow:6px 6px 0 #9bbfd0}
+.lakeside-inner .menu-dishes,.lakeside-inner.menu-page .menu-dishes,.lakeside-inner.menu-page .menu-group--sides .menu-dishes,.lakeside-inner .order-preview .menu-dishes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:30px;row-gap:28px;min-width:0}
+.lakeside-inner .menu-dish,.lakeside-inner.menu-page .menu-dish,.lakeside-inner .order-preview .menu-dish{background:none;border:0;border-top:1px solid #a9c5d3;padding:20px 0 0;min-width:0}
+.lakeside-inner .menu-dish h3,.lakeside-inner.menu-page .menu-dish h3,.lakeside-inner .order-preview .menu-dish h3{font:500 24px/1.2 'Newsreader',Georgia,serif;letter-spacing:-.3px}
+.lakeside-inner .menu-description,.lakeside-inner.menu-page .menu-description,.lakeside-inner .order-preview .menu-dish p{font-size:15px;line-height:1.65}
+.lakeside-inner .menu-preview-add{border:0;border-bottom:3px solid var(--bh-gold);min-height:44px;padding:10px 16px;font-size:12px;margin-top:18px}
+.lakeside-inner .menu-group>.menu-section-note{grid-column:2}
+/* Compact navigation and a single expandable bag, not repeated utility links. */
+.lakeside-inner .menu-links[aria-label="Jump to menu section"]{display:flex;flex-wrap:nowrap;gap:0;overflow:auto;scrollbar-width:thin;padding:8px 0;margin:28px 0 0;border-block:1px solid #9bbfd0}
+.lakeside-inner .menu-links[aria-label="Jump to menu section"] a{flex:0 0 auto;white-space:nowrap;border:0;background:none;text-transform:none;font-size:14px;padding:12px 16px;letter-spacing:0}
+.lakeside-inner .menu-order-preview{background:#c6e0ec;border:0;border-left:4px solid var(--bh-gold);padding:24px 30px;margin-bottom:32px}
+.lakeside-inner .menu-order-preview h2{margin-top:0;font-size:32px}
+.lakeside-inner #menu-preview-bag{margin-top:16px}
+.lakeside-inner #menu-preview-bag summary{display:flex;justify-content:space-between;gap:16px}
+/* The overview reads as a photo-led restaurant journal. */
+.lakeside-inner .menu-overview-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:42px 32px}
+.lakeside-inner .menu-overview-cards .card{background:none;border:0;box-shadow:none;overflow:visible}
+.lakeside-inner .menu-overview-cards .card img{height:auto;aspect-ratio:3/2;max-height:none}
+.lakeside-inner .menu-overview-cards .card-body{background:#c6e0ec;border-top:0;padding:28px 30px 30px;min-height:0}
+.lakeside-inner .menu-overview-cards .card h2{color:var(--bh-navy);font-size:40px}
+.lakeside-inner .menu-overview-cards .card p{color:var(--bh-navy);max-width:45ch}
+.lakeside-inner .menu-overview-cards .card-link{color:var(--bh-navy);width:fit-content}
+.lakeside-inner .menu-overview-cards .card:hover{transform:translateY(-3px);box-shadow:none}
+/* Refined forms and location panels retain their navy information anchors. */
+.lakeside-inner .split{gap:32px;align-items:stretch}
+.lakeside-inner .panel{border:0;box-shadow:none;padding:36px;background:#eaf4f8}
+.lakeside-inner .split>.panel:first-child:not(form){border:0;box-shadow:none;padding:42px;background:var(--bh-navy)}
+.lakeside-inner .panel h2{font-size:40px}
+.lakeside-inner .field input,.lakeside-inner .field select,.lakeside-inner .field textarea{background:#f4f9fb;border:0;border-bottom:1px solid #7198ad;min-height:48px}
+.lakeside-inner .field label{font-size:14px;letter-spacing:0}
+/* Calendar as the focal feature, with quiet controls rather than button stacks. */
+.lakeside-inner .filters,.lakeside-inner .tabs{gap:0;margin:0;padding:8px 20px;background:#c6e0ec}
+.lakeside-inner .filters button,.lakeside-inner .tabs button{font-size:14px;text-transform:none;letter-spacing:0;padding:14px 20px}
+.lakeside-inner #event-calendar,.lakeside-inner #event-list{padding:32px;background:#edf5f9;margin:0}
+.lakeside-inner #cal-title{font-size:42px;margin:0 0 24px}
+.lakeside-inner #cal-grid{gap:1px;background:#a9c5d3;border:1px solid #a9c5d3}
+.lakeside-inner #cal-grid span{background:#eaf4f8;min-height:68px;border:0;padding:18px 8px;text-align:left;font-size:15px}
+.lakeside-inner #cal-grid .day{background:var(--bh-navy);color:var(--bh-cream);min-height:44px;padding:12px 8px;font-size:13px;text-align:center}
+.lakeside-inner #event-list{color:var(--bh-navy);text-align:center;min-height:240px;align-content:center}
+.lakeside-inner #event-list h2{color:var(--bh-navy)}
+/* Order browsing uses the same uncluttered menu rhythm. */
+.lakeside-inner .order-workspace{grid-template-columns:minmax(0,1fr) 270px;gap:30px}
+.lakeside-inner .order-preview .menu-group{grid-template-columns:1fr;gap:28px}
+.lakeside-inner .order-preview .menu-category-heading{display:grid;grid-template-columns:minmax(0,1fr) 45%;align-items:center;position:static}
+.lakeside-inner .order-preview-note{background:none;border:0;padding:0;margin-bottom:32px}
+.lakeside-inner .order-bag{border:0;border-top:4px solid var(--bh-gold);background:#c6e0ec;padding:28px}
+.lakeside-inner .order-categories a{text-transform:none;border:0;background:none;font-size:14px;padding:10px 12px}
+.lakeside-inner :is(.card,.menu-links a,summary,button,a):focus-visible{outline:3px solid #a36b05;outline-offset:4px}
+@media(max-width:1000px){.lakeside-inner .menu-dishes,.lakeside-inner.menu-page .menu-dishes,.lakeside-inner.menu-page .menu-group--sides .menu-dishes{grid-template-columns:1fr}.lakeside-inner .order-workspace{grid-template-columns:1fr}.lakeside-inner .order-bag{position:static}}
+@media(max-width:700px){.lakeside-inner .content{padding:36px 22px 64px}.lakeside-inner .menu-group,.lakeside-inner.menu-page .menu-group,.lakeside-inner .order-preview .menu-group{grid-template-columns:1fr;gap:28px;padding:36px 0}.lakeside-inner .menu-category-heading{position:static}.lakeside-inner .menu-category-heading h2{max-width:none}.lakeside-inner .menu-group>.menu-section-note{grid-column:auto}.lakeside-inner .menu-overview-cards{grid-template-columns:1fr;gap:32px}.lakeside-inner .menu-overview-cards .card-body{padding:24px}.lakeside-inner .menu-overview-cards .card h2{font-size:35px}.lakeside-inner .split{grid-template-columns:1fr}.lakeside-inner .panel,.lakeside-inner .split>.panel:first-child:not(form){padding:28px}.lakeside-inner .section{margin-bottom:36px}.lakeside-inner .section>p{font-size:17px}.lakeside-inner .order-preview .menu-category-heading{display:flex}.lakeside-inner .order-preview .menu-dishes{grid-template-columns:1fr}.lakeside-inner .filters,.lakeside-inner .tabs{padding:6px 8px;flex-wrap:wrap}.lakeside-inner .filters button,.lakeside-inner .tabs button{font-size:12px;padding:10px 12px}.lakeside-inner #event-calendar,.lakeside-inner #event-list{padding:20px 12px}.lakeside-inner #cal-title{font-size:33px}.lakeside-inner #cal-grid span{min-height:46px;padding:12px 4px;font-size:13px}.lakeside-inner #cal-grid .day{font-size:11px;padding:12px 2px}.lakeside-inner .menu-order-preview{padding:22px}}
+
+.lakeside-inner .menu-bag-shortcut{position:fixed;z-index:30;right:24px;bottom:24px;display:flex;gap:12px;align-items:center;min-height:48px;padding:12px 20px;border:1px solid var(--bh-gold);background:var(--bh-navy);color:var(--bh-cream);box-shadow:4px 4px 0 var(--bh-gold);font:600 14px 'DM Sans',Arial,sans-serif;cursor:pointer}
+.lakeside-inner.menu-page .content{padding-bottom:110px}
+.lakeside-inner #kids-cocktails{display:block}
+.lakeside-inner #kids-cocktails .menu-category-heading{display:grid;grid-template-columns:1fr 1fr;align-items:center;position:static}
+@media(max-width:700px){.lakeside-inner #kids-cocktails .menu-category-heading{grid-template-columns:1fr}}
+
+.lakeside-inner .editorial-panel-image{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;margin-top:28px}
+.lakeside-inner .editorial-intro{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.lakeside-inner .editorial-intro>img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.lakeside-inner .editorial-intro p{font-size:18px;line-height:1.65}
+@media(max-width:850px){.lakeside-inner .editorial-intro{grid-template-columns:1fr;gap:28px}}
