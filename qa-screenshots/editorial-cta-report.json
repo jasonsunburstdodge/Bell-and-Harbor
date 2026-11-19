@@ -1,12 +1,26 @@
 {
-  "capturedAt": "2026-11-19T18:01:14.802Z",
-  "sourceCommit": "93595bab602ab219dc76fdb023b9b97d8ddc0849",
+  "capturedAt": "2026-11-19T18:16:54.951Z",
+  "sourceCommit": "39393586d2759db677e4bbf26026a910cdc759b0",
   "expectedStyleVersion": "20261119-cool-white-blue",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "home-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
-    "order-desktop: Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)",
-    "order-mobile: Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)"
+    "menus-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "menus-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "main-menu-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "main-menu-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "cocktails-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "cocktails-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "kids-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "kids-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "private-events-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "private-events-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "events-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "events-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "contact-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "contact-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "order-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "order-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed"
   ],
   "views": [
     {
@@ -28,6 +42,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261119-compact-visit"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -80,6 +98,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261119-compact-visit"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -118,7 +140,7 @@
       "route": "menus/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -140,6 +162,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -149,7 +175,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -167,23 +193,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 18,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "menus-mobile",
       "route": "menus/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -205,6 +226,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -214,7 +239,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -232,23 +257,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 14,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "main-menu-desktop",
       "route": "menus/main/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -282,6 +302,10 @@
           {
             "name": "menu-navigation.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -291,7 +315,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -309,276 +333,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 102,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [
-          {
-            "name": "Wings & Shrimp",
-            "price": null,
-            "description": "Your choice of wings or shrimp with Mild Buffalo, Hot Buffalo, Lemon Pepper, BBQ, Garlic Parmesan, Harbor Sweet Chile, or Cajun seasoning.",
-            "option": null
-          },
-          {
-            "name": "Spinach & Artichoke Dip",
-            "price": null,
-            "description": "A rich, creamy blend of spinach, artichokes, and melted cheeses, served warm with crispy tortilla chips.",
-            "option": null
-          },
-          {
-            "name": "Loaded Harbor Nachos",
-            "price": null,
-            "description": "Crispy tortilla chips layered with black bean spread and melted cheese, topped with your choice of steak, chicken, or shrimp. Finished with cilantro-lime crema and Cotija cheese.",
-            "option": null
-          },
-          {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": null,
-            "description": "Tender mushroom caps filled with crab, cream cheese, and green onions, baked until golden.",
-            "option": null
-          },
-          {
-            "name": "Balsamic Brussels Sprouts",
-            "price": null,
-            "description": "Crispy Brussels sprouts finished with a sweet and tangy balsamic glaze. Add bacon for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Garlic Butter Sirloin",
-            "price": null,
-            "description": "Grilled sirloin finished with house-made garlic butter. Served with creamy mashed potatoes and garlic butter asparagus. Add sautéed mushrooms and onions.",
-            "option": null
-          },
-          {
-            "name": "Lemon Garlic Butter Salmon",
-            "price": null,
-            "description": "Grilled salmon finished with lemon-garlic butter, served with sweet potato mash and crispy Brussels sprouts.",
-            "option": null
-          },
-          {
-            "name": "Rosemary Skillet Chicken",
-            "price": null,
-            "description": "Pan-seared chicken breast with rosemary and garlic, served with creamy mashed potatoes and crispy Brussels sprouts.",
-            "option": null
-          },
-          {
-            "name": "Steak & Swiss Wrap",
-            "price": null,
-            "description": "Sliced sirloin, melted Swiss cheese, sautéed mushrooms and onions, and smoky aioli in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Garlic Shrimp Scampi Wrap",
-            "price": null,
-            "description": "Garlic butter shrimp, crisp romaine, Parmesan, and garlic aioli in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Grilled Buffalo Chicken Wrap",
-            "price": null,
-            "description": "Grilled Buffalo chicken with romaine, blue cheese, and chopped celery.",
-            "option": null
-          },
-          {
-            "name": "Chicken Caesar Wrap",
-            "price": null,
-            "description": "Grilled chicken, romaine tossed in Caesar dressing, and Parmesan in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Buffalo Chicken Flatbread",
-            "price": null,
-            "description": "Alfredo base, mozzarella, diced chicken, bacon, Buffalo drizzle, and fresh parsley.",
-            "option": null
-          },
-          {
-            "name": "Bell Tower Meat Lovers",
-            "price": null,
-            "description": "House marinara, pepperoni, bacon, sliced steak, and mozzarella.",
-            "option": null
-          },
-          {
-            "name": "Lakeside Caprese Flatbread",
-            "price": null,
-            "description": "Garlic butter base, mozzarella, sliced tomatoes, fresh basil, and sweet balsamic glaze.",
-            "option": null
-          },
-          {
-            "name": "Steak & Mushroom Flatbread",
-            "price": null,
-            "description": "Alfredo base, mozzarella, sliced steak, and sautéed mushrooms.",
-            "option": null
-          },
-          {
-            "name": "The Classic Burger",
-            "price": null,
-            "description": "Juicy grilled beef patty topped with bacon, lettuce, tomato, onion, pickles, and our secret sauce on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Goat Cheese & Bacon Jam Burger",
-            "price": null,
-            "description": "Juicy beef burger with creamy goat cheese and sweet-savory bacon jam on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Grilled Chicken Sandwich",
-            "price": null,
-            "description": "Tender grilled chicken breast with lettuce, tomato, and pickles on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Bell Tower Club Sandwich",
-            "price": null,
-            "description": "Three slices of toasted Texas toast layered with ham, turkey, crispy bacon, Swiss cheese, lettuce, tomato, and mayonnaise.",
-            "option": null
-          },
-          {
-            "name": "Shrimp Scampi Linguine",
-            "price": null,
-            "description": "Succulent shrimp sautéed in white wine garlic butter sauce with shallots, tossed with tender linguine and finished with fresh parsley.",
-            "option": null
-          },
-          {
-            "name": "Fettuccine Alfredo",
-            "price": null,
-            "description": "Tender fettuccine tossed in rich, creamy, house-made white wine Alfredo sauce. Add grilled chicken, sirloin steak, shrimp, or sautéed mushrooms for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Rustic Garlic-Tomato Pasta",
-            "price": null,
-            "description": "Tender pasta tossed in slow-simmered tomato sauce with roasted garlic, blistered cherry tomatoes, and fresh basil, finished with delicate shavings of Parmesan cheese.",
-            "option": null
-          },
-          {
-            "name": "Classic Clubhouse Mac",
-            "price": null,
-            "description": "Signature creamy, house-made macaroni and cheese, baked until golden.",
-            "option": null
-          },
-          {
-            "name": "High Roller Steak Mac",
-            "price": null,
-            "description": "Signature creamy baked mac and cheese crowned with tender slices of garlic butter sirloin, crispy fried onions, and fresh green onions.",
-            "option": null
-          },
-          {
-            "name": "Sweet Red Chile Shrimp Mac",
-            "price": null,
-            "description": "Creamy baked mac and cheese topped with seared sweet red chile shrimp and fresh green onions.",
-            "option": null
-          },
-          {
-            "name": "Buffalo Chicken Mac",
-            "price": null,
-            "description": "Signature mac and cheese with grilled Buffalo chicken, crispy bacon, and ranch drizzle. Blue cheese dressing and crumbles available instead.",
-            "option": null
-          },
-          {
-            "name": "Big Harbor Caesar Salad",
-            "price": null,
-            "description": "Crisp romaine tossed in Caesar dressing with Parmesan and seasoned croutons, topped with grilled chicken. Upgrade to sliced sirloin or grilled shrimp for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Strawberry & Goat Cheese Salad",
-            "price": null,
-            "description": "Spring greens, seasonal strawberries, candied pecans, goat cheese crumbles, and balsamic vinaigrette.",
-            "option": null
-          },
-          {
-            "name": "Harbor Club Salad",
-            "price": null,
-            "description": "Romaine topped with diced ham, turkey, chicken, tomatoes, cucumber, hard-boiled eggs, and croutons. Choice of ranch, blue cheese, or balsamic vinaigrette.",
-            "option": null
-          },
-          {
-            "name": "Coastal Seafood Bisque",
-            "price": null,
-            "description": "Rich lobster and crab bisque slowly simmered with cream and aromatic seasonings, finished with a shrimp skewer. Served with toasted garlic bread.",
-            "option": null
-          },
-          {
-            "name": "Rustic Tomato, Basil & Garlic Soup",
-            "price": null,
-            "description": "Slow-simmered tomato soup with roasted garlic and fresh basil. Served with toasted garlic bread.",
-            "option": null
-          },
-          {
-            "name": "Seasoned French Fries",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Sweet Potato Fries",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Clubhouse Mac & Cheese",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Creamy Mashed Potatoes",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Crispy Balsamic Brussels Sprouts",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Garlic Butter Asparagus",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Homestyle Green Beans",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Classic Tiramisu",
-            "price": null,
-            "description": "Espresso-soaked ladyfingers layered with creamy mascarpone and finished with cocoa.",
-            "option": null
-          },
-          {
-            "name": "Vanilla Bean Crème Brûlée",
-            "price": null,
-            "description": "Silky vanilla custard with a caramelized sugar crust.",
-            "option": null
-          },
-          {
-            "name": "Seasonal Cheesecake",
-            "price": null,
-            "description": "Rich, creamy cheesecake with rotating seasonal flavors and toppings.",
-            "option": null
-          }
-        ],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "main-menu-mobile",
       "route": "menus/main/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -612,6 +378,10 @@
           {
             "name": "menu-navigation.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -621,7 +391,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -639,422 +409,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 98,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [
-          {
-            "name": "Wings & Shrimp",
-            "price": null,
-            "description": "Your choice of wings or shrimp with Mild Buffalo, Hot Buffalo, Lemon Pepper, BBQ, Garlic Parmesan, Harbor Sweet Chile, or Cajun seasoning.",
-            "option": null
-          },
-          {
-            "name": "Spinach & Artichoke Dip",
-            "price": null,
-            "description": "A rich, creamy blend of spinach, artichokes, and melted cheeses, served warm with crispy tortilla chips.",
-            "option": null
-          },
-          {
-            "name": "Loaded Harbor Nachos",
-            "price": null,
-            "description": "Crispy tortilla chips layered with black bean spread and melted cheese, topped with your choice of steak, chicken, or shrimp. Finished with cilantro-lime crema and Cotija cheese.",
-            "option": null
-          },
-          {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": null,
-            "description": "Tender mushroom caps filled with crab, cream cheese, and green onions, baked until golden.",
-            "option": null
-          },
-          {
-            "name": "Balsamic Brussels Sprouts",
-            "price": null,
-            "description": "Crispy Brussels sprouts finished with a sweet and tangy balsamic glaze. Add bacon for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Garlic Butter Sirloin",
-            "price": null,
-            "description": "Grilled sirloin finished with house-made garlic butter. Served with creamy mashed potatoes and garlic butter asparagus. Add sautéed mushrooms and onions.",
-            "option": null
-          },
-          {
-            "name": "Lemon Garlic Butter Salmon",
-            "price": null,
-            "description": "Grilled salmon finished with lemon-garlic butter, served with sweet potato mash and crispy Brussels sprouts.",
-            "option": null
-          },
-          {
-            "name": "Rosemary Skillet Chicken",
-            "price": null,
-            "description": "Pan-seared chicken breast with rosemary and garlic, served with creamy mashed potatoes and crispy Brussels sprouts.",
-            "option": null
-          },
-          {
-            "name": "Steak & Swiss Wrap",
-            "price": null,
-            "description": "Sliced sirloin, melted Swiss cheese, sautéed mushrooms and onions, and smoky aioli in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Garlic Shrimp Scampi Wrap",
-            "price": null,
-            "description": "Garlic butter shrimp, crisp romaine, Parmesan, and garlic aioli in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Grilled Buffalo Chicken Wrap",
-            "price": null,
-            "description": "Grilled Buffalo chicken with romaine, blue cheese, and chopped celery.",
-            "option": null
-          },
-          {
-            "name": "Chicken Caesar Wrap",
-            "price": null,
-            "description": "Grilled chicken, romaine tossed in Caesar dressing, and Parmesan in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Buffalo Chicken Flatbread",
-            "price": null,
-            "description": "Alfredo base, mozzarella, diced chicken, bacon, Buffalo drizzle, and fresh parsley.",
-            "option": null
-          },
-          {
-            "name": "Bell Tower Meat Lovers",
-            "price": null,
-            "description": "House marinara, pepperoni, bacon, sliced steak, and mozzarella.",
-            "option": null
-          },
-          {
-            "name": "Lakeside Caprese Flatbread",
-            "price": null,
-            "description": "Garlic butter base, mozzarella, sliced tomatoes, fresh basil, and sweet balsamic glaze.",
-            "option": null
-          },
-          {
-            "name": "Steak & Mushroom Flatbread",
-            "price": null,
-            "description": "Alfredo base, mozzarella, sliced steak, and sautéed mushrooms.",
-            "option": null
-          },
-          {
-            "name": "The Classic Burger",
-            "price": null,
-            "description": "Juicy grilled beef patty topped with bacon, lettuce, tomato, onion, pickles, and our secret sauce on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Goat Cheese & Bacon Jam Burger",
-            "price": null,
-            "description": "Juicy beef burger with creamy goat cheese and sweet-savory bacon jam on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Grilled Chicken Sandwich",
-            "price": null,
-            "description": "Tender grilled chicken breast with lettuce, tomato, and pickles on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Bell Tower Club Sandwich",
-            "price": null,
-            "description": "Three slices of toasted Texas toast layered with ham, turkey, crispy bacon, Swiss cheese, lettuce, tomato, and mayonnaise.",
-            "option": null
-          },
-          {
-            "name": "Shrimp Scampi Linguine",
-            "price": null,
-            "description": "Succulent shrimp sautéed in white wine garlic butter sauce with shallots, tossed with tender linguine and finished with fresh parsley.",
-            "option": null
-          },
-          {
-            "name": "Fettuccine Alfredo",
-            "price": null,
-            "description": "Tender fettuccine tossed in rich, creamy, house-made white wine Alfredo sauce. Add grilled chicken, sirloin steak, shrimp, or sautéed mushrooms for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Rustic Garlic-Tomato Pasta",
-            "price": null,
-            "description": "Tender pasta tossed in slow-simmered tomato sauce with roasted garlic, blistered cherry tomatoes, and fresh basil, finished with delicate shavings of Parmesan cheese.",
-            "option": null
-          },
-          {
-            "name": "Classic Clubhouse Mac",
-            "price": null,
-            "description": "Signature creamy, house-made macaroni and cheese, baked until golden.",
-            "option": null
-          },
-          {
-            "name": "High Roller Steak Mac",
-            "price": null,
-            "description": "Signature creamy baked mac and cheese crowned with tender slices of garlic butter sirloin, crispy fried onions, and fresh green onions.",
-            "option": null
-          },
-          {
-            "name": "Sweet Red Chile Shrimp Mac",
-            "price": null,
-            "description": "Creamy baked mac and cheese topped with seared sweet red chile shrimp and fresh green onions.",
-            "option": null
-          },
-          {
-            "name": "Buffalo Chicken Mac",
-            "price": null,
-            "description": "Signature mac and cheese with grilled Buffalo chicken, crispy bacon, and ranch drizzle. Blue cheese dressing and crumbles available instead.",
-            "option": null
-          },
-          {
-            "name": "Big Harbor Caesar Salad",
-            "price": null,
-            "description": "Crisp romaine tossed in Caesar dressing with Parmesan and seasoned croutons, topped with grilled chicken. Upgrade to sliced sirloin or grilled shrimp for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Strawberry & Goat Cheese Salad",
-            "price": null,
-            "description": "Spring greens, seasonal strawberries, candied pecans, goat cheese crumbles, and balsamic vinaigrette.",
-            "option": null
-          },
-          {
-            "name": "Harbor Club Salad",
-            "price": null,
-            "description": "Romaine topped with diced ham, turkey, chicken, tomatoes, cucumber, hard-boiled eggs, and croutons. Choice of ranch, blue cheese, or balsamic vinaigrette.",
-            "option": null
-          },
-          {
-            "name": "Coastal Seafood Bisque",
-            "price": null,
-            "description": "Rich lobster and crab bisque slowly simmered with cream and aromatic seasonings, finished with a shrimp skewer. Served with toasted garlic bread.",
-            "option": null
-          },
-          {
-            "name": "Rustic Tomato, Basil & Garlic Soup",
-            "price": null,
-            "description": "Slow-simmered tomato soup with roasted garlic and fresh basil. Served with toasted garlic bread.",
-            "option": null
-          },
-          {
-            "name": "Seasoned French Fries",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Sweet Potato Fries",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Clubhouse Mac & Cheese",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Creamy Mashed Potatoes",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Crispy Balsamic Brussels Sprouts",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Garlic Butter Asparagus",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Homestyle Green Beans",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Classic Tiramisu",
-            "price": null,
-            "description": "Espresso-soaked ladyfingers layered with creamy mascarpone and finished with cocoa.",
-            "option": null
-          },
-          {
-            "name": "Vanilla Bean Crème Brûlée",
-            "price": null,
-            "description": "Silky vanilla custard with a caramelized sugar crust.",
-            "option": null
-          },
-          {
-            "name": "Seasonal Cheesecake",
-            "price": null,
-            "description": "Rich, creamy cheesecake with rotating seasonal flavors and toppings.",
-            "option": null
-          }
-        ],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
-    },
-    {
-      "name": "brunch-desktop",
-      "route": "menus/brunch/",
-      "width": 1024,
-      "height": 900,
-      "ready": true,
-      "metrics": {
-        "styles": [
-          {
-            "name": "site-style.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "lakeside-home.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "lakeside-inner.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "lakeside-ctas.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "ordering-preview.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "lakeside-editorial.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "menu-navigation.css",
-            "version": "20261119-cool-white-blue"
-          }
-        ],
-        "brandNavy": "#002140",
-        "navLinks": [
-          "Home",
-          "Menus",
-          "Events Calendar",
-          "Contact"
-        ],
-        "hasStyle": true,
-        "headerHeight": 133,
-        "logoWidth": 180,
-        "logoHeight": 200,
-        "orderHeight": 18.1875,
-        "orderFontSize": "16px",
-        "orderBeforeContent": "none",
-        "ctaFound": true,
-        "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "1.56px",
-        "ctaHeight": 55,
-        "ctaLeft": 40,
-        "ctaRight": 330.765625,
-        "navShadow": "none",
-        "navRadius": "0px",
-        "overflow": false,
-        "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 15,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
-      },
-      "issues": []
-    },
-    {
-      "name": "brunch-mobile",
-      "route": "menus/brunch/",
-      "width": 390,
-      "height": 844,
-      "ready": true,
-      "metrics": {
-        "styles": [
-          {
-            "name": "site-style.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "lakeside-home.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "lakeside-inner.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "lakeside-ctas.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "ordering-preview.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "lakeside-editorial.css",
-            "version": "20261119-cool-white-blue"
-          },
-          {
-            "name": "menu-navigation.css",
-            "version": "20261119-cool-white-blue"
-          }
-        ],
-        "brandNavy": "#002140",
-        "navLinks": [
-          "Home",
-          "Menus",
-          "Events Calendar",
-          "Contact"
-        ],
-        "hasStyle": true,
-        "headerHeight": 100,
-        "logoWidth": 93,
-        "logoHeight": 104,
-        "orderHeight": 0,
-        "orderFontSize": "16px",
-        "orderBeforeContent": "none",
-        "ctaFound": true,
-        "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "1.56px",
-        "ctaHeight": 55,
-        "ctaLeft": 22,
-        "ctaRight": 368,
-        "navShadow": "rgba(0, 0, 0, 0.133) 0px 9px 19px 0px",
-        "navRadius": "0px",
-        "overflow": false,
-        "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 11,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
-      },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "cocktails-desktop",
       "route": "menus/drinks/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1088,6 +454,10 @@
           {
             "name": "menu-navigation.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1097,7 +467,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -1115,78 +485,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 41,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [
-          {
-            "name": "Hazelnut Espresso Martini",
-            "price": "$13",
-            "description": "Tito’s Vodka, espresso, Kahlúa & Frangelico. Rich roasted coffee and toasted hazelnut, shaken into a smooth finish.",
-            "option": null
-          },
-          {
-            "name": "Golden Spritz",
-            "price": "$13",
-            "description": "Aperol, Prosecco and a splash of soda water served over ice with a fresh orange slice. Light, bubbly and bittersweet with refreshing citrus notes.",
-            "option": null
-          },
-          {
-            "name": "Harbor 75",
-            "price": "$13",
-            "description": "Corazón Blanco tequila, fresh lemon & simple syrup, topped with sparkling rosé. Delicate bubbles and bright citrus create a refreshing finish.",
-            "option": "Champagne upgrade available +$3."
-          },
-          {
-            "name": "Harbor Breeze",
-            "price": "$12",
-            "description": "Tito’s Vodka, peach schnapps, cranberry, pineapple & fresh lime. A refreshing blend of sun-ripened peach and tropical fruit with a bright citrus finish.",
-            "option": null
-          },
-          {
-            "name": "Misty Bay Paloma",
-            "price": "$12",
-            "description": "Corazón Blanco tequila, fresh grapefruit, lime & agave, finished with sparkling soda. Crisp citrus meets refreshing grapefruit in this coastal classic.",
-            "option": null
-          },
-          {
-            "name": "Purple Pier",
-            "price": "$13",
-            "description": "Empress Gin, St-Germain elderflower liqueur, fresh lime and mint topped with soda. A beautifully floral and refreshing cocktail with a crisp finish.",
-            "option": null
-          },
-          {
-            "name": "Harbor City Old Fashioned",
-            "price": "$14",
-            "description": "Knob Creek maple bourbon, simple syrup, aromatic bitters. Rich, smooth and subtly smoky with a hint of maple sweetness.",
-            "option": null
-          },
-          {
-            "name": "Cherry Sidecar",
-            "price": "$13",
-            "description": "Maker's Mark bourbon, Cointreau, fresh lemon juice and bourbon cherry juice. A smooth, citrus-forward classic with a touch of rich cherry sweetness.",
-            "option": null
-          },
-          {
-            "name": "Sangria Sour",
-            "price": "$13",
-            "description": "Bulleit Rye, fresh lemon juice and simple syrup finished with a one-ounce red wine float. A bold balance of citrus, spice and subtle sweetness.",
-            "option": null
-          }
-        ],
-        "menuPriceCount": 9,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "cocktails-mobile",
       "route": "menus/drinks/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1220,6 +530,10 @@
           {
             "name": "menu-navigation.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1229,7 +543,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -1247,78 +561,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 37,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [
-          {
-            "name": "Hazelnut Espresso Martini",
-            "price": "$13",
-            "description": "Tito’s Vodka, espresso, Kahlúa & Frangelico. Rich roasted coffee and toasted hazelnut, shaken into a smooth finish.",
-            "option": null
-          },
-          {
-            "name": "Golden Spritz",
-            "price": "$13",
-            "description": "Aperol, Prosecco and a splash of soda water served over ice with a fresh orange slice. Light, bubbly and bittersweet with refreshing citrus notes.",
-            "option": null
-          },
-          {
-            "name": "Harbor 75",
-            "price": "$13",
-            "description": "Corazón Blanco tequila, fresh lemon & simple syrup, topped with sparkling rosé. Delicate bubbles and bright citrus create a refreshing finish.",
-            "option": "Champagne upgrade available +$3."
-          },
-          {
-            "name": "Harbor Breeze",
-            "price": "$12",
-            "description": "Tito’s Vodka, peach schnapps, cranberry, pineapple & fresh lime. A refreshing blend of sun-ripened peach and tropical fruit with a bright citrus finish.",
-            "option": null
-          },
-          {
-            "name": "Misty Bay Paloma",
-            "price": "$12",
-            "description": "Corazón Blanco tequila, fresh grapefruit, lime & agave, finished with sparkling soda. Crisp citrus meets refreshing grapefruit in this coastal classic.",
-            "option": null
-          },
-          {
-            "name": "Purple Pier",
-            "price": "$13",
-            "description": "Empress Gin, St-Germain elderflower liqueur, fresh lime and mint topped with soda. A beautifully floral and refreshing cocktail with a crisp finish.",
-            "option": null
-          },
-          {
-            "name": "Harbor City Old Fashioned",
-            "price": "$14",
-            "description": "Knob Creek maple bourbon, simple syrup, aromatic bitters. Rich, smooth and subtly smoky with a hint of maple sweetness.",
-            "option": null
-          },
-          {
-            "name": "Cherry Sidecar",
-            "price": "$13",
-            "description": "Maker's Mark bourbon, Cointreau, fresh lemon juice and bourbon cherry juice. A smooth, citrus-forward classic with a touch of rich cherry sweetness.",
-            "option": null
-          },
-          {
-            "name": "Sangria Sour",
-            "price": "$13",
-            "description": "Bulleit Rye, fresh lemon juice and simple syrup finished with a one-ounce red wine float. A bold balance of citrus, spice and subtle sweetness.",
-            "option": null
-          }
-        ],
-        "menuPriceCount": 9,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "kids-desktop",
       "route": "menus/kids/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1352,6 +606,10 @@
           {
             "name": "menu-navigation.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1361,7 +619,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -1379,42 +637,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 22,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [
-          {
-            "name": "Creamy Alfredo Pasta",
-            "price": null,
-            "description": "Tender pasta tossed in house-made Alfredo sauce. Add protein for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Kids’ Clubhouse Mac & Fries",
-            "price": null,
-            "description": "Kid-sized portion of signature creamy oven-baked mac and cheese, served with golden French fries.",
-            "option": null
-          },
-          {
-            "name": "Chicken Tenders & Fries",
-            "price": null,
-            "description": "Golden crispy chicken tenders served with French fries.",
-            "option": null
-          }
-        ],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "kids-mobile",
       "route": "menus/kids/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1448,6 +682,10 @@
           {
             "name": "menu-navigation.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1457,7 +695,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -1475,42 +713,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 18,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [
-          {
-            "name": "Creamy Alfredo Pasta",
-            "price": null,
-            "description": "Tender pasta tossed in house-made Alfredo sauce. Add protein for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Kids’ Clubhouse Mac & Fries",
-            "price": null,
-            "description": "Kid-sized portion of signature creamy oven-baked mac and cheese, served with golden French fries.",
-            "option": null
-          },
-          {
-            "name": "Chicken Tenders & Fries",
-            "price": null,
-            "description": "Golden crispy chicken tenders served with French fries.",
-            "option": null
-          }
-        ],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "private-events-desktop",
       "route": "private-events/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1532,6 +746,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1541,7 +759,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -1559,23 +777,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 18,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "private-events-mobile",
       "route": "private-events/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1597,6 +810,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1606,7 +823,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -1624,23 +841,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 14,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "events-desktop",
       "route": "events/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1662,6 +874,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1671,7 +887,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -1689,23 +905,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 44,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "events-mobile",
       "route": "events/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1727,6 +938,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1736,7 +951,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -1754,23 +969,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 40,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "contact-desktop",
       "route": "contact/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1792,6 +1002,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1801,7 +1015,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -1819,23 +1033,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 16,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "contact-mobile",
       "route": "contact/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1857,6 +1066,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1866,7 +1079,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -1884,23 +1097,18 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 12,
-        "darkTextViolations": [],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
-      "issues": []
+      "issues": [
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+      ]
     },
     {
       "name": "order-desktop",
       "route": "order/",
       "width": 1024,
       "height": 900,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -1926,6 +1134,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -1935,7 +1147,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 133,
         "logoWidth": 180,
         "logoHeight": 200,
@@ -1953,276 +1165,10 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 102,
-        "darkTextViolations": [
-          {
-            "element": "div.order-bag-icon",
-            "color": "rgb(57, 116, 147)",
-            "text": "＋"
-          }
-        ],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [
-          {
-            "name": "Wings & Shrimp",
-            "price": null,
-            "description": "Your choice of wings or shrimp with Mild Buffalo, Hot Buffalo, Lemon Pepper, BBQ, Garlic Parmesan, Harbor Sweet Chile, or Cajun seasoning.",
-            "option": null
-          },
-          {
-            "name": "Spinach & Artichoke Dip",
-            "price": null,
-            "description": "A rich, creamy blend of spinach, artichokes, and melted cheeses, served warm with crispy tortilla chips.",
-            "option": null
-          },
-          {
-            "name": "Loaded Harbor Nachos",
-            "price": null,
-            "description": "Crispy tortilla chips layered with black bean spread and melted cheese, topped with your choice of steak, chicken, or shrimp. Finished with cilantro-lime crema and Cotija cheese.",
-            "option": null
-          },
-          {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": null,
-            "description": "Tender mushroom caps filled with crab, cream cheese, and green onions, baked until golden.",
-            "option": null
-          },
-          {
-            "name": "Balsamic Brussels Sprouts",
-            "price": null,
-            "description": "Crispy Brussels sprouts finished with a sweet and tangy balsamic glaze. Add bacon for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Garlic Butter Sirloin",
-            "price": null,
-            "description": "Grilled sirloin finished with house-made garlic butter. Served with creamy mashed potatoes and garlic butter asparagus. Add sautéed mushrooms and onions.",
-            "option": null
-          },
-          {
-            "name": "Lemon Garlic Butter Salmon",
-            "price": null,
-            "description": "Grilled salmon finished with lemon-garlic butter, served with sweet potato mash and crispy Brussels sprouts.",
-            "option": null
-          },
-          {
-            "name": "Rosemary Skillet Chicken",
-            "price": null,
-            "description": "Pan-seared chicken breast with rosemary and garlic, served with creamy mashed potatoes and crispy Brussels sprouts.",
-            "option": null
-          },
-          {
-            "name": "Steak & Swiss Wrap",
-            "price": null,
-            "description": "Sliced sirloin, melted Swiss cheese, sautéed mushrooms and onions, and smoky aioli in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Garlic Shrimp Scampi Wrap",
-            "price": null,
-            "description": "Garlic butter shrimp, crisp romaine, Parmesan, and garlic aioli in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Grilled Buffalo Chicken Wrap",
-            "price": null,
-            "description": "Grilled Buffalo chicken with romaine, blue cheese, and chopped celery.",
-            "option": null
-          },
-          {
-            "name": "Chicken Caesar Wrap",
-            "price": null,
-            "description": "Grilled chicken, romaine tossed in Caesar dressing, and Parmesan in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Buffalo Chicken Flatbread",
-            "price": null,
-            "description": "Alfredo base, mozzarella, diced chicken, bacon, Buffalo drizzle, and fresh parsley.",
-            "option": null
-          },
-          {
-            "name": "Bell Tower Meat Lovers",
-            "price": null,
-            "description": "House marinara, pepperoni, bacon, sliced steak, and mozzarella.",
-            "option": null
-          },
-          {
-            "name": "Lakeside Caprese Flatbread",
-            "price": null,
-            "description": "Garlic butter base, mozzarella, sliced tomatoes, fresh basil, and sweet balsamic glaze.",
-            "option": null
-          },
-          {
-            "name": "Steak & Mushroom Flatbread",
-            "price": null,
-            "description": "Alfredo base, mozzarella, sliced steak, and sautéed mushrooms.",
-            "option": null
-          },
-          {
-            "name": "The Classic Burger",
-            "price": null,
-            "description": "Juicy grilled beef patty topped with bacon, lettuce, tomato, onion, pickles, and our secret sauce on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Goat Cheese & Bacon Jam Burger",
-            "price": null,
-            "description": "Juicy beef burger with creamy goat cheese and sweet-savory bacon jam on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Grilled Chicken Sandwich",
-            "price": null,
-            "description": "Tender grilled chicken breast with lettuce, tomato, and pickles on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Bell Tower Club Sandwich",
-            "price": null,
-            "description": "Three slices of toasted Texas toast layered with ham, turkey, crispy bacon, Swiss cheese, lettuce, tomato, and mayonnaise.",
-            "option": null
-          },
-          {
-            "name": "Shrimp Scampi Linguine",
-            "price": null,
-            "description": "Succulent shrimp sautéed in white wine garlic butter sauce with shallots, tossed with tender linguine and finished with fresh parsley.",
-            "option": null
-          },
-          {
-            "name": "Fettuccine Alfredo",
-            "price": null,
-            "description": "Tender fettuccine tossed in rich, creamy, house-made white wine Alfredo sauce. Add grilled chicken, sirloin steak, shrimp, or sautéed mushrooms for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Rustic Garlic-Tomato Pasta",
-            "price": null,
-            "description": "Tender pasta tossed in slow-simmered tomato sauce with roasted garlic, blistered cherry tomatoes, and fresh basil, finished with delicate shavings of Parmesan cheese.",
-            "option": null
-          },
-          {
-            "name": "Classic Clubhouse Mac",
-            "price": null,
-            "description": "Signature creamy, house-made macaroni and cheese, baked until golden.",
-            "option": null
-          },
-          {
-            "name": "High Roller Steak Mac",
-            "price": null,
-            "description": "Signature creamy baked mac and cheese crowned with tender slices of garlic butter sirloin, crispy fried onions, and fresh green onions.",
-            "option": null
-          },
-          {
-            "name": "Sweet Red Chile Shrimp Mac",
-            "price": null,
-            "description": "Creamy baked mac and cheese topped with seared sweet red chile shrimp and fresh green onions.",
-            "option": null
-          },
-          {
-            "name": "Buffalo Chicken Mac",
-            "price": null,
-            "description": "Signature mac and cheese with grilled Buffalo chicken, crispy bacon, and ranch drizzle. Blue cheese dressing and crumbles available instead.",
-            "option": null
-          },
-          {
-            "name": "Big Harbor Caesar Salad",
-            "price": null,
-            "description": "Crisp romaine tossed in Caesar dressing with Parmesan and seasoned croutons, topped with grilled chicken. Upgrade to sliced sirloin or grilled shrimp for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Strawberry & Goat Cheese Salad",
-            "price": null,
-            "description": "Spring greens, seasonal strawberries, candied pecans, goat cheese crumbles, and balsamic vinaigrette.",
-            "option": null
-          },
-          {
-            "name": "Harbor Club Salad",
-            "price": null,
-            "description": "Romaine topped with diced ham, turkey, chicken, tomatoes, cucumber, hard-boiled eggs, and croutons. Choice of ranch, blue cheese, or balsamic vinaigrette.",
-            "option": null
-          },
-          {
-            "name": "Coastal Seafood Bisque",
-            "price": null,
-            "description": "Rich lobster and crab bisque slowly simmered with cream and aromatic seasonings, finished with a shrimp skewer. Served with toasted garlic bread.",
-            "option": null
-          },
-          {
-            "name": "Rustic Tomato, Basil & Garlic Soup",
-            "price": null,
-            "description": "Slow-simmered tomato soup with roasted garlic and fresh basil. Served with toasted garlic bread.",
-            "option": null
-          },
-          {
-            "name": "Seasoned French Fries",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Sweet Potato Fries",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Clubhouse Mac & Cheese",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Creamy Mashed Potatoes",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Crispy Balsamic Brussels Sprouts",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Garlic Butter Asparagus",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Homestyle Green Beans",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Classic Tiramisu",
-            "price": null,
-            "description": "Espresso-soaked ladyfingers layered with creamy mascarpone and finished with cocoa.",
-            "option": null
-          },
-          {
-            "name": "Vanilla Bean Crème Brûlée",
-            "price": null,
-            "description": "Silky vanilla custard with a caramelized sugar crust.",
-            "option": null
-          },
-          {
-            "name": "Seasonal Cheesecake",
-            "price": null,
-            "description": "Rich, creamy cheesecake with rotating seasonal flavors and toppings.",
-            "option": null
-          }
-        ],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
       "issues": [
-        "Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)"
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
       ]
     },
     {
@@ -2230,7 +1176,7 @@
       "route": "order/",
       "width": 390,
       "height": 844,
-      "ready": true,
+      "ready": false,
       "metrics": {
         "styles": [
           {
@@ -2256,6 +1202,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-cool-white-blue"
+          },
+          {
+            "name": "footer-sitemap.css",
+            "version": null
           }
         ],
         "brandNavy": "#002140",
@@ -2265,7 +1215,7 @@
           "Events Calendar",
           "Contact"
         ],
-        "hasStyle": true,
+        "hasStyle": false,
         "headerHeight": 100,
         "logoWidth": 93,
         "logoHeight": 104,
@@ -2283,276 +1233,10 @@
         "navRadius": "0px",
         "overflow": false,
         "mainHeader": true,
-        "h1": 1,
-        "darkTextCount": 98,
-        "darkTextViolations": [
-          {
-            "element": "div.order-bag-icon",
-            "color": "rgb(57, 116, 147)",
-            "text": "＋"
-          }
-        ],
-        "placeholders": [],
-        "privateContent": [],
-        "dishes": [
-          {
-            "name": "Wings & Shrimp",
-            "price": null,
-            "description": "Your choice of wings or shrimp with Mild Buffalo, Hot Buffalo, Lemon Pepper, BBQ, Garlic Parmesan, Harbor Sweet Chile, or Cajun seasoning.",
-            "option": null
-          },
-          {
-            "name": "Spinach & Artichoke Dip",
-            "price": null,
-            "description": "A rich, creamy blend of spinach, artichokes, and melted cheeses, served warm with crispy tortilla chips.",
-            "option": null
-          },
-          {
-            "name": "Loaded Harbor Nachos",
-            "price": null,
-            "description": "Crispy tortilla chips layered with black bean spread and melted cheese, topped with your choice of steak, chicken, or shrimp. Finished with cilantro-lime crema and Cotija cheese.",
-            "option": null
-          },
-          {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": null,
-            "description": "Tender mushroom caps filled with crab, cream cheese, and green onions, baked until golden.",
-            "option": null
-          },
-          {
-            "name": "Balsamic Brussels Sprouts",
-            "price": null,
-            "description": "Crispy Brussels sprouts finished with a sweet and tangy balsamic glaze. Add bacon for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Garlic Butter Sirloin",
-            "price": null,
-            "description": "Grilled sirloin finished with house-made garlic butter. Served with creamy mashed potatoes and garlic butter asparagus. Add sautéed mushrooms and onions.",
-            "option": null
-          },
-          {
-            "name": "Lemon Garlic Butter Salmon",
-            "price": null,
-            "description": "Grilled salmon finished with lemon-garlic butter, served with sweet potato mash and crispy Brussels sprouts.",
-            "option": null
-          },
-          {
-            "name": "Rosemary Skillet Chicken",
-            "price": null,
-            "description": "Pan-seared chicken breast with rosemary and garlic, served with creamy mashed potatoes and crispy Brussels sprouts.",
-            "option": null
-          },
-          {
-            "name": "Steak & Swiss Wrap",
-            "price": null,
-            "description": "Sliced sirloin, melted Swiss cheese, sautéed mushrooms and onions, and smoky aioli in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Garlic Shrimp Scampi Wrap",
-            "price": null,
-            "description": "Garlic butter shrimp, crisp romaine, Parmesan, and garlic aioli in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Grilled Buffalo Chicken Wrap",
-            "price": null,
-            "description": "Grilled Buffalo chicken with romaine, blue cheese, and chopped celery.",
-            "option": null
-          },
-          {
-            "name": "Chicken Caesar Wrap",
-            "price": null,
-            "description": "Grilled chicken, romaine tossed in Caesar dressing, and Parmesan in a soft tortilla.",
-            "option": null
-          },
-          {
-            "name": "Buffalo Chicken Flatbread",
-            "price": null,
-            "description": "Alfredo base, mozzarella, diced chicken, bacon, Buffalo drizzle, and fresh parsley.",
-            "option": null
-          },
-          {
-            "name": "Bell Tower Meat Lovers",
-            "price": null,
-            "description": "House marinara, pepperoni, bacon, sliced steak, and mozzarella.",
-            "option": null
-          },
-          {
-            "name": "Lakeside Caprese Flatbread",
-            "price": null,
-            "description": "Garlic butter base, mozzarella, sliced tomatoes, fresh basil, and sweet balsamic glaze.",
-            "option": null
-          },
-          {
-            "name": "Steak & Mushroom Flatbread",
-            "price": null,
-            "description": "Alfredo base, mozzarella, sliced steak, and sautéed mushrooms.",
-            "option": null
-          },
-          {
-            "name": "The Classic Burger",
-            "price": null,
-            "description": "Juicy grilled beef patty topped with bacon, lettuce, tomato, onion, pickles, and our secret sauce on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Goat Cheese & Bacon Jam Burger",
-            "price": null,
-            "description": "Juicy beef burger with creamy goat cheese and sweet-savory bacon jam on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Grilled Chicken Sandwich",
-            "price": null,
-            "description": "Tender grilled chicken breast with lettuce, tomato, and pickles on a toasted brioche bun.",
-            "option": null
-          },
-          {
-            "name": "Bell Tower Club Sandwich",
-            "price": null,
-            "description": "Three slices of toasted Texas toast layered with ham, turkey, crispy bacon, Swiss cheese, lettuce, tomato, and mayonnaise.",
-            "option": null
-          },
-          {
-            "name": "Shrimp Scampi Linguine",
-            "price": null,
-            "description": "Succulent shrimp sautéed in white wine garlic butter sauce with shallots, tossed with tender linguine and finished with fresh parsley.",
-            "option": null
-          },
-          {
-            "name": "Fettuccine Alfredo",
-            "price": null,
-            "description": "Tender fettuccine tossed in rich, creamy, house-made white wine Alfredo sauce. Add grilled chicken, sirloin steak, shrimp, or sautéed mushrooms for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Rustic Garlic-Tomato Pasta",
-            "price": null,
-            "description": "Tender pasta tossed in slow-simmered tomato sauce with roasted garlic, blistered cherry tomatoes, and fresh basil, finished with delicate shavings of Parmesan cheese.",
-            "option": null
-          },
-          {
-            "name": "Classic Clubhouse Mac",
-            "price": null,
-            "description": "Signature creamy, house-made macaroni and cheese, baked until golden.",
-            "option": null
-          },
-          {
-            "name": "High Roller Steak Mac",
-            "price": null,
-            "description": "Signature creamy baked mac and cheese crowned with tender slices of garlic butter sirloin, crispy fried onions, and fresh green onions.",
-            "option": null
-          },
-          {
-            "name": "Sweet Red Chile Shrimp Mac",
-            "price": null,
-            "description": "Creamy baked mac and cheese topped with seared sweet red chile shrimp and fresh green onions.",
-            "option": null
-          },
-          {
-            "name": "Buffalo Chicken Mac",
-            "price": null,
-            "description": "Signature mac and cheese with grilled Buffalo chicken, crispy bacon, and ranch drizzle. Blue cheese dressing and crumbles available instead.",
-            "option": null
-          },
-          {
-            "name": "Big Harbor Caesar Salad",
-            "price": null,
-            "description": "Crisp romaine tossed in Caesar dressing with Parmesan and seasoned croutons, topped with grilled chicken. Upgrade to sliced sirloin or grilled shrimp for an additional charge.",
-            "option": null
-          },
-          {
-            "name": "Strawberry & Goat Cheese Salad",
-            "price": null,
-            "description": "Spring greens, seasonal strawberries, candied pecans, goat cheese crumbles, and balsamic vinaigrette.",
-            "option": null
-          },
-          {
-            "name": "Harbor Club Salad",
-            "price": null,
-            "description": "Romaine topped with diced ham, turkey, chicken, tomatoes, cucumber, hard-boiled eggs, and croutons. Choice of ranch, blue cheese, or balsamic vinaigrette.",
-            "option": null
-          },
-          {
-            "name": "Coastal Seafood Bisque",
-            "price": null,
-            "description": "Rich lobster and crab bisque slowly simmered with cream and aromatic seasonings, finished with a shrimp skewer. Served with toasted garlic bread.",
-            "option": null
-          },
-          {
-            "name": "Rustic Tomato, Basil & Garlic Soup",
-            "price": null,
-            "description": "Slow-simmered tomato soup with roasted garlic and fresh basil. Served with toasted garlic bread.",
-            "option": null
-          },
-          {
-            "name": "Seasoned French Fries",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Sweet Potato Fries",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Clubhouse Mac & Cheese",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Creamy Mashed Potatoes",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Crispy Balsamic Brussels Sprouts",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Garlic Butter Asparagus",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Homestyle Green Beans",
-            "price": null,
-            "description": null,
-            "option": null
-          },
-          {
-            "name": "Classic Tiramisu",
-            "price": null,
-            "description": "Espresso-soaked ladyfingers layered with creamy mascarpone and finished with cocoa.",
-            "option": null
-          },
-          {
-            "name": "Vanilla Bean Crème Brûlée",
-            "price": null,
-            "description": "Silky vanilla custard with a caramelized sugar crust.",
-            "option": null
-          },
-          {
-            "name": "Seasonal Cheesecake",
-            "price": null,
-            "description": "Rich, creamy cheesecake with rotating seasonal flavors and toppings.",
-            "option": null
-          }
-        ],
-        "menuPriceCount": 0,
-        "brokenImages": []
+        "h1": 1
       },
       "issues": [
-        "Dark text is not exact navy: div.order-bag-icon rgb(57, 116, 147)"
+        "Current menu/navy styles or approved header/CTA geometry not confirmed"
       ]
     }
   ]
