@@ -256,3 +256,8 @@
  .lake-quick-actions a{grid-template-columns:6px minmax(0,1fr) 5px}
  .lake-action-label small{font-size:min(10px,.94em)}
 }
+
+/* Separate the two sentences while keeping the quote compact. */
+.lake-patio-intro .lake-patio-quote{font:italic 400 clamp(11px,3.4vw,18px)/1.4 'Newsreader',Georgia,serif;letter-spacing:0;max-width:1050px;margin:0 auto;text-align:center}
+.lake-patio-intro .lake-patio-quote p{font:inherit;max-width:none;margin:0}
+.lake-patio-intro .lake-patio-quote p+p{margin-top:7px}
