@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T13:49:32.503Z",
+  "capturedAt": "2026-11-19T13:58:07.431Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -37,25 +37,25 @@
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 637,
+        "y": 693,
         "w": 1024,
         "h": 580
       },
       "menu": {
         "x": 0,
-        "y": 1216,
+        "y": 1273,
         "w": 1024,
         "h": 538
       },
       "events": {
         "x": 0,
-        "y": 1754,
+        "y": 1811,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 2120,
+        "y": 2177,
         "w": 1024,
         "h": 78
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2198
+        "h": 2255
       },
       "imageStatus": [
         {
@@ -102,7 +102,7 @@
       "overflow": false,
       "brandline": {
         "x": 18,
-        "y": 233,
+        "y": 224,
         "w": 264,
         "h": 96
       },
@@ -145,25 +145,25 @@
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 716,
+        "y": 852,
         "w": 1440,
         "h": 751
       },
       "menu": {
         "x": 0,
-        "y": 1467,
+        "y": 1603,
         "w": 1440,
         "h": 442
       },
       "events": {
         "x": 0,
-        "y": 1909,
+        "y": 2045,
         "w": 1440,
         "h": 515
       },
       "footer": {
         "x": 0,
-        "y": 2424,
+        "y": 2560,
         "w": 1440,
         "h": 78
       },
@@ -171,7 +171,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2502
+        "h": 2638
       },
       "imageStatus": [
         {
@@ -253,25 +253,25 @@
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 681,
+        "y": 739,
         "w": 390,
         "h": 595
       },
       "menu": {
         "x": 0,
-        "y": 1276,
+        "y": 1334,
         "w": 390,
         "h": 951
       },
       "events": {
         "x": 0,
-        "y": 2226,
+        "y": 2285,
         "w": 390,
         "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 2759,
+        "y": 2817,
         "w": 390,
         "h": 78
       },
@@ -279,7 +279,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2837
+        "h": 2895
       },
       "imageStatus": [
         {
@@ -400,20 +400,6 @@
       "errors": []
     },
     {
-      "route": "reservations/",
-      "status": 200,
-      "details": {
-        "header": true,
-        "redesignBody": true,
-        "nav": true,
-        "stylesheet": true,
-        "title": "Reserve a Patio Table",
-        "oldLogo": false,
-        "oldPalette": false
-      },
-      "errors": []
-    },
-    {
       "route": "private-events/",
       "status": 200,
       "details": {
@@ -472,9 +458,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      77.7,
-      74.88,
-      86.42
+      84.55,
+      78.72,
+      88.0
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
