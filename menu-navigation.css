@@ -1,0 +1,11 @@
+/* Menu switching shares the homepage's lakeside action treatment. */
+.lakeside-inner .menu-switchbar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch;gap:clamp(12px,1.6vw,24px);padding:16px 20px 20px;margin:0 0 32px;background:var(--bh-navy)}
+.lakeside-inner .menu-switchbar a{display:flex;align-items:center;justify-content:center;gap:12px;min-width:0;min-height:55px;padding:15px 18px;border:1px solid var(--bh-navy);background:var(--bh-sky);color:var(--bh-navy);box-shadow:4px 4px 0 var(--bh-gold);font:600 14px/1.3 'DM Sans',Arial,sans-serif;letter-spacing:.1em;text-align:center;text-transform:uppercase;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease}
+.lakeside-inner .menu-switchbar a::before{content:"";display:block;width:20px;height:2px;flex:0 0 20px;background:var(--bh-gold)}
+.lakeside-inner .menu-switchbar a::after{content:"";display:block;width:9px;height:9px;flex:0 0 9px;border-top:2px solid var(--bh-gold);border-right:2px solid var(--bh-gold);transform:rotate(45deg)}
+.lakeside-inner .menu-switchbar a:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--bh-gold)}
+.lakeside-inner .menu-switchbar a:focus-visible{outline:2px solid var(--bh-cream);outline-offset:3px}
+.lakeside-inner .menu-switchbar a[aria-current="page"]{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1000px){.lakeside-inner .menu-switchbar{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:570px){.lakeside-inner .menu-switchbar{gap:10px 8px;padding:12px 8px 16px}.lakeside-inner .menu-switchbar a{gap:5px;padding:14px 5px;font-size:12px;letter-spacing:.03em}.lakeside-inner .menu-switchbar a::before{width:12px;flex-basis:12px}.lakeside-inner .menu-switchbar a::after{width:7px;height:7px;flex-basis:7px}}
+@media(prefers-reduced-motion:reduce){.lakeside-inner .menu-switchbar a{transition:none}}

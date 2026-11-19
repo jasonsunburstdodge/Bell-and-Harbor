@@ -144,3 +144,5 @@
 /* Keep the centered welcome clear of the unchanged overhanging navigation logo. */
 @media(min-width:1200px) and (max-width:1339px){.lake-video-hero h1.lake-video-heading{font-size:24px;line-height:1.2;margin-bottom:18px}.lake-video-hero p.lake-video-location{margin-bottom:20px}.lake-video-hero .lake-cta{padding:13px 15px;font-size:12px;gap:9px}}
 @media(min-width:1024px) and (max-width:1099px){.lake-video-hero h1.lake-video-heading{font-size:20px;line-height:1.2;margin-bottom:14px}.lake-video-hero p.lake-video-location{margin-bottom:14px}}
+/* On stacked screens, lead with the film; desktop remains unchanged. */
+@media(max-width:1023px){.lake-video-hero .lake-video-media{grid-row:1}.lake-video-hero .lake-hero-copy{grid-row:2}}
