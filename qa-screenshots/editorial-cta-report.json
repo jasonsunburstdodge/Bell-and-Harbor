@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T05:17:16.834Z",
-  "sourceCommit": "0b31d3969853328454b999f857156e8a53829ec4",
+  "capturedAt": "2026-11-19T05:28:31.717Z",
+  "sourceCommit": "068297e7ed5f84552aa73e9ca9f8ea4689a30f1e",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -137,7 +137,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -187,7 +187,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -237,7 +237,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -295,7 +295,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -353,7 +353,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -378,7 +378,7 @@
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
         "ctaLeft": 32,
-        "ctaRight": 331.890625,
+        "ctaRight": 322.765625,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -407,7 +407,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -461,7 +461,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -519,7 +519,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -577,7 +577,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -635,7 +635,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -693,7 +693,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -743,7 +743,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -793,7 +793,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -843,7 +843,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -893,7 +893,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-calendar-fit"
           },
           {
             "name": "lakeside-ctas.css",
@@ -910,7 +910,7 @@
         "orderBeforeContent": "none",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 0px -2px 0px 0px inset",
+        "ctaBoxShadow": "none",
         "ctaLetterSpacing": "0.72px",
         "ctaHeight": 44,
         "ctaLeft": 32,
@@ -943,7 +943,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-calendar-fit"
           },
           {
             "name": "lakeside-ctas.css",
@@ -960,7 +960,7 @@
         "orderBeforeContent": "none",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
-        "ctaBoxShadow": "rgb(239, 179, 69) 0px -2px 0px 0px inset",
+        "ctaBoxShadow": "none",
         "ctaLetterSpacing": "0.72px",
         "ctaHeight": 44,
         "ctaLeft": 16,
@@ -993,7 +993,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -1011,10 +1011,10 @@
         "ctaFound": true,
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "2.28px",
+        "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 551,
-        "ctaRight": 808.484375,
+        "ctaLeft": 32,
+        "ctaRight": 293.53125,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -1043,7 +1043,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -1061,10 +1061,10 @@
         "ctaFound": true,
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
-        "ctaLetterSpacing": "2.28px",
+        "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 39,
-        "ctaRight": 351,
+        "ctaLeft": 16,
+        "ctaRight": 374,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -1093,7 +1093,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
@@ -1147,7 +1147,7 @@
           },
           {
             "name": "lakeside-inner.css",
-            "version": "20261119-hero-bars"
+            "version": "20261119-hero-text-panels"
           },
           {
             "name": "lakeside-ctas.css",
