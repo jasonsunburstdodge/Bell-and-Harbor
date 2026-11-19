@@ -7,7 +7,6 @@ on:
       - 'tools/inner-blue-qa.mjs'
       - '.github/workflows/inner-blue-qa.yml'
       - 'menus/**'
-      - 'reservations/**'
       - 'private-events/**'
       - 'events/**'
       - 'contact/**'

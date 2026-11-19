@@ -12,7 +12,6 @@ on:
       - 'tools/editorial-cta-qa.mjs'
       - '.github/workflows/editorial-cta-qa.yml'
       - 'menus/**'
-      - 'reservations/**'
       - 'private-events/**'
       - 'events/**'
       - 'contact/**'

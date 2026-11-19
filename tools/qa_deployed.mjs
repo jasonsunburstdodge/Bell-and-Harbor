@@ -51,7 +51,7 @@ for(const [name,width,height] of [['desktop',1536,1024],['mobile',390,844]]){
  }
  await page.close();
 }
-for(const route of ['menus/','menus/main/','menus/brunch/','menus/drinks/','menus/kids/','reservations/','private-events/','events/','contact/','order/']){
+for(const route of ['menus/','menus/main/','menus/brunch/','menus/drinks/','menus/kids/','private-events/','events/','contact/','order/']){
  const page=await browser.newPage();
  try{
   const response=await page.goto(base+route,{waitUntil:'domcontentloaded',timeout:20000});

@@ -21,7 +21,6 @@ https://jasonsunburstdodge.github.io/Bell-and-Harbor/
 - Weekend brunch: `/menus/brunch/`
 - Craft cocktails: `/menus/drinks/`
 - Kids menu and kids cocktails: `/menus/kids/`
-- Patio reservations: `/reservations/`
 - Private events: `/private-events/`
 - Events calendar: `/events/`
 - Contact and directions: `/contact/`
@@ -35,7 +34,6 @@ GitHub Pages should be configured to deploy from the **main** branch, **/(root)*
 ## Not live / production blockers
 - Food prices, brunch menu and schedule, kids cocktail choices and dietary labels still need confirmed content.
 - Restaurant street address, phone, hours and parking details are pending confirmation.
-- Patio reservation integration is not connected; preview forms never send or confirm requests.
 - Private-events and contact forms require a backend to submit real inquiries.
 - Online ordering and delivery handoff are not connected.
 - Events calendar has list and calendar modes, but no confirmed event feed or event dates.

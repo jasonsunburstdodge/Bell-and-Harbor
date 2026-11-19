@@ -16,7 +16,6 @@ const routes=[
  ['brunch','menus/brunch/', '.button'],
  ['cocktails','menus/drinks/', '.button'],
  ['kids','menus/kids/', '.button'],
- ['reservations','reservations/', '.button'],
  ['private-events','private-events/', '.button'],
  ['events','events/', '.tabs button'],
  ['contact','contact/', '.button'],
