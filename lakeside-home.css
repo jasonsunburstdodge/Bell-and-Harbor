@@ -123,3 +123,6 @@
 .lake-feature{grid-template-rows:1fr auto;align-items:start}
 .lake-feature-actions{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-self:end;margin-top:4px}
 .lake-feature-actions a{width:100%;padding:10px 8px}
+
+/* One full-width action on each homepage menu card. */
+.lake-feature-actions{grid-template-columns:minmax(0,1fr)}
