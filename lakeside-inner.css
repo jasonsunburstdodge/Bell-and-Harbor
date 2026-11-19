@@ -235,7 +235,7 @@ body.lakeside-inner{
   box-shadow:0 9px 20px rgba(14,61,89,.07);
 }
 .lakeside-inner .split > .panel:first-child:not(form){
-  background:linear-gradient(140deg,var(--bh-navy) 0%,#205f80 100%);
+  background:var(--bh-navy);
   border:1px solid #144f70;
   color:#f5f5ed;
   box-shadow:0 10px 22px rgba(5,37,73,.16);
@@ -407,3 +407,11 @@ body.lakeside-inner{
 
 /* Keep the full cocktail glass visible across wide mobile hero crops. */
 .lakeside-inner .page-hero img[src$="berry-craft-cocktail-open-patio.webp"]{object-position:50% 65%}
+
+/* Navy bar below the lettering on every interior hero. */
+.lakeside-inner .page-hero>div:first-child{position:relative;padding-bottom:48px}
+.lakeside-inner .page-hero>div:first-child::after{content:"";position:absolute;inset:auto 0 0;height:14px;background:var(--bh-navy)}
+.lakeside-inner .menu-overview-cards .card{display:flex;flex-direction:column}
+.lakeside-inner .menu-overview-cards .card-body{display:flex;flex-direction:column;flex:1}
+.lakeside-inner .menu-overview-cards .card p{font-size:16px;line-height:1.55;margin-bottom:20px}
+.lakeside-inner .menu-overview-cards .card-link{margin-top:auto;align-self:flex-start}
