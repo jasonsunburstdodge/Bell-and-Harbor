@@ -18,7 +18,6 @@ https://jasonsunburstdodge.github.io/Bell-and-Harbor/
 - Home: `/`
 - Menus overview: `/menus/`
 - Main menu: `/menus/main/`
-- Weekend brunch: `/menus/brunch/`
 - Craft cocktails: `/menus/drinks/`
 - Kids menu and kids cocktails: `/menus/kids/`
 - Private events: `/private-events/`
@@ -32,7 +31,7 @@ GitHub Pages should be configured to deploy from the **main** branch, **/(root)*
 `tools/qa_deployed.mjs` and the `visual-qa.yml` workflow are set up to capture public staging screenshots at **1536 × 1024** and **390 × 844**, inspect links and basic behavior, and save comparison images into `qa-screenshots/`. Do not call visual verification complete unless the screenshot and QA report exist.
 
 ## Not live / production blockers
-- Food prices, brunch menu and schedule, kids cocktail choices and dietary labels still need confirmed content.
+- Food prices, kids cocktail choices and dietary labels still need confirmed content.
 - Restaurant street address, phone, hours and parking details are pending confirmation.
 - Private-events and contact forms require a backend to submit real inquiries.
 - Online ordering and delivery handoff are not connected.
@@ -55,7 +54,7 @@ The source before this color pass is preserved at commit `06ec8b457d5678de30fdd3
 
 The November 18, 2026 menu update adds the food and cocktail menus supplied in the restaurant’s November 17 emails. The main menu contains 42 dishes and sides across 10 sections. The kids page contains the three Little Harbor meals. The cocktail page contains nine drinks across Social Hour, By the Water and The Pour House, with the supplied prices and Harbor 75 champagne upgrade.
 
-The food source did not include prices, so food prices are omitted. Internal document headings and staff notes are excluded from customer pages. Brunch and kids cocktails retain brief coming-soon messages because no items for those menus were supplied. No private email addresses or source-document links are published.
+The food source did not include prices, so food prices are omitted. Internal document headings and staff notes are excluded from customer pages. The kids cocktail menu has no supplied items. No private email addresses or source-document links are published.
 
 Every dark text color on a light surface uses the approved logo navy, `#002140`. Light text on blue backgrounds remains readable. Shared menu typography lives in `lakeside-menus.css`; the existing hero, header dimensions, logos and photography are preserved. Stylesheet URLs on all 11 pages use the `20261118-menus-navy-text` cache version.
 

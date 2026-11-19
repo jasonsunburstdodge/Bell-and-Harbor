@@ -34,7 +34,7 @@ for(const [name,width,height] of [['concept-desktop',1024,1536],['desktop-wide',
 }
 
 report.innerPages=[];
-for(const route of ['menus/','menus/main/','menus/brunch/','menus/drinks/','menus/kids/','private-events/','events/','contact/','order/']){
+for(const route of ['menus/','menus/main/','menus/drinks/','menus/kids/','private-events/','events/','contact/','order/']){
  const page=await browser.newPage({viewport:{width:1024,height:800}});
  const errors=[];page.on('pageerror',e=>errors.push(String(e)));
  let status=0;

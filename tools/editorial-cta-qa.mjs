@@ -13,7 +13,6 @@ const routes=[
  ['home','', '.lake-cta'],
  ['menus','menus/', '.card-link'],
  ['main-menu','menus/main/', '.button'],
- ['brunch','menus/brunch/', '.button'],
  ['cocktails','menus/drinks/', '.button'],
  ['kids','menus/kids/', '.button'],
  ['private-events','private-events/', '.button'],
