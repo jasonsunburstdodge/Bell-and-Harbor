@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T14:59:48.942Z",
-  "sourceCommit": "875d35c80de102f9ca890312525ad125fa110c66",
+  "capturedAt": "2026-11-19T15:11:07.771Z",
+  "sourceCommit": "b746a1bbc16ac735ef0f68da5ede0032f9397918",
   "expectedStyleVersion": "20261119-cool-white-blue",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -23,7 +23,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-five-line-quote"
+            "version": "20261119-quote-hierarchy"
           },
           {
             "name": "lakeside-ctas.css",
@@ -75,7 +75,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-five-line-quote"
+            "version": "20261119-quote-hierarchy"
           },
           {
             "name": "lakeside-ctas.css",
