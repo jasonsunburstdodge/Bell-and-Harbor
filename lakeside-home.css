@@ -203,3 +203,5 @@
 @media(max-width:1023px){.lake-visit-details p{font-size:clamp(11px,3.5vw,32px)}}
 @media(max-width:570px){.lake-quick-actions a{min-height:65px}.lake-action-label small{font-size:10px;margin-top:4px}}
 @media(max-width:570px){.lake-visit-details{gap:8px}.lake-visit-details p{font-size:4vw}}
+
+.lake-visit-details.lake-daily-hours{padding-bottom:10px}
