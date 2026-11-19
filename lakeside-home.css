@@ -179,3 +179,11 @@
 }
 .lake-quick-actions .lake-visit-flame:first-child{grid-column:1}
 .lake-quick-actions .lake-visit-flame:last-child{grid-column:4}
+/* Keep the three visit notices together in one line. */
+.lake-visit-details{display:flex;justify-content:center;align-items:center;gap:clamp(10px,2vw,32px);padding-inline:12px}
+.lake-visit-details p{flex:0 0 auto;white-space:nowrap;color:var(--bh-gold);font-size:clamp(26px,2.8vw,44px)}
+@media(max-width:1023px){
+ .lake-visit-details{gap:clamp(5px,1.5vw,16px);padding-inline:5px}
+ .lake-visit-details p{font-size:clamp(8px,2.5vw,25px);letter-spacing:-.1px;line-height:1.3}
+}
+@media(max-width:380px){.lake-visit-details{gap:3px}.lake-visit-details p{letter-spacing:-.25px}}
