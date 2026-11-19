@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T06:20:40.268Z",
-  "sourceCommit": "aea46c9798a9049658eaf5b3c612085979e764e2",
+  "capturedAt": "2026-11-19T06:48:27.657Z",
+  "sourceCommit": "39b0848c278210e4392b08c2803a3dcec25e561f",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -41,7 +41,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-single-menu-action"
+            "version": "20261119-mobile-video-first"
           },
           {
             "name": "lakeside-ctas.css",
@@ -60,9 +60,9 @@
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
-        "ctaHeight": 55,
-        "ctaLeft": 33,
-        "ctaRight": 344,
+        "ctaHeight": 65.78125,
+        "ctaLeft": 18,
+        "ctaRight": 282,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -87,7 +87,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-single-menu-action"
+            "version": "20261119-mobile-video-first"
           },
           {
             "name": "lakeside-ctas.css",
@@ -262,6 +262,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-editorial"
+          },
+          {
+            "name": "menu-navigation.css",
+            "version": "20261119-menu-bar"
           }
         ],
         "brandNavy": "#002140",
@@ -324,6 +328,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-editorial"
+          },
+          {
+            "name": "menu-navigation.css",
+            "version": "20261119-menu-bar"
           }
         ],
         "brandNavy": "#002140",
@@ -382,6 +390,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-editorial"
+          },
+          {
+            "name": "menu-navigation.css",
+            "version": "20261119-menu-bar"
           }
         ],
         "brandNavy": "#002140",
@@ -440,6 +452,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-editorial"
+          },
+          {
+            "name": "menu-navigation.css",
+            "version": "20261119-menu-bar"
           }
         ],
         "brandNavy": "#002140",
@@ -502,6 +518,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-editorial"
+          },
+          {
+            "name": "menu-navigation.css",
+            "version": "20261119-menu-bar"
           }
         ],
         "brandNavy": "#002140",
@@ -564,6 +584,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-editorial"
+          },
+          {
+            "name": "menu-navigation.css",
+            "version": "20261119-menu-bar"
           }
         ],
         "brandNavy": "#002140",
@@ -626,6 +650,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-editorial"
+          },
+          {
+            "name": "menu-navigation.css",
+            "version": "20261119-menu-bar"
           }
         ],
         "brandNavy": "#002140",
@@ -688,6 +716,10 @@
           {
             "name": "lakeside-editorial.css",
             "version": "20261119-editorial"
+          },
+          {
+            "name": "menu-navigation.css",
+            "version": "20261119-menu-bar"
           }
         ],
         "brandNavy": "#002140",
