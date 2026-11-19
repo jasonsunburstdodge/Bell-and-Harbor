@@ -263,3 +263,7 @@
 .lake-patio-intro .lake-patio-quote p+p{margin-top:7px}
 
 .lake-patio-intro .lake-patio-quote{font-weight:700}
+
+/* Give the village description prominence over its restaurant subheader. */
+.lake-patio-intro .lake-patio-quote{font-size:clamp(15px,4.2vw,26px)}
+.lake-patio-intro .lake-patio-quote .lake-quote-subheader{font-size:clamp(11px,3vw,16px);margin-top:10px}
