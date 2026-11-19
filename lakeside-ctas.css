@@ -53,7 +53,7 @@
 .lakeside-inner button.button:hover{
   background:var(--bh-cta-blue);
   border-color:var(--bh-cta-blue);
-  color:#fffaf2!important;
+  color:#f2f8fc!important;
   box-shadow:6px 6px 0 var(--bh-cta-gold);
   transform:translate(-2px,-2px);
 }
@@ -67,7 +67,7 @@
   box-shadow:4px 4px 0 #92b8cb;
 }
 .lakeside-inner .button.outline:hover{
-  color:#fffaf2!important;
+  color:#f2f8fc!important;
   background:var(--bh-cta-blue);
   border-color:var(--bh-cta-blue);
   box-shadow:6px 6px 0 var(--bh-cta-gold);

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap');
-body.lakeside-inner{--cream:#fbf1e5;--green:var(--bh-navy);--deep:var(--bh-navy);--gold:var(--bh-gold);--line:#e3d7c4;--serif:'Newsreader',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;background:#fbf1e5;color:var(--bh-navy);font:400 16px/1.5 'DM Sans',sans-serif}
+body.lakeside-inner{--cream:#f2f8fc;--green:var(--bh-navy);--deep:var(--bh-navy);--gold:var(--bh-gold);--line:#cbdce6;--serif:'Newsreader',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;background:#f2f8fc;color:var(--bh-navy);font:400 16px/1.5 'DM Sans',sans-serif}
 .lakeside-inner .page-hero{background:#e0eef4;grid-template-columns:1fr 1fr;min-height:330px;padding:44px max(32px,calc((100vw - 1180px)/2));gap:38px}
 .lakeside-inner .page-hero h1{font:400 clamp(44px,5.3vw,69px)/1 'Newsreader',Georgia,serif;letter-spacing:-1.7px;color:var(--bh-navy)}
 .lakeside-inner .page-hero p{font:400 17px/1.5 'DM Sans',Arial,sans-serif}
@@ -7,20 +7,20 @@ body.lakeside-inner{--cream:#fbf1e5;--green:var(--bh-navy);--deep:var(--bh-navy)
 .lakeside-inner .eyebrow{font:600 12px 'DM Sans',Arial,sans-serif;letter-spacing:2.2px;color:var(--bh-navy)}
 .lakeside-inner .content{max-width:1230px;padding:47px 30px 84px}
 .lakeside-inner .cards{gap:21px}
-.lakeside-inner .card{border-radius:0;background:#fffaf2;border-color:#d6cab9;box-shadow:0 5px 18px #102d4110}
+.lakeside-inner .card{border-radius:0;background:#f2f8fc;border-color:#cbdce6;box-shadow:0 5px 18px #102d4110}
 .lakeside-inner .card img{height:195px}
 .lakeside-inner .card-body{padding:22px}
 .lakeside-inner .card h2,.lakeside-inner .section h2,.lakeside-inner .menu-group h2,.lakeside-inner .panel h2{font:400 35px/1.1 'Newsreader',Georgia,serif;letter-spacing:-.7px;color:var(--bh-navy)}
 .lakeside-inner .card p{font:400 14px/1.5 'DM Sans',Arial,sans-serif;color:var(--bh-navy)}
 .lakeside-inner .card-link{font:600 12px 'DM Sans',Arial,sans-serif;color:var(--bh-navy);letter-spacing:1.1px}
-.lakeside-inner .button{background:var(--bh-navy);border-color:var(--bh-navy);color:#fff8ef;letter-spacing:1.4px;border-radius:0}
-.lakeside-inner .button.outline{background:#fff7ed;color:var(--bh-navy)}
-.lakeside-inner .menu-links a,.lakeside-inner .tabs button,.lakeside-inner .filters button{border-radius:0;border-color:#b5c3c8;color:var(--bh-navy);background:#fff9f1}
-.lakeside-inner .menu-links a[aria-current=page],.lakeside-inner .filters button.active,.lakeside-inner .tabs button.active{background:var(--bh-navy);color:#fff9f1}
-.lakeside-inner .panel{border:1px solid #d7caba;border-radius:0;background:#fffaf4}
-.lakeside-inner .notice{background:#fcecd3;border-left:4px solid var(--bh-gold)}
-.lakeside-inner .menu-group{border-color:#dfc7a0}
-.lakeside-inner .map-placeholder{border-color:#c2a978;background:#dceaf0}
+.lakeside-inner .button{background:var(--bh-navy);border-color:var(--bh-navy);color:#f2f8fc;letter-spacing:1.4px;border-radius:0}
+.lakeside-inner .button.outline{background:#f2f8fc;color:var(--bh-navy)}
+.lakeside-inner .menu-links a,.lakeside-inner .tabs button,.lakeside-inner .filters button{border-radius:0;border-color:#b5c3c8;color:var(--bh-navy);background:#f2f8fc}
+.lakeside-inner .menu-links a[aria-current=page],.lakeside-inner .filters button.active,.lakeside-inner .tabs button.active{background:var(--bh-navy);color:#f2f8fc}
+.lakeside-inner .panel{border:1px solid #cbdce6;border-radius:0;background:#f2f8fc}
+.lakeside-inner .notice{background:#f2f8fc;border-left:4px solid var(--bh-gold)}
+.lakeside-inner .menu-group{border-color:#cbdce6}
+.lakeside-inner .map-placeholder{border-color:#cbdce6;background:#dceaf0}
 .lakeside-inner .footer{display:none}
 .lakeside-inner .lake-header{color:var(--bh-navy)}
 .lakeside-inner .lake-footer{min-height:82px}
@@ -38,7 +38,7 @@ body.lakeside-inner{
   --lake-blue-mid:var(--bh-blue-mid);
   --lake-sky:var(--bh-sky);
   --lake-mist:var(--bh-mist);
-  --lake-cream:#fbf2e7;
+  --lake-cream:#f2f8fc;
   --lake-gold:var(--bh-gold);
   background:#c6e0ec;
   color:var(--lake-navy);
@@ -67,7 +67,7 @@ body.lakeside-inner{
   min-width:0;
 }
 .lakeside-inner .page-hero h1{
-  color:#fff8ec;
+  color:#f2f8fc;
   font:400 clamp(42px,4.6vw,68px)/1.04 'Newsreader',Georgia,serif;
   letter-spacing:-1.4px;
   margin:8px 0 17px;
@@ -75,7 +75,7 @@ body.lakeside-inner{
   text-wrap:balance;
 }
 .lakeside-inner .page-hero p{
-  color:#f7f3e9;
+  color:#f2f8fc;
   font-size:clamp(15px,1.5vw,18px);
   line-height:1.55;
   max-width:440px;
@@ -190,7 +190,7 @@ body.lakeside-inner{
 .lakeside-inner .tabs button.active,
 .lakeside-inner .filters button.active{
   background:var(--lake-deep);
-  color:#fff9ef;
+  color:#f2f8fc;
   border-color:var(--lake-deep);
   box-shadow:inset 0 -3px 0 var(--lake-gold);
 }
@@ -237,7 +237,7 @@ body.lakeside-inner{
 .lakeside-inner .split > .panel:first-child:not(form){
   background:var(--bh-navy);
   border:1px solid #144f70;
-  color:#f5f5ed;
+  color:#f2f8fc;
   box-shadow:0 10px 22px rgba(5,37,73,.16);
 }
 .lakeside-inner .split > .panel:first-child:not(form) h2{
@@ -258,7 +258,7 @@ body.lakeside-inner{
 .lakeside-inner .field input,
 .lakeside-inner .field select,
 .lakeside-inner .field textarea{
-  background:#fffefd;
+  background:#f2f8fc;
   border:1px solid #9ab8c9;
   border-radius:0;
   color:var(--lake-deep);
@@ -271,7 +271,7 @@ body.lakeside-inner{
 }
 .lakeside-inner .button{
   background:var(--lake-deep);
-  color:#fff8eb;
+  color:#f2f8fc;
   border-color:var(--lake-deep);
   border-radius:0;
   padding:13px 21px;
@@ -285,7 +285,7 @@ body.lakeside-inner{
   border-color:var(--lake-deep);
 }
 .lakeside-inner .notice{
-  background:#fff0d9;
+  background:#f2f8fc;
   border-left:4px solid var(--lake-gold);
   color:var(--lake-deep);
 }
@@ -315,10 +315,10 @@ body.lakeside-inner{
   color:#e8f3f8;
   min-height:170px;
 }
-.lakeside-inner #event-list h2{color:#fff6e8}
+.lakeside-inner #event-list h2{color:#f2f8fc}
 .lakeside-inner #event-calendar{background:#e9f4f8}
 .lakeside-inner .calendar .day{
-  color:#fff8ed;
+  color:#f2f8fc;
   background:var(--lake-deep);
 }
 .lakeside-inner .calendar span{border-color:#b2cfde}
