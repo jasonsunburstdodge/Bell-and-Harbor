@@ -146,3 +146,10 @@
 @media(min-width:1024px) and (max-width:1099px){.lake-video-hero h1.lake-video-heading{font-size:20px;line-height:1.2;margin-bottom:14px}.lake-video-hero p.lake-video-location{margin-bottom:14px}}
 /* On stacked screens, lead with the film; desktop remains unchanged. */
 @media(max-width:1023px){.lake-video-hero .lake-video-media{grid-row:1}.lake-video-hero .lake-hero-copy{grid-row:2}}
+/* Temporary full-card film; the existing welcome remains beneath it. */
+.lake-video-hero .lake-hero-copy{position:relative}
+.lake-intro-overlay{position:absolute;inset:0;z-index:2;overflow:hidden;background:var(--bh-navy);opacity:1;transition:opacity .8s ease;pointer-events:none}
+.lake-intro-overlay video,.lake-intro-overlay .lake-intro-final{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.lake-intro-overlay[hidden],.lake-intro-overlay [hidden]{display:none}
+.lake-intro-overlay.is-revealing{opacity:0}
+@media(prefers-reduced-motion:reduce){.lake-intro-overlay{display:none;transition:none}}
