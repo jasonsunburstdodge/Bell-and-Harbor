@@ -205,3 +205,14 @@
 @media(max-width:570px){.lake-visit-details{gap:8px}.lake-visit-details p{font-size:4vw}}
 
 .lake-visit-details.lake-daily-hours{padding-bottom:10px}
+
+/* Reserve the same subtitle space so both action titles share a baseline. */
+.lake-action-label small{color:var(--bh-gold)}
+.lake-action-single::after{content:"";display:block;height:15.6px;margin-top:5px}
+@media(max-width:570px){.lake-action-single::after{height:13px;margin-top:4px}}
+.lake-action-label small,.lake-action-single::after{margin-top:9px}
+@media(max-width:570px){.lake-action-label small,.lake-action-single::after{margin-top:8px}}
+
+.lake-action-label small{font-size:13px;font-weight:700}
+.lake-action-single::after{height:16.9px}
+@media(max-width:570px){.lake-action-label small{font-size:12px}.lake-action-single::after{height:15.6px}}
