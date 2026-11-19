@@ -220,3 +220,8 @@
 /* Two clean actions and a spaced separator between the visit notices. */
 .lake-quick-actions{grid-template-columns:repeat(2,minmax(0,1fr))}
 .lake-visit-details:not(.lake-daily-hours){gap:0}
+
+/* Open the welcome slightly around the unchanged address. */
+.lake-video-hero .lake-hero-centered .lake-video-heading{position:relative;top:-6px}
+.lake-video-hero .lake-hero-centered>.lake-cta{position:relative;top:6px}
+@media(max-width:1023px){.lake-video-hero .lake-hero-centered .lake-video-heading{top:-3px}.lake-video-hero .lake-hero-centered>.lake-cta{top:3px}}
