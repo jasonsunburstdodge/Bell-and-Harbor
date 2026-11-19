@@ -187,3 +187,7 @@
  .lake-visit-details p{font-size:clamp(8px,2.5vw,25px);letter-spacing:-.1px;line-height:1.3}
 }
 @media(max-width:380px){.lake-visit-details{gap:3px}.lake-visit-details p{letter-spacing:-.25px}}
+
+/* Directions stay in the address; the visit action opens ordering. */
+.lakeside-redesign .lake-video-location a{color:var(--bh-gold)}
+.lake-address-arrow{display:inline-block;font-size:.8em;line-height:1;text-decoration:none}
