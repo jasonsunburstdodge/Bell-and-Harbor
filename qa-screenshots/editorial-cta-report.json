@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-19T05:48:05.411Z",
-  "sourceCommit": "2e1a653e9ddaa3f32a70617ada9fa4e786d25d98",
+  "capturedAt": "2026-11-19T05:56:33.568Z",
+  "sourceCommit": "4f7835ccb9839429190ef99249628ab172586201",
   "expectedStyleVersion": "20261118-menus-navy-text",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -41,7 +41,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-flame-visit-band"
+            "version": "20261119-feature-actions"
           },
           {
             "name": "lakeside-ctas.css",
@@ -87,7 +87,7 @@
           },
           {
             "name": "lakeside-home.css",
-            "version": "20261119-flame-visit-band"
+            "version": "20261119-feature-actions"
           },
           {
             "name": "lakeside-ctas.css",
@@ -142,6 +142,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -157,8 +161,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 0px -1px 0px 0px inset",
         "ctaLetterSpacing": "1.17px",
         "ctaHeight": 44,
-        "ctaLeft": 53,
-        "ctaRight": 154.875,
+        "ctaLeft": 70,
+        "ctaRight": 171.875,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -192,6 +196,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -207,8 +215,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 0px -1px 0px 0px inset",
         "ctaLetterSpacing": "1.17px",
         "ctaHeight": 44,
-        "ctaLeft": 37,
-        "ctaRight": 138.875,
+        "ctaLeft": 46,
+        "ctaRight": 147.875,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -250,6 +258,10 @@
           {
             "name": "ordering-preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -265,8 +277,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 32,
-        "ctaRight": 331.890625,
+        "ctaLeft": 40,
+        "ctaRight": 339.890625,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -308,6 +320,10 @@
           {
             "name": "ordering-preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -323,8 +339,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 16,
-        "ctaRight": 374,
+        "ctaLeft": 22,
+        "ctaRight": 368,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -362,6 +378,10 @@
           {
             "name": "ordering-preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -377,8 +397,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 32,
-        "ctaRight": 322.765625,
+        "ctaLeft": 40,
+        "ctaRight": 330.765625,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -416,6 +436,10 @@
           {
             "name": "ordering-preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -431,8 +455,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 16,
-        "ctaRight": 374,
+        "ctaLeft": 22,
+        "ctaRight": 368,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -474,6 +498,10 @@
           {
             "name": "ordering-preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -489,8 +517,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 32,
-        "ctaRight": 331.890625,
+        "ctaLeft": 40,
+        "ctaRight": 339.890625,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -532,6 +560,10 @@
           {
             "name": "ordering-preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -547,8 +579,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 16,
-        "ctaRight": 374,
+        "ctaLeft": 22,
+        "ctaRight": 368,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -590,6 +622,10 @@
           {
             "name": "ordering-preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -605,8 +641,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 32,
-        "ctaRight": 331.890625,
+        "ctaLeft": 40,
+        "ctaRight": 339.890625,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -648,6 +684,10 @@
           {
             "name": "ordering-preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -663,8 +703,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 16,
-        "ctaRight": 374,
+        "ctaLeft": 22,
+        "ctaRight": 368,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -698,6 +738,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -713,8 +757,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "2.28px",
         "ctaHeight": 55,
-        "ctaLeft": 551,
-        "ctaRight": 805.484375,
+        "ctaLeft": 564,
+        "ctaRight": 818.484375,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -748,6 +792,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -763,8 +811,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "2.28px",
         "ctaHeight": 55,
-        "ctaLeft": 39,
-        "ctaRight": 351,
+        "ctaLeft": 50,
+        "ctaRight": 340,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -798,6 +846,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -813,8 +865,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "2.28px",
         "ctaHeight": 55,
-        "ctaLeft": 551,
-        "ctaRight": 798.484375,
+        "ctaLeft": 564,
+        "ctaRight": 811.484375,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -848,6 +900,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -863,8 +919,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "2.28px",
         "ctaHeight": 55,
-        "ctaLeft": 39,
-        "ctaRight": 351,
+        "ctaLeft": 50,
+        "ctaRight": 340,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -898,6 +954,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -911,10 +971,10 @@
         "ctaFound": true,
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "none",
-        "ctaLetterSpacing": "0.72px",
-        "ctaHeight": 44,
-        "ctaLeft": 32,
-        "ctaRight": 125.484375,
+        "ctaLetterSpacing": "normal",
+        "ctaHeight": 50,
+        "ctaLeft": 60,
+        "ctaRight": 161,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -948,6 +1008,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -961,10 +1025,10 @@
         "ctaFound": true,
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "none",
-        "ctaLetterSpacing": "0.72px",
+        "ctaLetterSpacing": "normal",
         "ctaHeight": 44,
-        "ctaLeft": 16,
-        "ctaRight": 103.484375,
+        "ctaLeft": 30,
+        "ctaRight": 106,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -998,6 +1062,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -1013,8 +1081,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 32,
-        "ctaRight": 293.53125,
+        "ctaLeft": 40,
+        "ctaRight": 301.53125,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -1048,6 +1116,10 @@
           {
             "name": "lakeside-ctas.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -1063,8 +1135,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "1.56px",
         "ctaHeight": 55,
-        "ctaLeft": 16,
-        "ctaRight": 374,
+        "ctaLeft": 22,
+        "ctaRight": 368,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -1102,6 +1174,10 @@
           {
             "name": "preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -1117,8 +1193,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "0.5px",
         "ctaHeight": 55,
-        "ctaLeft": 486,
-        "ctaRight": 662,
+        "ctaLeft": 508,
+        "ctaRight": 684,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
@@ -1156,6 +1232,10 @@
           {
             "name": "preview.css",
             "version": "20261118-menus-navy-text"
+          },
+          {
+            "name": "lakeside-editorial.css",
+            "version": "20261119-editorial"
           }
         ],
         "brandNavy": "#002140",
@@ -1171,8 +1251,8 @@
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
         "ctaLetterSpacing": "0.5px",
         "ctaHeight": 55,
-        "ctaLeft": 137.671875,
-        "ctaRight": 374,
+        "ctaLeft": 142.125,
+        "ctaRight": 368,
         "navShadow": "rgb(239, 179, 69) 3px 3px 0px 0px",
         "navRadius": "0px",
         "overflow": false,
