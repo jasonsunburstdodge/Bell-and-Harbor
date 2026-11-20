@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-20T18:32:39.847Z",
-  "sourceCommit": "18e78a6d996fb9326128aea6ba3b86e25848c86b",
+  "capturedAt": "2026-11-20T18:56:12.328Z",
+  "sourceCommit": "e987c6c843b7ec61020aea20d87de082b69d9be5",
   "expectedStyleVersion": "20261119-cool-white-blue",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -57,10 +57,10 @@
           "Contact"
         ],
         "hasStyle": false,
-        "headerHeight": 66.5,
+        "headerHeight": 49.875,
         "logoWidth": 112.5,
         "logoHeight": 125,
-        "orderHeight": 34.1875,
+        "orderHeight": 26.1875,
         "orderFontSize": "16px",
         "orderBeforeContent": "\"\"",
         "ctaFound": true,
