@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-19T18:36:48.509Z",
+  "capturedAt": "2026-11-20T03:57:37.134Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -39,23 +39,23 @@
         "x": 0,
         "y": 704,
         "w": 1024,
-        "h": 819
+        "h": 805
       },
       "menu": {
         "x": 0,
-        "y": 1523,
+        "y": 1509,
         "w": 1024,
         "h": 464
       },
       "events": {
         "x": 0,
-        "y": 1986,
+        "y": 1972,
         "w": 1024,
         "h": 366
       },
       "footer": {
         "x": 0,
-        "y": 2352,
+        "y": 2338,
         "w": 1024,
         "h": 265
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2617
+        "h": 2603
       },
       "imageStatus": [
         {
@@ -79,7 +79,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-patio-gathering-daylight.webp",
+          "src": "adriatica-village-bell-tower-at-dusk.webp",
           "loaded": true
         },
         {
@@ -143,23 +143,23 @@
         "x": 0,
         "y": 812,
         "w": 1440,
-        "h": 923
+        "h": 1016
       },
       "menu": {
         "x": 0,
-        "y": 1736,
+        "y": 1829,
         "w": 1440,
         "h": 412
       },
       "events": {
         "x": 0,
-        "y": 2148,
+        "y": 2241,
         "w": 1440,
         "h": 515
       },
       "footer": {
         "x": 0,
-        "y": 2662,
+        "y": 2755,
         "w": 1440,
         "h": 265
       },
@@ -167,7 +167,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2927
+        "h": 3020
       },
       "imageStatus": [
         {
@@ -183,7 +183,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-patio-gathering-daylight.webp",
+          "src": "adriatica-village-bell-tower-at-dusk.webp",
           "loaded": true
         },
         {
@@ -247,23 +247,23 @@
         "x": 0,
         "y": 676,
         "w": 390,
-        "h": 690
+        "h": 558
       },
       "menu": {
         "x": 0,
-        "y": 1366,
+        "y": 1234,
         "w": 390,
         "h": 708
       },
       "events": {
         "x": 0,
-        "y": 2074,
+        "y": 1942,
         "w": 390,
         "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 2607,
+        "y": 2474,
         "w": 390,
         "h": 408
       },
@@ -271,7 +271,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 3015
+        "h": 2883
       },
       "imageStatus": [
         {
@@ -287,7 +287,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-patio-gathering-daylight.webp",
+          "src": "adriatica-village-bell-tower-at-dusk.webp",
           "loaded": true
         },
         {
@@ -432,9 +432,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      107.4,
-      87.77,
-      87.99
+      111.63,
+      89.75,
+      87.08
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
