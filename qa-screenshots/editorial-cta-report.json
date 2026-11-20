@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-11-20T18:26:23.145Z",
-  "sourceCommit": "f6758c9cce8dbc7bcd599c5158a5f31651254497",
+  "capturedAt": "2026-11-20T18:32:39.847Z",
+  "sourceCommit": "18e78a6d996fb9326128aea6ba3b86e25848c86b",
   "expectedStyleVersion": "20261119-cool-white-blue",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -62,7 +62,7 @@
         "logoHeight": 125,
         "orderHeight": 34.1875,
         "orderFontSize": "16px",
-        "orderBeforeContent": "none",
+        "orderBeforeContent": "\"\"",
         "ctaFound": true,
         "ctaBorderRadius": "0px",
         "ctaBoxShadow": "rgb(239, 179, 69) 4px 4px 0px 0px",
