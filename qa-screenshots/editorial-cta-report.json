@@ -1,9 +1,10 @@
 {
-  "capturedAt": "2026-11-20T17:51:00.747Z",
-  "sourceCommit": "bd3ea8ad6c665ed32b086d59ca5c53f0c540818e",
+  "capturedAt": "2026-11-20T18:20:26.585Z",
+  "sourceCommit": "08613115080f9000207a9f4cf2e0f8a1b2d09c54",
   "expectedStyleVersion": "20261119-cool-white-blue",
   "issues": [
     "home-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
+    "home-desktop: Header height changed from approved 133px/100px",
     "home-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "menus-desktop: Current menu/navy styles or approved header/CTA geometry not confirmed",
     "menus-mobile: Current menu/navy styles or approved header/CTA geometry not confirmed",
@@ -56,9 +57,9 @@
           "Contact"
         ],
         "hasStyle": false,
-        "headerHeight": 133,
-        "logoWidth": 180,
-        "logoHeight": 200,
+        "headerHeight": 66.5,
+        "logoWidth": 112.5,
+        "logoHeight": 125,
         "orderHeight": 42.1875,
         "orderFontSize": "16px",
         "orderBeforeContent": "none",
@@ -76,7 +77,8 @@
         "h1": 1
       },
       "issues": [
-        "Current menu/navy styles or approved header/CTA geometry not confirmed"
+        "Current menu/navy styles or approved header/CTA geometry not confirmed",
+        "Header height changed from approved 133px/100px"
       ]
     },
     {
