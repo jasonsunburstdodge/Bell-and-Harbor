@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-20T04:27:58.879Z",
+  "capturedAt": "2026-11-20T07:45:51.018Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -432,9 +432,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      111.63,
-      89.81,
-      86.85
+      122.73,
+      96.15,
+      88.86
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
