@@ -267,3 +267,16 @@
 /* Give the village description prominence over its restaurant subheader. */
 .lake-patio-intro .lake-patio-quote{font-size:clamp(15px,4.2vw,26px)}
 .lake-patio-intro .lake-patio-quote .lake-quote-subheader{font-size:clamp(11px,3vw,16px);margin-top:10px}
+
+/* The village introduction flows directly into the waterfront at dusk. */
+.lake-patio-intro .lake-intro-copy{padding-bottom:clamp(56px,5.5vw,84px)}
+.lake-patio-intro .lake-village-scene{position:relative;isolation:isolate;margin:-32px 0 0;background:#002140;height:clamp(440px,54vw,880px);overflow:hidden}
+.lake-village-scene>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0}
+.lake-village-scene::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(to bottom,#002140 0,rgba(0,33,64,.74) 6%,rgba(0,33,64,.18) 18%,transparent 29%),linear-gradient(105deg,rgba(0,26,51,.54),transparent 59%)}
+.lake-village-scene figcaption{position:relative;z-index:2;box-sizing:border-box;margin-left:clamp(24px,6vw,100px);padding-top:clamp(36px,5vw,80px);width:min(46%,650px);color:white;font:italic 700 clamp(18px,1.84vw,28px)/1.4 Newsreader,Georgia,serif;text-wrap:pretty;text-shadow:0 1px 5px #00172b}
+@media(max-width:650px){
+ .lake-patio-intro .lake-village-scene{height:clamp(360px,87vw,520px)}
+ .lake-village-scene>img{object-position:48% top}
+ .lake-village-scene::before{background:linear-gradient(to bottom,#002140,rgba(0,33,64,.65) 10%,transparent 33%),linear-gradient(100deg,rgba(0,24,48,.77),rgba(0,27,53,.45) 45%,transparent 71%)}
+ .lake-village-scene figcaption{width:56%;margin-left:5%;padding-top:23px;font-size:clamp(15px,3.65vw,21px);line-height:1.33}
+}
