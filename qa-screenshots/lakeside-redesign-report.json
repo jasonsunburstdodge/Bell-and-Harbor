@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-20T04:05:18.056Z",
+  "capturedAt": "2026-11-20T04:27:58.879Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -51,11 +51,11 @@
         "x": 0,
         "y": 1972,
         "w": 1024,
-        "h": 366
+        "h": 331
       },
       "footer": {
         "x": 0,
-        "y": 2338,
+        "y": 2304,
         "w": 1024,
         "h": 265
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2603
+        "h": 2569
       },
       "imageStatus": [
         {
@@ -79,7 +79,7 @@
           "loaded": true
         },
         {
-          "src": "adriatica-village-dusk-patio-lights.webp",
+          "src": "adriatica-bar-illuminated-at-dusk.webp",
           "loaded": true
         },
         {
@@ -91,7 +91,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-acoustic-music-open-patio.webp",
+          "src": "lakeside-patio-guitarist-and-guests.webp",
           "loaded": true
         }
       ],
@@ -155,11 +155,11 @@
         "x": 0,
         "y": 2241,
         "w": 1440,
-        "h": 515
+        "h": 466
       },
       "footer": {
         "x": 0,
-        "y": 2755,
+        "y": 2706,
         "w": 1440,
         "h": 265
       },
@@ -167,7 +167,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 3020
+        "h": 2972
       },
       "imageStatus": [
         {
@@ -183,7 +183,7 @@
           "loaded": true
         },
         {
-          "src": "adriatica-village-dusk-patio-lights.webp",
+          "src": "adriatica-bar-illuminated-at-dusk.webp",
           "loaded": true
         },
         {
@@ -195,7 +195,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-acoustic-music-open-patio.webp",
+          "src": "lakeside-patio-guitarist-and-guests.webp",
           "loaded": true
         }
       ],
@@ -287,7 +287,7 @@
           "loaded": true
         },
         {
-          "src": "adriatica-village-dusk-patio-lights.webp",
+          "src": "adriatica-bar-illuminated-at-dusk.webp",
           "loaded": true
         },
         {
@@ -299,7 +299,7 @@
           "loaded": true
         },
         {
-          "src": "lakeside-acoustic-music-open-patio.webp",
+          "src": "lakeside-patio-guitarist-and-guests.webp",
           "loaded": true
         }
       ],
@@ -433,8 +433,8 @@
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
       111.63,
-      89.39,
-      86.61
+      89.81,
+      86.85
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
