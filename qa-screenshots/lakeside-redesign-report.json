@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-20T18:32:16.502Z",
+  "capturedAt": "2026-11-20T18:56:25.860Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -8,54 +8,54 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 67
+        "h": 50
       },
       "logo": {
         "x": 32,
-        "y": 8,
+        "y": 0,
         "w": 113,
         "h": 125
       },
       "hero": {
         "x": 0,
-        "y": 67,
+        "y": 50,
         "w": 1024,
         "h": 407
       },
       "heroCopy": {
         "x": 0,
-        "y": 67,
+        "y": 50,
         "w": 300,
         "h": 407
       },
       "heroImage": {
         "x": 300,
-        "y": 67,
+        "y": 50,
         "w": 724,
         "h": 407
       },
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 637,
+        "y": 621,
         "w": 1024,
         "h": 805
       },
       "menu": {
         "x": 0,
-        "y": 1442,
+        "y": 1426,
         "w": 1024,
         "h": 464
       },
       "events": {
         "x": 0,
-        "y": 1906,
+        "y": 1889,
         "w": 1024,
         "h": 331
       },
       "footer": {
         "x": 0,
-        "y": 2237,
+        "y": 2220,
         "w": 1024,
         "h": 265
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2502
+        "h": 2486
       },
       "imageStatus": [
         {
@@ -98,7 +98,7 @@
       "overflow": false,
       "brandline": {
         "x": 33,
-        "y": 148,
+        "y": 132,
         "w": 234,
         "h": 102
       },
@@ -112,7 +112,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 67
+        "h": 50
       },
       "logo": {
         "x": 32,
@@ -122,44 +122,44 @@
       },
       "hero": {
         "x": 0,
-        "y": 67,
+        "y": 50,
         "w": 1440,
         "h": 500
       },
       "heroCopy": {
         "x": 0,
-        "y": 67,
+        "y": 50,
         "w": 551,
         "h": 500
       },
       "heroImage": {
         "x": 551,
-        "y": 67,
+        "y": 50,
         "w": 889,
         "h": 500
       },
       "ribbon": null,
       "intro": {
         "x": 0,
-        "y": 746,
+        "y": 729,
         "w": 1440,
         "h": 1016
       },
       "menu": {
         "x": 0,
-        "y": 1762,
+        "y": 1746,
         "w": 1440,
         "h": 412
       },
       "events": {
         "x": 0,
-        "y": 2174,
+        "y": 2158,
         "w": 1440,
         "h": 466
       },
       "footer": {
         "x": 0,
-        "y": 2640,
+        "y": 2623,
         "w": 1440,
         "h": 265
       },
@@ -167,7 +167,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2905
+        "h": 2888
       },
       "imageStatus": [
         {
@@ -202,7 +202,7 @@
       "overflow": false,
       "brandline": {
         "x": 68,
-        "y": 158,
+        "y": 142,
         "w": 416,
         "h": 180
       },
@@ -432,9 +432,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      121.86,
-      96.44,
-      88.93
+      120.7,
+      95.96,
+      89.02
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
