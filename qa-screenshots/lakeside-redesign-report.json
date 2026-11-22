@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-22T15:50:02.336Z",
+  "capturedAt": "2026-11-22T15:57:43.912Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -45,17 +45,17 @@
         "x": 0,
         "y": 1426,
         "w": 1024,
-        "h": 464
+        "h": 428
       },
       "events": {
         "x": 0,
-        "y": 1889,
+        "y": 1854,
         "w": 1024,
         "h": 331
       },
       "footer": {
         "x": 0,
-        "y": 2220,
+        "y": 2185,
         "w": 1024,
         "h": 265
       },
@@ -63,7 +63,7 @@
         "x": 0,
         "y": 0,
         "w": 1024,
-        "h": 2486
+        "h": 2451
       },
       "imageStatus": [
         {
@@ -149,17 +149,17 @@
         "x": 0,
         "y": 1746,
         "w": 1440,
-        "h": 412
+        "h": 390
       },
       "events": {
         "x": 0,
-        "y": 2158,
+        "y": 2135,
         "w": 1440,
         "h": 466
       },
       "footer": {
         "x": 0,
-        "y": 2623,
+        "y": 2601,
         "w": 1440,
         "h": 265
       },
@@ -167,7 +167,7 @@
         "x": 0,
         "y": 0,
         "w": 1440,
-        "h": 2888
+        "h": 2866
       },
       "imageStatus": [
         {
@@ -253,17 +253,17 @@
         "x": 0,
         "y": 1234,
         "w": 390,
-        "h": 708
+        "h": 684
       },
       "events": {
         "x": 0,
-        "y": 1942,
+        "y": 1918,
         "w": 390,
         "h": 532
       },
       "footer": {
         "x": 0,
-        "y": 2474,
+        "y": 2450,
         "w": 390,
         "h": 408
       },
@@ -271,7 +271,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2883
+        "h": 2858
       },
       "imageStatus": [
         {
@@ -432,9 +432,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      120.82,
-      96.12,
-      89.18
+      121.52,
+      96.26,
+      88.92
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
