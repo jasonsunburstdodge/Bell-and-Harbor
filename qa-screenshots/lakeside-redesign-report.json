@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-22T15:57:43.912Z",
+  "capturedAt": "2026-11-22T16:09:37.563Z",
   "url": "https://jasonsunburstdodge.github.io/Bell-and-Harbor/",
   "issues": [],
   "screenshots": {
@@ -259,11 +259,11 @@
         "x": 0,
         "y": 1918,
         "w": 390,
-        "h": 532
+        "h": 478
       },
       "footer": {
         "x": 0,
-        "y": 2450,
+        "y": 2396,
         "w": 390,
         "h": 408
       },
@@ -271,7 +271,7 @@
         "x": 0,
         "y": 0,
         "w": 390,
-        "h": 2858
+        "h": 2804
       },
       "imageStatus": [
         {
@@ -432,9 +432,9 @@
   ],
   "referenceComparison": {
     "meanAbsoluteRGBDifference": [
-      121.52,
-      96.26,
-      88.92
+      119.79,
+      94.09,
+      87.05
     ],
     "reference": "assets/redesign/reference-concept.jpg",
     "comparison": "qa-screenshots/lakeside-compare-desktop.jpg"
